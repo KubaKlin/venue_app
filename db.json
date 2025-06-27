@@ -1,0 +1,5001 @@
+{
+  "venues": [
+    {
+      "id": 1,
+      "location": {
+        "postalCode": "81-001",
+        "name": "sopot"
+      },
+      "pricePerNightInEUR": 27.85,
+      "rating": 3.9,
+      "capacity": 5,
+      "name": "rustic barn",
+      "albumId": 96
+    },
+    {
+      "id": 2,
+      "location": {
+        "postalCode": "30-001",
+        "name": "kraków"
+      },
+      "pricePerNightInEUR": 99.34,
+      "rating": 4.9,
+      "capacity": 6,
+      "name": "traditional manor",
+      "albumId": 9
+    },
+    {
+      "id": 3,
+      "location": {
+        "postalCode": "70-001",
+        "name": "szczecin"
+      },
+      "pricePerNightInEUR": 111.16,
+      "rating": 3.9,
+      "capacity": 6,
+      "name": "treehouse",
+      "albumId": 23
+    },
+    {
+      "id": 4,
+      "location": {
+        "postalCode": "70-001",
+        "name": "szczecin"
+      },
+      "pricePerNightInEUR": 138.72,
+      "rating": 4.2,
+      "capacity": 2,
+      "name": "lakeside cottage",
+      "albumId": 90
+    },
+    {
+      "id": 5,
+      "location": {
+        "postalCode": "35-001",
+        "name": "rzeszów"
+      },
+      "pricePerNightInEUR": 148.24,
+      "rating": 3.8,
+      "capacity": 9,
+      "name": "minimalist lodge",
+      "albumId": 83
+    },
+    {
+      "id": 6,
+      "location": {
+        "postalCode": "40-001",
+        "name": "katowice"
+      },
+      "pricePerNightInEUR": 30.16,
+      "rating": 4.4,
+      "capacity": 2,
+      "name": "vintage cabin",
+      "albumId": 37
+    },
+    {
+      "id": 7,
+      "location": {
+        "postalCode": "90-001",
+        "name": "łódź"
+      },
+      "pricePerNightInEUR": 65.33,
+      "rating": 4.1,
+      "capacity": 3,
+      "name": "treehouse",
+      "albumId": 72
+    },
+    {
+      "id": 8,
+      "location": {
+        "postalCode": "34-500",
+        "name": "zakopane"
+      },
+      "pricePerNightInEUR": 149.52,
+      "rating": 3.5,
+      "capacity": 5,
+      "name": "wooden chalet",
+      "albumId": 13
+    },
+    {
+      "id": 9,
+      "location": {
+        "postalCode": "40-001",
+        "name": "katowice"
+      },
+      "pricePerNightInEUR": 17.31,
+      "rating": 4.3,
+      "capacity": 3,
+      "name": "mountain lodge",
+      "albumId": 89
+    },
+    {
+      "id": 10,
+      "location": {
+        "postalCode": "80-001",
+        "name": "gdańsk"
+      },
+      "pricePerNightInEUR": 118.42,
+      "rating": 3.5,
+      "capacity": 6,
+      "name": "lakeside cottage",
+      "albumId": 43
+    },
+    {
+      "id": 11,
+      "location": {
+        "postalCode": "26-600",
+        "name": "radom"
+      },
+      "pricePerNightInEUR": 89.49,
+      "rating": 4.4,
+      "capacity": 5,
+      "name": "eco lodge",
+      "albumId": 39
+    },
+    {
+      "id": 12,
+      "location": {
+        "postalCode": "70-001",
+        "name": "szczecin"
+      },
+      "pricePerNightInEUR": 69.06,
+      "rating": 3.5,
+      "capacity": 2,
+      "name": "rustic barn",
+      "albumId": 79
+    },
+    {
+      "id": 13,
+      "location": {
+        "postalCode": "25-001",
+        "name": "kielce"
+      },
+      "pricePerNightInEUR": 34.25,
+      "rating": 4.3,
+      "capacity": 10,
+      "name": "modern retreat",
+      "albumId": 69
+    },
+    {
+      "id": 14,
+      "location": {
+        "postalCode": "00-001",
+        "name": "warszawa"
+      },
+      "pricePerNightInEUR": 114.89,
+      "rating": 3.7,
+      "capacity": 4,
+      "name": "countryside villa",
+      "albumId": 34
+    },
+    {
+      "id": 15,
+      "location": {
+        "postalCode": "87-100",
+        "name": "toruń"
+      },
+      "pricePerNightInEUR": 91.32,
+      "rating": 4.2,
+      "capacity": 11,
+      "name": "boutique hideaway",
+      "albumId": 80
+    },
+    {
+      "id": 16,
+      "location": {
+        "postalCode": "38-700",
+        "name": "ustrzyki dolne"
+      },
+      "pricePerNightInEUR": 30.55,
+      "rating": 4.4,
+      "capacity": 2,
+      "name": "stone cottage",
+      "albumId": 14
+    },
+    {
+      "id": 17,
+      "location": {
+        "postalCode": "90-001",
+        "name": "łódź"
+      },
+      "pricePerNightInEUR": 67.18,
+      "rating": 3.5,
+      "capacity": 2,
+      "name": "treehouse",
+      "albumId": 9
+    },
+    {
+      "id": 18,
+      "location": {
+        "postalCode": "30-001",
+        "name": "kraków"
+      },
+      "pricePerNightInEUR": 87.98,
+      "rating": 4,
+      "capacity": 6,
+      "name": "cozy cabin",
+      "albumId": 78
+    },
+    {
+      "id": 19,
+      "location": {
+        "postalCode": "30-001",
+        "name": "kraków"
+      },
+      "pricePerNightInEUR": 136.98,
+      "rating": 4.5,
+      "capacity": 5,
+      "name": "forest retreat",
+      "albumId": 32
+    },
+    {
+      "id": 20,
+      "location": {
+        "postalCode": "38-700",
+        "name": "ustrzyki dolne"
+      },
+      "pricePerNightInEUR": 79.91,
+      "rating": 4,
+      "capacity": 4,
+      "name": "countryside villa",
+      "albumId": 25
+    },
+    {
+      "id": 21,
+      "location": {
+        "postalCode": "19-300",
+        "name": "ełk"
+      },
+      "pricePerNightInEUR": 25.63,
+      "rating": 5,
+      "capacity": 11,
+      "name": "minimalist lodge",
+      "albumId": 78
+    },
+    {
+      "id": 22,
+      "location": {
+        "postalCode": "38-700",
+        "name": "ustrzyki dolne"
+      },
+      "pricePerNightInEUR": 102.75,
+      "rating": 4.5,
+      "capacity": 8,
+      "name": "enchanted hut",
+      "albumId": 25
+    },
+    {
+      "id": 23,
+      "location": {
+        "postalCode": "25-001",
+        "name": "kielce"
+      },
+      "pricePerNightInEUR": 59.29,
+      "rating": 4,
+      "capacity": 12,
+      "name": "stone cottage",
+      "albumId": 97
+    },
+    {
+      "id": 24,
+      "location": {
+        "postalCode": "15-001",
+        "name": "białystok"
+      },
+      "pricePerNightInEUR": 113.62,
+      "rating": 4.6,
+      "capacity": 2,
+      "name": "artistic studio",
+      "albumId": 24
+    },
+    {
+      "id": 25,
+      "location": {
+        "postalCode": "70-001",
+        "name": "szczecin"
+      },
+      "pricePerNightInEUR": 75.78,
+      "rating": 4.2,
+      "capacity": 8,
+      "name": "countryside villa",
+      "albumId": 49
+    },
+    {
+      "id": 26,
+      "location": {
+        "postalCode": "34-500",
+        "name": "zakopane"
+      },
+      "pricePerNightInEUR": 96.65,
+      "rating": 4.6,
+      "capacity": 4,
+      "name": "traditional manor",
+      "albumId": 1
+    },
+    {
+      "id": 27,
+      "location": {
+        "postalCode": "25-001",
+        "name": "kielce"
+      },
+      "pricePerNightInEUR": 76.81,
+      "rating": 3.8,
+      "capacity": 4,
+      "name": "boutique hideaway",
+      "albumId": 41
+    },
+    {
+      "id": 28,
+      "location": {
+        "postalCode": "87-100",
+        "name": "toruń"
+      },
+      "pricePerNightInEUR": 86.86,
+      "rating": 4.6,
+      "capacity": 5,
+      "name": "traditional manor",
+      "albumId": 3
+    },
+    {
+      "id": 29,
+      "location": {
+        "postalCode": "38-700",
+        "name": "ustrzyki dolne"
+      },
+      "pricePerNightInEUR": 146.38,
+      "rating": 4.2,
+      "capacity": 7,
+      "name": "glamping tent",
+      "albumId": 61
+    },
+    {
+      "id": 30,
+      "location": {
+        "postalCode": "15-001",
+        "name": "białystok"
+      },
+      "pricePerNightInEUR": 50.66,
+      "rating": 4.9,
+      "capacity": 3,
+      "name": "forest retreat",
+      "albumId": 71
+    },
+    {
+      "id": 31,
+      "location": {
+        "postalCode": "30-001",
+        "name": "kraków"
+      },
+      "pricePerNightInEUR": 106.48,
+      "rating": 3.7,
+      "capacity": 3,
+      "name": "traditional manor",
+      "albumId": 53
+    },
+    {
+      "id": 32,
+      "location": {
+        "postalCode": "85-001",
+        "name": "bydgoszcz"
+      },
+      "pricePerNightInEUR": 54.31,
+      "rating": 4,
+      "capacity": 3,
+      "name": "mountain lodge",
+      "albumId": 29
+    },
+    {
+      "id": 33,
+      "location": {
+        "postalCode": "87-100",
+        "name": "toruń"
+      },
+      "pricePerNightInEUR": 109.75,
+      "rating": 5,
+      "capacity": 4,
+      "name": "mountain lodge",
+      "albumId": 34
+    },
+    {
+      "id": 34,
+      "location": {
+        "postalCode": "87-100",
+        "name": "toruń"
+      },
+      "pricePerNightInEUR": 64.24,
+      "rating": 4.2,
+      "capacity": 7,
+      "name": "tiny house",
+      "albumId": 99
+    },
+    {
+      "id": 35,
+      "location": {
+        "postalCode": "00-001",
+        "name": "warszawa"
+      },
+      "pricePerNightInEUR": 95.33,
+      "rating": 3.5,
+      "capacity": 8,
+      "name": "modern retreat",
+      "albumId": 79
+    },
+    {
+      "id": 36,
+      "location": {
+        "postalCode": "26-600",
+        "name": "radom"
+      },
+      "pricePerNightInEUR": 120.74,
+      "rating": 3.9,
+      "capacity": 4,
+      "name": "lakeside cottage",
+      "albumId": 74
+    },
+    {
+      "id": 37,
+      "location": {
+        "postalCode": "81-001",
+        "name": "sopot"
+      },
+      "pricePerNightInEUR": 133.02,
+      "rating": 4.8,
+      "capacity": 10,
+      "name": "enchanted hut",
+      "albumId": 18
+    },
+    {
+      "id": 38,
+      "location": {
+        "postalCode": "09-400",
+        "name": "płock"
+      },
+      "pricePerNightInEUR": 58.26,
+      "rating": 4,
+      "capacity": 8,
+      "name": "artistic studio",
+      "albumId": 48
+    },
+    {
+      "id": 39,
+      "location": {
+        "postalCode": "30-001",
+        "name": "kraków"
+      },
+      "pricePerNightInEUR": 131.13,
+      "rating": 4.7,
+      "capacity": 12,
+      "name": "eco lodge",
+      "albumId": 74
+    },
+    {
+      "id": 40,
+      "location": {
+        "postalCode": "25-001",
+        "name": "kielce"
+      },
+      "pricePerNightInEUR": 25.26,
+      "rating": 4.2,
+      "capacity": 10,
+      "name": "artistic studio",
+      "albumId": 84
+    },
+    {
+      "id": 41,
+      "location": {
+        "postalCode": "26-600",
+        "name": "radom"
+      },
+      "pricePerNightInEUR": 98.17,
+      "rating": 4.5,
+      "capacity": 10,
+      "name": "wooden chalet",
+      "albumId": 35
+    },
+    {
+      "id": 42,
+      "location": {
+        "postalCode": "25-001",
+        "name": "kielce"
+      },
+      "pricePerNightInEUR": 53.21,
+      "rating": 4,
+      "capacity": 12,
+      "name": "artistic studio",
+      "albumId": 85
+    },
+    {
+      "id": 43,
+      "location": {
+        "postalCode": "70-001",
+        "name": "szczecin"
+      },
+      "pricePerNightInEUR": 75.26,
+      "rating": 4.6,
+      "capacity": 4,
+      "name": "modern retreat",
+      "albumId": 1
+    },
+    {
+      "id": 44,
+      "location": {
+        "postalCode": "34-500",
+        "name": "zakopane"
+      },
+      "pricePerNightInEUR": 88.06,
+      "rating": 4,
+      "capacity": 3,
+      "name": "wellness center",
+      "albumId": 15
+    },
+    {
+      "id": 45,
+      "location": {
+        "postalCode": "87-100",
+        "name": "toruń"
+      },
+      "pricePerNightInEUR": 30.47,
+      "rating": 4.7,
+      "capacity": 2,
+      "name": "enchanted hut",
+      "albumId": 31
+    },
+    {
+      "id": 46,
+      "location": {
+        "postalCode": "87-100",
+        "name": "toruń"
+      },
+      "pricePerNightInEUR": 96.26,
+      "rating": 4.2,
+      "capacity": 4,
+      "name": "wooden chalet",
+      "albumId": 8
+    },
+    {
+      "id": 47,
+      "location": {
+        "postalCode": "25-001",
+        "name": "kielce"
+      },
+      "pricePerNightInEUR": 20.85,
+      "rating": 5,
+      "capacity": 10,
+      "name": "wooden chalet",
+      "albumId": 82
+    },
+    {
+      "id": 48,
+      "location": {
+        "postalCode": "81-001",
+        "name": "sopot"
+      },
+      "pricePerNightInEUR": 20.36,
+      "rating": 3.5,
+      "capacity": 12,
+      "name": "forest retreat",
+      "albumId": 97
+    },
+    {
+      "id": 49,
+      "location": {
+        "postalCode": "09-400",
+        "name": "płock"
+      },
+      "pricePerNightInEUR": 46.02,
+      "rating": 4.7,
+      "capacity": 9,
+      "name": "modern retreat",
+      "albumId": 53
+    },
+    {
+      "id": 50,
+      "location": {
+        "postalCode": "81-001",
+        "name": "sopot"
+      },
+      "pricePerNightInEUR": 28.93,
+      "rating": 4.7,
+      "capacity": 9,
+      "name": "wooden chalet",
+      "albumId": 48
+    },
+    {
+      "id": 51,
+      "location": {
+        "postalCode": "15-001",
+        "name": "białystok"
+      },
+      "pricePerNightInEUR": 137.45,
+      "rating": 4.3,
+      "capacity": 9,
+      "name": "rustic barn",
+      "albumId": 50
+    },
+    {
+      "id": 52,
+      "location": {
+        "postalCode": "26-600",
+        "name": "radom"
+      },
+      "pricePerNightInEUR": 149.99,
+      "rating": 4.6,
+      "capacity": 6,
+      "name": "mountain lodge",
+      "albumId": 81
+    },
+    {
+      "id": 53,
+      "location": {
+        "postalCode": "87-100",
+        "name": "toruń"
+      },
+      "pricePerNightInEUR": 137.68,
+      "rating": 4.8,
+      "capacity": 9,
+      "name": "wellness center",
+      "albumId": 68
+    },
+    {
+      "id": 54,
+      "location": {
+        "postalCode": "19-300",
+        "name": "ełk"
+      },
+      "pricePerNightInEUR": 59.42,
+      "rating": 4.5,
+      "capacity": 12,
+      "name": "rustic barn",
+      "albumId": 12
+    },
+    {
+      "id": 55,
+      "location": {
+        "postalCode": "38-700",
+        "name": "ustrzyki dolne"
+      },
+      "pricePerNightInEUR": 92.14,
+      "rating": 4,
+      "capacity": 6,
+      "name": "minimalist lodge",
+      "albumId": 90
+    },
+    {
+      "id": 56,
+      "location": {
+        "postalCode": "85-001",
+        "name": "bydgoszcz"
+      },
+      "pricePerNightInEUR": 27.33,
+      "rating": 4.1,
+      "capacity": 6,
+      "name": "modern retreat",
+      "albumId": 68
+    },
+    {
+      "id": 57,
+      "location": {
+        "postalCode": "09-400",
+        "name": "płock"
+      },
+      "pricePerNightInEUR": 70.95,
+      "rating": 5,
+      "capacity": 10,
+      "name": "tiny house",
+      "albumId": 69
+    },
+    {
+      "id": 58,
+      "location": {
+        "postalCode": "80-001",
+        "name": "gdańsk"
+      },
+      "pricePerNightInEUR": 41.18,
+      "rating": 5,
+      "capacity": 11,
+      "name": "modern retreat",
+      "albumId": 44
+    },
+    {
+      "id": 59,
+      "location": {
+        "postalCode": "40-001",
+        "name": "katowice"
+      },
+      "pricePerNightInEUR": 23.82,
+      "rating": 3.9,
+      "capacity": 4,
+      "name": "minimalist lodge",
+      "albumId": 47
+    },
+    {
+      "id": 60,
+      "location": {
+        "postalCode": "81-001",
+        "name": "sopot"
+      },
+      "pricePerNightInEUR": 48.19,
+      "rating": 3.9,
+      "capacity": 8,
+      "name": "eco lodge",
+      "albumId": 73
+    },
+    {
+      "id": 61,
+      "location": {
+        "postalCode": "26-600",
+        "name": "radom"
+      },
+      "pricePerNightInEUR": 131.73,
+      "rating": 5,
+      "capacity": 9,
+      "name": "artistic studio",
+      "albumId": 93
+    },
+    {
+      "id": 62,
+      "location": {
+        "postalCode": "09-400",
+        "name": "płock"
+      },
+      "pricePerNightInEUR": 116.45,
+      "rating": 3.7,
+      "capacity": 7,
+      "name": "forest retreat",
+      "albumId": 64
+    },
+    {
+      "id": 63,
+      "location": {
+        "postalCode": "38-700",
+        "name": "ustrzyki dolne"
+      },
+      "pricePerNightInEUR": 109.46,
+      "rating": 5,
+      "capacity": 12,
+      "name": "wellness center",
+      "albumId": 89
+    },
+    {
+      "id": 64,
+      "location": {
+        "postalCode": "38-700",
+        "name": "ustrzyki dolne"
+      },
+      "pricePerNightInEUR": 45.04,
+      "rating": 3.6,
+      "capacity": 3,
+      "name": "rustic barn",
+      "albumId": 37
+    },
+    {
+      "id": 65,
+      "location": {
+        "postalCode": "35-001",
+        "name": "rzeszów"
+      },
+      "pricePerNightInEUR": 30.77,
+      "rating": 4.4,
+      "capacity": 10,
+      "name": "cozy cabin",
+      "albumId": 42
+    },
+    {
+      "id": 66,
+      "location": {
+        "postalCode": "26-600",
+        "name": "radom"
+      },
+      "pricePerNightInEUR": 103.33,
+      "rating": 4.3,
+      "capacity": 6,
+      "name": "stone cottage",
+      "albumId": 92
+    },
+    {
+      "id": 67,
+      "location": {
+        "postalCode": "00-001",
+        "name": "warszawa"
+      },
+      "pricePerNightInEUR": 100.96,
+      "rating": 4.1,
+      "capacity": 8,
+      "name": "forest retreat",
+      "albumId": 74
+    },
+    {
+      "id": 68,
+      "location": {
+        "postalCode": "15-001",
+        "name": "białystok"
+      },
+      "pricePerNightInEUR": 115.55,
+      "rating": 4.7,
+      "capacity": 9,
+      "name": "treehouse",
+      "albumId": 48
+    },
+    {
+      "id": 69,
+      "location": {
+        "postalCode": "40-001",
+        "name": "katowice"
+      },
+      "pricePerNightInEUR": 146.24,
+      "rating": 4.8,
+      "capacity": 12,
+      "name": "wellness center",
+      "albumId": 64
+    },
+    {
+      "id": 70,
+      "location": {
+        "postalCode": "40-001",
+        "name": "katowice"
+      },
+      "pricePerNightInEUR": 104.15,
+      "rating": 4.7,
+      "capacity": 3,
+      "name": "enchanted hut",
+      "albumId": 20
+    },
+    {
+      "id": 71,
+      "location": {
+        "postalCode": "19-300",
+        "name": "ełk"
+      },
+      "pricePerNightInEUR": 102.65,
+      "rating": 5,
+      "capacity": 6,
+      "name": "traditional manor",
+      "albumId": 59
+    },
+    {
+      "id": 72,
+      "location": {
+        "postalCode": "34-500",
+        "name": "zakopane"
+      },
+      "pricePerNightInEUR": 43.16,
+      "rating": 4.6,
+      "capacity": 11,
+      "name": "stone cottage",
+      "albumId": 91
+    },
+    {
+      "id": 73,
+      "location": {
+        "postalCode": "40-001",
+        "name": "katowice"
+      },
+      "pricePerNightInEUR": 139.2,
+      "rating": 4.1,
+      "capacity": 9,
+      "name": "rustic barn",
+      "albumId": 91
+    },
+    {
+      "id": 74,
+      "location": {
+        "postalCode": "15-001",
+        "name": "białystok"
+      },
+      "pricePerNightInEUR": 23.69,
+      "rating": 5,
+      "capacity": 4,
+      "name": "stone cottage",
+      "albumId": 21
+    },
+    {
+      "id": 75,
+      "location": {
+        "postalCode": "26-600",
+        "name": "radom"
+      },
+      "pricePerNightInEUR": 29.52,
+      "rating": 5,
+      "capacity": 3,
+      "name": "cozy cabin",
+      "albumId": 49
+    },
+    {
+      "id": 76,
+      "location": {
+        "postalCode": "09-400",
+        "name": "płock"
+      },
+      "pricePerNightInEUR": 128.42,
+      "rating": 4.8,
+      "capacity": 7,
+      "name": "lakeside cottage",
+      "albumId": 55
+    },
+    {
+      "id": 77,
+      "location": {
+        "postalCode": "26-600",
+        "name": "radom"
+      },
+      "pricePerNightInEUR": 79.45,
+      "rating": 4.7,
+      "capacity": 7,
+      "name": "lakeside cottage",
+      "albumId": 56
+    },
+    {
+      "id": 78,
+      "location": {
+        "postalCode": "87-100",
+        "name": "toruń"
+      },
+      "pricePerNightInEUR": 139.25,
+      "rating": 5,
+      "capacity": 11,
+      "name": "artistic studio",
+      "albumId": 34
+    },
+    {
+      "id": 79,
+      "location": {
+        "postalCode": "25-001",
+        "name": "kielce"
+      },
+      "pricePerNightInEUR": 97.07,
+      "rating": 4.1,
+      "capacity": 8,
+      "name": "enchanted hut",
+      "albumId": 70
+    },
+    {
+      "id": 80,
+      "location": {
+        "postalCode": "25-001",
+        "name": "kielce"
+      },
+      "pricePerNightInEUR": 99.88,
+      "rating": 4.5,
+      "capacity": 12,
+      "name": "glamping tent",
+      "albumId": 12
+    },
+    {
+      "id": 81,
+      "location": {
+        "postalCode": "19-300",
+        "name": "ełk"
+      },
+      "pricePerNightInEUR": 27.6,
+      "rating": 4.8,
+      "capacity": 5,
+      "name": "cozy cabin",
+      "albumId": 1
+    },
+    {
+      "id": 82,
+      "location": {
+        "postalCode": "90-001",
+        "name": "łódź"
+      },
+      "pricePerNightInEUR": 20.55,
+      "rating": 5,
+      "capacity": 12,
+      "name": "eco lodge",
+      "albumId": 85
+    },
+    {
+      "id": 83,
+      "location": {
+        "postalCode": "00-001",
+        "name": "warszawa"
+      },
+      "pricePerNightInEUR": 54.34,
+      "rating": 4.5,
+      "capacity": 2,
+      "name": "minimalist lodge",
+      "albumId": 9
+    },
+    {
+      "id": 84,
+      "location": {
+        "postalCode": "20-001",
+        "name": "lublin"
+      },
+      "pricePerNightInEUR": 58.32,
+      "rating": 4.2,
+      "capacity": 3,
+      "name": "wellness center",
+      "albumId": 99
+    },
+    {
+      "id": 85,
+      "location": {
+        "postalCode": "60-001",
+        "name": "poznań"
+      },
+      "pricePerNightInEUR": 66.89,
+      "rating": 4.4,
+      "capacity": 8,
+      "name": "modern retreat",
+      "albumId": 26
+    },
+    {
+      "id": 86,
+      "location": {
+        "postalCode": "85-001",
+        "name": "bydgoszcz"
+      },
+      "pricePerNightInEUR": 35.67,
+      "rating": 4.9,
+      "capacity": 4,
+      "name": "wooden chalet",
+      "albumId": 71
+    },
+    {
+      "id": 87,
+      "location": {
+        "postalCode": "38-700",
+        "name": "ustrzyki dolne"
+      },
+      "pricePerNightInEUR": 32.57,
+      "rating": 4.3,
+      "capacity": 10,
+      "name": "traditional manor",
+      "albumId": 35
+    },
+    {
+      "id": 88,
+      "location": {
+        "postalCode": "50-001",
+        "name": "wrocław"
+      },
+      "pricePerNightInEUR": 118.08,
+      "rating": 5,
+      "capacity": 9,
+      "name": "traditional manor",
+      "albumId": 96
+    },
+    {
+      "id": 89,
+      "location": {
+        "postalCode": "38-700",
+        "name": "ustrzyki dolne"
+      },
+      "pricePerNightInEUR": 92.61,
+      "rating": 4.4,
+      "capacity": 4,
+      "name": "forest retreat",
+      "albumId": 88
+    },
+    {
+      "id": 90,
+      "location": {
+        "postalCode": "50-001",
+        "name": "wrocław"
+      },
+      "pricePerNightInEUR": 47.22,
+      "rating": 4.9,
+      "capacity": 4,
+      "name": "cozy cabin",
+      "albumId": 40
+    },
+    {
+      "id": 91,
+      "location": {
+        "postalCode": "60-001",
+        "name": "poznań"
+      },
+      "pricePerNightInEUR": 122.29,
+      "rating": 4.8,
+      "capacity": 10,
+      "name": "enchanted hut",
+      "albumId": 79
+    },
+    {
+      "id": 92,
+      "location": {
+        "postalCode": "25-001",
+        "name": "kielce"
+      },
+      "pricePerNightInEUR": 117.48,
+      "rating": 4.4,
+      "capacity": 3,
+      "name": "countryside villa",
+      "albumId": 83
+    },
+    {
+      "id": 93,
+      "location": {
+        "postalCode": "90-001",
+        "name": "łódź"
+      },
+      "pricePerNightInEUR": 119.52,
+      "rating": 4.4,
+      "capacity": 2,
+      "name": "vintage cabin",
+      "albumId": 13
+    },
+    {
+      "id": 94,
+      "location": {
+        "postalCode": "80-001",
+        "name": "gdańsk"
+      },
+      "pricePerNightInEUR": 93.62,
+      "rating": 4.7,
+      "capacity": 7,
+      "name": "lakeside cottage",
+      "albumId": 84
+    },
+    {
+      "id": 95,
+      "location": {
+        "postalCode": "87-100",
+        "name": "toruń"
+      },
+      "pricePerNightInEUR": 113.82,
+      "rating": 4.9,
+      "capacity": 6,
+      "name": "tiny house",
+      "albumId": 47
+    },
+    {
+      "id": 96,
+      "location": {
+        "postalCode": "35-001",
+        "name": "rzeszów"
+      },
+      "pricePerNightInEUR": 21.41,
+      "rating": 4.4,
+      "capacity": 9,
+      "name": "eco lodge",
+      "albumId": 74
+    },
+    {
+      "id": 97,
+      "location": {
+        "postalCode": "00-001",
+        "name": "warszawa"
+      },
+      "pricePerNightInEUR": 74.12,
+      "rating": 4.1,
+      "capacity": 10,
+      "name": "eco lodge",
+      "albumId": 56
+    },
+    {
+      "id": 98,
+      "location": {
+        "postalCode": "26-600",
+        "name": "radom"
+      },
+      "pricePerNightInEUR": 62.67,
+      "rating": 5,
+      "capacity": 2,
+      "name": "traditional manor",
+      "albumId": 7
+    },
+    {
+      "id": 99,
+      "location": {
+        "postalCode": "80-001",
+        "name": "gdańsk"
+      },
+      "pricePerNightInEUR": 143.98,
+      "rating": 3.9,
+      "capacity": 9,
+      "name": "artistic studio",
+      "albumId": 7
+    },
+    {
+      "id": 100,
+      "location": {
+        "postalCode": "81-001",
+        "name": "sopot"
+      },
+      "pricePerNightInEUR": 42.9,
+      "rating": 3.5,
+      "capacity": 3,
+      "name": "wellness center",
+      "albumId": 79
+    }
+  ],
+  "venuesDetails": [
+    {
+      "id": 53452,
+      "venueId": 1,
+      "location": {
+        "postalCode": "81-001",
+        "name": "sopot"
+      },
+      "pricePerNightInEUR": 27.85,
+      "rating": 3.9,
+      "numberOfReviews": 278,
+      "capacity": 5,
+      "name": "rustic barn",
+      "albumId": 96,
+      "description": "rustic barn is a perfect getaway located in sopot. This charming accommodation offers a peaceful retreat surrounded by natural beauty. Whether you're looking for adventure or relaxation, this venue provides the ideal base for your stay.",
+      "features": [
+        "TV",
+        "game room",
+        "library",
+        "lake and mountains nearby",
+        "hypoallergic bedding",
+        "workspace",
+        "WiFi",
+        "hiking trails",
+        "air conditioning"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 5,
+        "amoutOfBeds": 3
+      },
+      "checkInHour": "10am",
+      "checkOutHour": "12pm",
+      "distanceFromCityCenterInKM": 1,
+      "contactDetails": {
+        "phone": "(416) 214-1706",
+        "email": "rustic_barn@substantial-sonar.net"
+      }
+    },
+    {
+      "id": 28698,
+      "venueId": 2,
+      "location": {
+        "postalCode": "30-001",
+        "name": "kraków"
+      },
+      "pricePerNightInEUR": 99.34,
+      "rating": 4.9,
+      "numberOfReviews": 333,
+      "capacity": 6,
+      "name": "traditional manor",
+      "albumId": 9,
+      "description": "traditional manor offers an unforgettable stay in the picturesque setting of kraków. This carefully curated space provides all the comforts you need while allowing you to immerse yourself in the natural beauty of the surrounding area.",
+      "features": [
+        "parking",
+        "hot tub",
+        "heating",
+        "gym",
+        "hiking trails"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 8,
+        "amoutOfBeds": 4
+      },
+      "checkInHour": "10am",
+      "checkOutHour": "10am",
+      "distanceFromCityCenterInKM": 6,
+      "contactDetails": {
+        "phone": "1-793-696-8241 x2120",
+        "email": "traditional_manor@unwelcome-approach.biz"
+      }
+    },
+    {
+      "id": 92449,
+      "venueId": 3,
+      "location": {
+        "postalCode": "70-001",
+        "name": "szczecin"
+      },
+      "pricePerNightInEUR": 111.16,
+      "rating": 3.9,
+      "numberOfReviews": 463,
+      "capacity": 6,
+      "name": "treehouse",
+      "albumId": 23,
+      "description": "Welcome to treehouse, a hidden gem in szczecin that perfectly balances rustic charm with modern convenience. This property is ideal for travelers who appreciate attention to detail and authentic experiences.",
+      "features": [
+        "game room",
+        "speakers",
+        "ski storage",
+        "kitchen facilities",
+        "TV",
+        "safe",
+        "library",
+        "balcony",
+        "bathroom facilities",
+        "coffee machine",
+        "air conditioning"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 6,
+        "amoutOfBeds": 3
+      },
+      "checkInHour": "1pm",
+      "checkOutHour": "10am",
+      "distanceFromCityCenterInKM": 33,
+      "contactDetails": {
+        "phone": "1-818-385-4009",
+        "email": "treehouse@serpentine-wheel.net"
+      }
+    },
+    {
+      "id": 43587,
+      "venueId": 4,
+      "location": {
+        "postalCode": "70-001",
+        "name": "szczecin"
+      },
+      "pricePerNightInEUR": 138.72,
+      "rating": 4.2,
+      "numberOfReviews": 448,
+      "capacity": 2,
+      "name": "lakeside cottage",
+      "albumId": 90,
+      "description": "lakeside cottage is a perfect getaway located in szczecin. This charming accommodation offers a peaceful retreat surrounded by natural beauty. Whether you're looking for adventure or relaxation, this venue provides the ideal base for your stay.",
+      "features": [
+        "dishwasher",
+        "workspace",
+        "pool",
+        "lake and mountains nearby",
+        "bike rental",
+        "ski storage",
+        "washing machine",
+        "heating",
+        "gym",
+        "barbecue",
+        "air conditioning",
+        "game room"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 3,
+        "amoutOfBeds": 2
+      },
+      "checkInHour": "10am",
+      "checkOutHour": "9am",
+      "distanceFromCityCenterInKM": 34,
+      "contactDetails": {
+        "phone": "749-260-0370 x92651",
+        "email": "lakeside_cottage@scared-pick.net"
+      }
+    },
+    {
+      "id": 23332,
+      "venueId": 5,
+      "location": {
+        "postalCode": "35-001",
+        "name": "rzeszów"
+      },
+      "pricePerNightInEUR": 148.24,
+      "rating": 3.8,
+      "numberOfReviews": 332,
+      "capacity": 9,
+      "name": "minimalist lodge",
+      "albumId": 83,
+      "description": "Experience tranquility at minimalist lodge, thoughtfully designed to provide guests with exceptional comfort in rzeszów. The property features modern amenities while maintaining its distinctive charm and connection to the local environment.",
+      "features": [
+        "safe",
+        "lake and mountains nearby",
+        "coffee machine",
+        "hiking trails",
+        "kitchen facilities",
+        "balcony",
+        "TV",
+        "bathroom facilities",
+        "washing machine",
+        "microwave",
+        "fireplace",
+        "hypoallergic bedding",
+        "pool",
+        "pet friendly"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 10,
+        "amoutOfBeds": 5
+      },
+      "checkInHour": "2pm",
+      "checkOutHour": "10am",
+      "distanceFromCityCenterInKM": 5,
+      "contactDetails": {
+        "phone": "562-832-9530 x735",
+        "email": "minimalist_lodge@moral-custody.com"
+      }
+    },
+    {
+      "id": 88355,
+      "venueId": 6,
+      "location": {
+        "postalCode": "40-001",
+        "name": "katowice"
+      },
+      "pricePerNightInEUR": 30.16,
+      "rating": 4.4,
+      "numberOfReviews": 449,
+      "capacity": 2,
+      "name": "vintage cabin",
+      "albumId": 37,
+      "description": "Experience tranquility at vintage cabin, thoughtfully designed to provide guests with exceptional comfort in katowice. The property features modern amenities while maintaining its distinctive charm and connection to the local environment.",
+      "features": [
+        "gym",
+        "hiking trails",
+        "microwave",
+        "barbecue",
+        "hypoallergic bedding",
+        "hot tub",
+        "library",
+        "parking"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 4,
+        "amoutOfBeds": 2
+      },
+      "checkInHour": "3pm",
+      "checkOutHour": "11am",
+      "distanceFromCityCenterInKM": 16,
+      "contactDetails": {
+        "phone": "1-554-595-3567",
+        "email": "vintage_cabin@pitiful-video.biz"
+      }
+    },
+    {
+      "id": 79729,
+      "venueId": 7,
+      "location": {
+        "postalCode": "90-001",
+        "name": "łódź"
+      },
+      "pricePerNightInEUR": 65.33,
+      "rating": 4.1,
+      "numberOfReviews": 216,
+      "capacity": 3,
+      "name": "treehouse",
+      "albumId": 72,
+      "description": "Experience tranquility at treehouse, thoughtfully designed to provide guests with exceptional comfort in łódź. The property features modern amenities while maintaining its distinctive charm and connection to the local environment.",
+      "features": [
+        "hypoallergic bedding",
+        "terrace",
+        "pet friendly",
+        "safe",
+        "balcony",
+        "dishwasher"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 6,
+        "amoutOfBeds": 3
+      },
+      "checkInHour": "2pm",
+      "checkOutHour": "9am",
+      "distanceFromCityCenterInKM": 21,
+      "contactDetails": {
+        "phone": "1-952-808-3574 x9128",
+        "email": "treehouse@yearly-secrecy.biz"
+      }
+    },
+    {
+      "id": 75223,
+      "venueId": 8,
+      "location": {
+        "postalCode": "34-500",
+        "name": "zakopane"
+      },
+      "pricePerNightInEUR": 149.52,
+      "rating": 3.5,
+      "numberOfReviews": 307,
+      "capacity": 5,
+      "name": "wooden chalet",
+      "albumId": 13,
+      "description": "Experience tranquility at wooden chalet, thoughtfully designed to provide guests with exceptional comfort in zakopane. The property features modern amenities while maintaining its distinctive charm and connection to the local environment.",
+      "features": [
+        "hot tub",
+        "microwave",
+        "game room",
+        "hypoallergic bedding",
+        "printer",
+        "fireplace",
+        "parking",
+        "coffee machine",
+        "speakers",
+        "TV",
+        "kayak rental",
+        "bike rental"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 8,
+        "amoutOfBeds": 4
+      },
+      "checkInHour": "11am",
+      "checkOutHour": "10am",
+      "distanceFromCityCenterInKM": 43,
+      "contactDetails": {
+        "phone": "800.298.7179 x0805",
+        "email": "wooden_chalet@helpless-affiliate.name"
+      }
+    },
+    {
+      "id": 63721,
+      "venueId": 9,
+      "location": {
+        "postalCode": "40-001",
+        "name": "katowice"
+      },
+      "pricePerNightInEUR": 17.31,
+      "rating": 4.3,
+      "numberOfReviews": 358,
+      "capacity": 3,
+      "name": "mountain lodge",
+      "albumId": 89,
+      "description": "Experience tranquility at mountain lodge, thoughtfully designed to provide guests with exceptional comfort in katowice. The property features modern amenities while maintaining its distinctive charm and connection to the local environment.",
+      "features": [
+        "sauna",
+        "workspace",
+        "microwave",
+        "pet friendly",
+        "dishwasher",
+        "fireplace",
+        "hypoallergic bedding",
+        "garden",
+        "kayak rental"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 4,
+        "amoutOfBeds": 2
+      },
+      "checkInHour": "1pm",
+      "checkOutHour": "11am",
+      "distanceFromCityCenterInKM": 4,
+      "contactDetails": {
+        "phone": "1-275-242-9141 x7199",
+        "email": "mountain_lodge@kosher-consistency.info"
+      }
+    },
+    {
+      "id": 86789,
+      "venueId": 10,
+      "location": {
+        "postalCode": "80-001",
+        "name": "gdańsk"
+      },
+      "pricePerNightInEUR": 118.42,
+      "rating": 3.5,
+      "numberOfReviews": 11,
+      "capacity": 6,
+      "name": "lakeside cottage",
+      "albumId": 43,
+      "description": "lakeside cottage offers an unforgettable stay in the picturesque setting of gdańsk. This carefully curated space provides all the comforts you need while allowing you to immerse yourself in the natural beauty of the surrounding area.",
+      "features": [
+        "coffee machine",
+        "ski storage",
+        "sauna",
+        "kitchen facilities",
+        "barbecue",
+        "hypoallergic bedding",
+        "safe",
+        "air conditioning",
+        "speakers"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 7,
+        "amoutOfBeds": 4
+      },
+      "checkInHour": "11am",
+      "checkOutHour": "12pm",
+      "distanceFromCityCenterInKM": 46,
+      "contactDetails": {
+        "phone": "1-998-806-5301 x982",
+        "email": "lakeside_cottage@immaculate-devil.biz"
+      }
+    },
+    {
+      "id": 18641,
+      "venueId": 11,
+      "location": {
+        "postalCode": "26-600",
+        "name": "radom"
+      },
+      "pricePerNightInEUR": 89.49,
+      "rating": 4.4,
+      "numberOfReviews": 486,
+      "capacity": 5,
+      "name": "eco lodge",
+      "albumId": 39,
+      "description": "Welcome to eco lodge, a hidden gem in radom that perfectly balances rustic charm with modern convenience. This property is ideal for travelers who appreciate attention to detail and authentic experiences.",
+      "features": [
+        "safe",
+        "parking",
+        "workspace",
+        "ski storage",
+        "microwave",
+        "coffee machine",
+        "kitchen facilities",
+        "barbecue"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 9,
+        "amoutOfBeds": 5
+      },
+      "checkInHour": "3pm",
+      "checkOutHour": "12pm",
+      "distanceFromCityCenterInKM": 4,
+      "contactDetails": {
+        "phone": "644.587.5522",
+        "email": "eco_lodge@powerful-cap.com"
+      }
+    },
+    {
+      "id": 21072,
+      "venueId": 12,
+      "location": {
+        "postalCode": "70-001",
+        "name": "szczecin"
+      },
+      "pricePerNightInEUR": 69.06,
+      "rating": 3.5,
+      "numberOfReviews": 279,
+      "capacity": 2,
+      "name": "rustic barn",
+      "albumId": 79,
+      "description": "Welcome to rustic barn, a hidden gem in szczecin that perfectly balances rustic charm with modern convenience. This property is ideal for travelers who appreciate attention to detail and authentic experiences.",
+      "features": [
+        "hypoallergic bedding",
+        "garden",
+        "pet friendly",
+        "washing machine",
+        "hiking trails",
+        "WiFi",
+        "barbecue"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 4,
+        "amoutOfBeds": 2
+      },
+      "checkInHour": "1pm",
+      "checkOutHour": "9am",
+      "distanceFromCityCenterInKM": 31,
+      "contactDetails": {
+        "phone": "947.238.2478",
+        "email": "rustic_barn@unfit-haircut.org"
+      }
+    },
+    {
+      "id": 98184,
+      "venueId": 13,
+      "location": {
+        "postalCode": "25-001",
+        "name": "kielce"
+      },
+      "pricePerNightInEUR": 34.25,
+      "rating": 4.3,
+      "numberOfReviews": 281,
+      "capacity": 10,
+      "name": "modern retreat",
+      "albumId": 69,
+      "description": "modern retreat is a perfect getaway located in kielce. This charming accommodation offers a peaceful retreat surrounded by natural beauty. Whether you're looking for adventure or relaxation, this venue provides the ideal base for your stay.",
+      "features": [
+        "garden",
+        "microwave",
+        "hypoallergic bedding",
+        "terrace",
+        "dishwasher",
+        "washing machine",
+        "game room",
+        "sauna",
+        "TV",
+        "hiking trails",
+        "ski storage",
+        "pet friendly",
+        "barbecue",
+        "pool",
+        "safe"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 10,
+        "amoutOfBeds": 5
+      },
+      "checkInHour": "3pm",
+      "checkOutHour": "9am",
+      "distanceFromCityCenterInKM": 34,
+      "contactDetails": {
+        "phone": "690-622-8430 x54009",
+        "email": "modern_retreat@powerful-heartache.name"
+      }
+    },
+    {
+      "id": 27692,
+      "venueId": 14,
+      "location": {
+        "postalCode": "00-001",
+        "name": "warszawa"
+      },
+      "pricePerNightInEUR": 114.89,
+      "rating": 3.7,
+      "numberOfReviews": 156,
+      "capacity": 4,
+      "name": "countryside villa",
+      "albumId": 34,
+      "description": "Welcome to countryside villa, a hidden gem in warszawa that perfectly balances rustic charm with modern convenience. This property is ideal for travelers who appreciate attention to detail and authentic experiences.",
+      "features": [
+        "balcony",
+        "lake and mountains nearby",
+        "terrace",
+        "microwave",
+        "gym",
+        "bathroom facilities",
+        "kitchen facilities"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 6,
+        "amoutOfBeds": 3
+      },
+      "checkInHour": "11am",
+      "checkOutHour": "12pm",
+      "distanceFromCityCenterInKM": 43,
+      "contactDetails": {
+        "phone": "974-270-9769",
+        "email": "countryside_villa@diligent-violin.biz"
+      }
+    },
+    {
+      "id": 54219,
+      "venueId": 15,
+      "location": {
+        "postalCode": "87-100",
+        "name": "toruń"
+      },
+      "pricePerNightInEUR": 91.32,
+      "rating": 4.2,
+      "numberOfReviews": 278,
+      "capacity": 11,
+      "name": "boutique hideaway",
+      "albumId": 80,
+      "description": "boutique hideaway offers an unforgettable stay in the picturesque setting of toruń. This carefully curated space provides all the comforts you need while allowing you to immerse yourself in the natural beauty of the surrounding area.",
+      "features": [
+        "microwave",
+        "workspace",
+        "kitchen facilities",
+        "garden",
+        "game room",
+        "WiFi",
+        "printer"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 12,
+        "amoutOfBeds": 6
+      },
+      "checkInHour": "10am",
+      "checkOutHour": "12pm",
+      "distanceFromCityCenterInKM": 14,
+      "contactDetails": {
+        "phone": "(275) 417-0857",
+        "email": "boutique_hideaway@colorless-academics.info"
+      }
+    },
+    {
+      "id": 51545,
+      "venueId": 16,
+      "location": {
+        "postalCode": "38-700",
+        "name": "ustrzyki dolne"
+      },
+      "pricePerNightInEUR": 30.55,
+      "rating": 4.4,
+      "numberOfReviews": 349,
+      "capacity": 2,
+      "name": "stone cottage",
+      "albumId": 14,
+      "description": "Discover the magic of stone cottage nestled in the heart of ustrzyki dolne. This beautifully appointed property combines comfort with authentic local character, making it perfect for those seeking a unique and memorable experience.",
+      "features": [
+        "speakers",
+        "workspace",
+        "WiFi",
+        "hiking trails",
+        "dishwasher",
+        "TV",
+        "balcony"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 2,
+        "amoutOfBeds": 1
+      },
+      "checkInHour": "11am",
+      "checkOutHour": "11am",
+      "distanceFromCityCenterInKM": 19,
+      "contactDetails": {
+        "phone": "(808) 618-5006 x7864",
+        "email": "stone_cottage@oily-sticker.info"
+      }
+    },
+    {
+      "id": 56157,
+      "venueId": 17,
+      "location": {
+        "postalCode": "90-001",
+        "name": "łódź"
+      },
+      "pricePerNightInEUR": 67.18,
+      "rating": 3.5,
+      "numberOfReviews": 218,
+      "capacity": 2,
+      "name": "treehouse",
+      "albumId": 9,
+      "description": "treehouse offers an unforgettable stay in the picturesque setting of łódź. This carefully curated space provides all the comforts you need while allowing you to immerse yourself in the natural beauty of the surrounding area.",
+      "features": [
+        "microwave",
+        "dishwasher",
+        "ski storage",
+        "washing machine",
+        "terrace",
+        "library",
+        "garden",
+        "coffee machine",
+        "pet friendly",
+        "hypoallergic bedding",
+        "barbecue",
+        "kayak rental",
+        "speakers"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 4,
+        "amoutOfBeds": 2
+      },
+      "checkInHour": "2pm",
+      "checkOutHour": "12pm",
+      "distanceFromCityCenterInKM": 20,
+      "contactDetails": {
+        "phone": "299.775.5631",
+        "email": "treehouse@bare-aircraft.info"
+      }
+    },
+    {
+      "id": 77314,
+      "venueId": 18,
+      "location": {
+        "postalCode": "30-001",
+        "name": "kraków"
+      },
+      "pricePerNightInEUR": 87.98,
+      "rating": 4,
+      "numberOfReviews": 264,
+      "capacity": 6,
+      "name": "cozy cabin",
+      "albumId": 78,
+      "description": "Welcome to cozy cabin, a hidden gem in kraków that perfectly balances rustic charm with modern convenience. This property is ideal for travelers who appreciate attention to detail and authentic experiences.",
+      "features": [
+        "heating",
+        "bike rental",
+        "bathroom facilities",
+        "WiFi",
+        "game room",
+        "speakers",
+        "hot tub",
+        "pool",
+        "fireplace",
+        "sauna",
+        "hiking trails",
+        "safe",
+        "TV",
+        "pet friendly",
+        "kitchen facilities"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 7,
+        "amoutOfBeds": 4
+      },
+      "checkInHour": "1pm",
+      "checkOutHour": "9am",
+      "distanceFromCityCenterInKM": 6,
+      "contactDetails": {
+        "phone": "577.971.3765 x921",
+        "email": "cozy_cabin@negative-accelerator.biz"
+      }
+    },
+    {
+      "id": 26715,
+      "venueId": 19,
+      "location": {
+        "postalCode": "30-001",
+        "name": "kraków"
+      },
+      "pricePerNightInEUR": 136.98,
+      "rating": 4.5,
+      "numberOfReviews": 331,
+      "capacity": 5,
+      "name": "forest retreat",
+      "albumId": 32,
+      "description": "Welcome to forest retreat, a hidden gem in kraków that perfectly balances rustic charm with modern convenience. This property is ideal for travelers who appreciate attention to detail and authentic experiences.",
+      "features": [
+        "lake and mountains nearby",
+        "TV",
+        "coffee machine",
+        "heating",
+        "pet friendly",
+        "barbecue",
+        "kitchen facilities"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 8,
+        "amoutOfBeds": 4
+      },
+      "checkInHour": "2pm",
+      "checkOutHour": "10am",
+      "distanceFromCityCenterInKM": 40,
+      "contactDetails": {
+        "phone": "477-647-8589 x06720",
+        "email": "forest_retreat@unripe-swanling.name"
+      }
+    },
+    {
+      "id": 58351,
+      "venueId": 20,
+      "location": {
+        "postalCode": "38-700",
+        "name": "ustrzyki dolne"
+      },
+      "pricePerNightInEUR": 79.91,
+      "rating": 4,
+      "numberOfReviews": 439,
+      "capacity": 4,
+      "name": "countryside villa",
+      "albumId": 25,
+      "description": "countryside villa offers an unforgettable stay in the picturesque setting of ustrzyki dolne. This carefully curated space provides all the comforts you need while allowing you to immerse yourself in the natural beauty of the surrounding area.",
+      "features": [
+        "safe",
+        "gym",
+        "hot tub",
+        "microwave",
+        "washing machine",
+        "coffee machine",
+        "bathroom facilities",
+        "sauna"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 5,
+        "amoutOfBeds": 3
+      },
+      "checkInHour": "1pm",
+      "checkOutHour": "12pm",
+      "distanceFromCityCenterInKM": 25,
+      "contactDetails": {
+        "phone": "1-589-939-8054 x20225",
+        "email": "countryside_villa@showy-bracelet.com"
+      }
+    },
+    {
+      "id": 90535,
+      "venueId": 21,
+      "location": {
+        "postalCode": "19-300",
+        "name": "ełk"
+      },
+      "pricePerNightInEUR": 25.63,
+      "rating": 5,
+      "numberOfReviews": 41,
+      "capacity": 11,
+      "name": "minimalist lodge",
+      "albumId": 78,
+      "description": "minimalist lodge is a perfect getaway located in ełk. This charming accommodation offers a peaceful retreat surrounded by natural beauty. Whether you're looking for adventure or relaxation, this venue provides the ideal base for your stay.",
+      "features": [
+        "safe",
+        "parking",
+        "fireplace",
+        "kayak rental",
+        "TV",
+        "kitchen facilities",
+        "garden",
+        "coffee machine",
+        "heating",
+        "bathroom facilities",
+        "air conditioning",
+        "barbecue",
+        "sauna"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 13,
+        "amoutOfBeds": 7
+      },
+      "checkInHour": "1pm",
+      "checkOutHour": "10am",
+      "distanceFromCityCenterInKM": 40,
+      "contactDetails": {
+        "phone": "(528) 713-3874 x0706",
+        "email": "minimalist_lodge@boring-adviser.info"
+      }
+    },
+    {
+      "id": 32367,
+      "venueId": 22,
+      "location": {
+        "postalCode": "38-700",
+        "name": "ustrzyki dolne"
+      },
+      "pricePerNightInEUR": 102.75,
+      "rating": 4.5,
+      "numberOfReviews": 140,
+      "capacity": 8,
+      "name": "enchanted hut",
+      "albumId": 25,
+      "description": "enchanted hut offers an unforgettable stay in the picturesque setting of ustrzyki dolne. This carefully curated space provides all the comforts you need while allowing you to immerse yourself in the natural beauty of the surrounding area.",
+      "features": [
+        "kitchen facilities",
+        "printer",
+        "pet friendly",
+        "microwave",
+        "workspace",
+        "washing machine",
+        "fireplace",
+        "hot tub",
+        "lake and mountains nearby"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 10,
+        "amoutOfBeds": 5
+      },
+      "checkInHour": "12pm",
+      "checkOutHour": "10am",
+      "distanceFromCityCenterInKM": 46,
+      "contactDetails": {
+        "phone": "(906) 293-9070 x10067",
+        "email": "enchanted_hut@musty-corral.com"
+      }
+    },
+    {
+      "id": 46343,
+      "venueId": 23,
+      "location": {
+        "postalCode": "25-001",
+        "name": "kielce"
+      },
+      "pricePerNightInEUR": 59.29,
+      "rating": 4,
+      "numberOfReviews": 243,
+      "capacity": 12,
+      "name": "stone cottage",
+      "albumId": 97,
+      "description": "stone cottage is a perfect getaway located in kielce. This charming accommodation offers a peaceful retreat surrounded by natural beauty. Whether you're looking for adventure or relaxation, this venue provides the ideal base for your stay.",
+      "features": [
+        "kayak rental",
+        "game room",
+        "TV",
+        "hiking trails",
+        "garden",
+        "library",
+        "heating",
+        "parking",
+        "terrace",
+        "sauna",
+        "WiFi",
+        "washing machine",
+        "lake and mountains nearby",
+        "gym"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 12,
+        "amoutOfBeds": 6
+      },
+      "checkInHour": "11am",
+      "checkOutHour": "9am",
+      "distanceFromCityCenterInKM": 24,
+      "contactDetails": {
+        "phone": "(600) 815-1642 x570",
+        "email": "stone_cottage@stingy-midwife.info"
+      }
+    },
+    {
+      "id": 39841,
+      "venueId": 24,
+      "location": {
+        "postalCode": "15-001",
+        "name": "białystok"
+      },
+      "pricePerNightInEUR": 113.62,
+      "rating": 4.6,
+      "numberOfReviews": 197,
+      "capacity": 2,
+      "name": "artistic studio",
+      "albumId": 24,
+      "description": "Experience tranquility at artistic studio, thoughtfully designed to provide guests with exceptional comfort in białystok. The property features modern amenities while maintaining its distinctive charm and connection to the local environment.",
+      "features": [
+        "hypoallergic bedding",
+        "balcony",
+        "air conditioning",
+        "game room",
+        "pet friendly",
+        "hiking trails",
+        "coffee machine",
+        "speakers",
+        "WiFi",
+        "workspace",
+        "terrace",
+        "pool"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 4,
+        "amoutOfBeds": 2
+      },
+      "checkInHour": "3pm",
+      "checkOutHour": "12pm",
+      "distanceFromCityCenterInKM": 29,
+      "contactDetails": {
+        "phone": "(675) 521-2394 x4643",
+        "email": "artistic_studio@bogus-convection.info"
+      }
+    },
+    {
+      "id": 94340,
+      "venueId": 25,
+      "location": {
+        "postalCode": "70-001",
+        "name": "szczecin"
+      },
+      "pricePerNightInEUR": 75.78,
+      "rating": 4.2,
+      "numberOfReviews": 174,
+      "capacity": 8,
+      "name": "countryside villa",
+      "albumId": 49,
+      "description": "countryside villa offers an unforgettable stay in the picturesque setting of szczecin. This carefully curated space provides all the comforts you need while allowing you to immerse yourself in the natural beauty of the surrounding area.",
+      "features": [
+        "dishwasher",
+        "washing machine",
+        "hiking trails",
+        "parking",
+        "workspace",
+        "balcony",
+        "hypoallergic bedding",
+        "WiFi",
+        "kitchen facilities",
+        "sauna",
+        "gym",
+        "heating",
+        "microwave",
+        "pet friendly",
+        "kayak rental"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 12,
+        "amoutOfBeds": 6
+      },
+      "checkInHour": "3pm",
+      "checkOutHour": "9am",
+      "distanceFromCityCenterInKM": 11,
+      "contactDetails": {
+        "phone": "(969) 535-7736 x42348",
+        "email": "countryside_villa@noted-dulcimer.net"
+      }
+    },
+    {
+      "id": 82717,
+      "venueId": 26,
+      "location": {
+        "postalCode": "34-500",
+        "name": "zakopane"
+      },
+      "pricePerNightInEUR": 96.65,
+      "rating": 4.6,
+      "numberOfReviews": 391,
+      "capacity": 4,
+      "name": "traditional manor",
+      "albumId": 1,
+      "description": "traditional manor is a perfect getaway located in zakopane. This charming accommodation offers a peaceful retreat surrounded by natural beauty. Whether you're looking for adventure or relaxation, this venue provides the ideal base for your stay.",
+      "features": [
+        "hiking trails",
+        "balcony",
+        "WiFi",
+        "lake and mountains nearby",
+        "workspace",
+        "printer",
+        "game room",
+        "parking",
+        "kitchen facilities",
+        "barbecue",
+        "garden",
+        "air conditioning",
+        "bike rental",
+        "hot tub",
+        "speakers"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 4,
+        "amoutOfBeds": 2
+      },
+      "checkInHour": "3pm",
+      "checkOutHour": "10am",
+      "distanceFromCityCenterInKM": 32,
+      "contactDetails": {
+        "phone": "1-580-434-4442 x7869",
+        "email": "traditional_manor@zesty-t-shirt.info"
+      }
+    },
+    {
+      "id": 26252,
+      "venueId": 27,
+      "location": {
+        "postalCode": "25-001",
+        "name": "kielce"
+      },
+      "pricePerNightInEUR": 76.81,
+      "rating": 3.8,
+      "numberOfReviews": 310,
+      "capacity": 4,
+      "name": "boutique hideaway",
+      "albumId": 41,
+      "description": "Discover the magic of boutique hideaway nestled in the heart of kielce. This beautifully appointed property combines comfort with authentic local character, making it perfect for those seeking a unique and memorable experience.",
+      "features": [
+        "coffee machine",
+        "kitchen facilities",
+        "hypoallergic bedding",
+        "printer",
+        "TV",
+        "garden",
+        "sauna",
+        "bike rental",
+        "lake and mountains nearby",
+        "kayak rental",
+        "microwave",
+        "pool",
+        "game room",
+        "hot tub"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 7,
+        "amoutOfBeds": 4
+      },
+      "checkInHour": "10am",
+      "checkOutHour": "11am",
+      "distanceFromCityCenterInKM": 11,
+      "contactDetails": {
+        "phone": "768.768.8210 x55717",
+        "email": "boutique_hideaway@sizzling-instructor.info"
+      }
+    },
+    {
+      "id": 22399,
+      "venueId": 28,
+      "location": {
+        "postalCode": "87-100",
+        "name": "toruń"
+      },
+      "pricePerNightInEUR": 86.86,
+      "rating": 4.6,
+      "numberOfReviews": 158,
+      "capacity": 5,
+      "name": "traditional manor",
+      "albumId": 3,
+      "description": "Experience tranquility at traditional manor, thoughtfully designed to provide guests with exceptional comfort in toruń. The property features modern amenities while maintaining its distinctive charm and connection to the local environment.",
+      "features": [
+        "barbecue",
+        "WiFi",
+        "fireplace",
+        "heating",
+        "washing machine",
+        "parking"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 7,
+        "amoutOfBeds": 4
+      },
+      "checkInHour": "11am",
+      "checkOutHour": "9am",
+      "distanceFromCityCenterInKM": 18,
+      "contactDetails": {
+        "phone": "(556) 359-5665 x6569",
+        "email": "traditional_manor@sparkling-birdbath.info"
+      }
+    },
+    {
+      "id": 74847,
+      "venueId": 29,
+      "location": {
+        "postalCode": "38-700",
+        "name": "ustrzyki dolne"
+      },
+      "pricePerNightInEUR": 146.38,
+      "rating": 4.2,
+      "numberOfReviews": 469,
+      "capacity": 7,
+      "name": "glamping tent",
+      "albumId": 61,
+      "description": "Discover the magic of glamping tent nestled in the heart of ustrzyki dolne. This beautifully appointed property combines comfort with authentic local character, making it perfect for those seeking a unique and memorable experience.",
+      "features": [
+        "hot tub",
+        "game room",
+        "air conditioning",
+        "microwave",
+        "gym",
+        "hiking trails",
+        "pool",
+        "garden",
+        "pet friendly",
+        "speakers"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 8,
+        "amoutOfBeds": 4
+      },
+      "checkInHour": "11am",
+      "checkOutHour": "9am",
+      "distanceFromCityCenterInKM": 43,
+      "contactDetails": {
+        "phone": "1-211-872-7744 x252",
+        "email": "glamping_tent@colossal-archaeology.org"
+      }
+    },
+    {
+      "id": 56798,
+      "venueId": 30,
+      "location": {
+        "postalCode": "15-001",
+        "name": "białystok"
+      },
+      "pricePerNightInEUR": 50.66,
+      "rating": 4.9,
+      "numberOfReviews": 288,
+      "capacity": 3,
+      "name": "forest retreat",
+      "albumId": 71,
+      "description": "forest retreat offers an unforgettable stay in the picturesque setting of białystok. This carefully curated space provides all the comforts you need while allowing you to immerse yourself in the natural beauty of the surrounding area.",
+      "features": [
+        "WiFi",
+        "bike rental",
+        "gym",
+        "pet friendly",
+        "bathroom facilities",
+        "TV",
+        "dishwasher",
+        "kayak rental",
+        "washing machine",
+        "safe",
+        "game room",
+        "hot tub",
+        "ski storage",
+        "microwave"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 5,
+        "amoutOfBeds": 3
+      },
+      "checkInHour": "12pm",
+      "checkOutHour": "12pm",
+      "distanceFromCityCenterInKM": 27,
+      "contactDetails": {
+        "phone": "208.929.5872",
+        "email": "forest_retreat@exotic-bandwidth.org"
+      }
+    },
+    {
+      "id": 89423,
+      "venueId": 31,
+      "location": {
+        "postalCode": "30-001",
+        "name": "kraków"
+      },
+      "pricePerNightInEUR": 106.48,
+      "rating": 3.7,
+      "numberOfReviews": 291,
+      "capacity": 3,
+      "name": "traditional manor",
+      "albumId": 53,
+      "description": "traditional manor is a perfect getaway located in kraków. This charming accommodation offers a peaceful retreat surrounded by natural beauty. Whether you're looking for adventure or relaxation, this venue provides the ideal base for your stay.",
+      "features": [
+        "dishwasher",
+        "hot tub",
+        "air conditioning",
+        "fireplace",
+        "ski storage",
+        "gym",
+        "terrace",
+        "garden",
+        "bike rental",
+        "hypoallergic bedding",
+        "kayak rental",
+        "speakers"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 7,
+        "amoutOfBeds": 4
+      },
+      "checkInHour": "12pm",
+      "checkOutHour": "12pm",
+      "distanceFromCityCenterInKM": 5,
+      "contactDetails": {
+        "phone": "(468) 933-4920",
+        "email": "traditional_manor@compassionate-equal.name"
+      }
+    },
+    {
+      "id": 69317,
+      "venueId": 32,
+      "location": {
+        "postalCode": "85-001",
+        "name": "bydgoszcz"
+      },
+      "pricePerNightInEUR": 54.31,
+      "rating": 4,
+      "numberOfReviews": 189,
+      "capacity": 3,
+      "name": "mountain lodge",
+      "albumId": 29,
+      "description": "mountain lodge offers an unforgettable stay in the picturesque setting of bydgoszcz. This carefully curated space provides all the comforts you need while allowing you to immerse yourself in the natural beauty of the surrounding area.",
+      "features": [
+        "hiking trails",
+        "sauna",
+        "kitchen facilities",
+        "barbecue",
+        "library",
+        "heating",
+        "air conditioning",
+        "printer",
+        "safe"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 6,
+        "amoutOfBeds": 3
+      },
+      "checkInHour": "3pm",
+      "checkOutHour": "11am",
+      "distanceFromCityCenterInKM": 7,
+      "contactDetails": {
+        "phone": "(956) 607-3583",
+        "email": "mountain_lodge@utilized-championship.net"
+      }
+    },
+    {
+      "id": 12922,
+      "venueId": 33,
+      "location": {
+        "postalCode": "87-100",
+        "name": "toruń"
+      },
+      "pricePerNightInEUR": 109.75,
+      "rating": 5,
+      "numberOfReviews": 103,
+      "capacity": 4,
+      "name": "mountain lodge",
+      "albumId": 34,
+      "description": "Discover the magic of mountain lodge nestled in the heart of toruń. This beautifully appointed property combines comfort with authentic local character, making it perfect for those seeking a unique and memorable experience.",
+      "features": [
+        "printer",
+        "dishwasher",
+        "garden",
+        "kayak rental",
+        "balcony",
+        "bathroom facilities",
+        "sauna",
+        "safe",
+        "gym",
+        "barbecue",
+        "fireplace"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 4,
+        "amoutOfBeds": 2
+      },
+      "checkInHour": "1pm",
+      "checkOutHour": "11am",
+      "distanceFromCityCenterInKM": 10,
+      "contactDetails": {
+        "phone": "(858) 930-3979 x2240",
+        "email": "mountain_lodge@stingy-government.biz"
+      }
+    },
+    {
+      "id": 61291,
+      "venueId": 34,
+      "location": {
+        "postalCode": "87-100",
+        "name": "toruń"
+      },
+      "pricePerNightInEUR": 64.24,
+      "rating": 4.2,
+      "numberOfReviews": 111,
+      "capacity": 7,
+      "name": "tiny house",
+      "albumId": 99,
+      "description": "Welcome to tiny house, a hidden gem in toruń that perfectly balances rustic charm with modern convenience. This property is ideal for travelers who appreciate attention to detail and authentic experiences.",
+      "features": [
+        "fireplace",
+        "bathroom facilities",
+        "kayak rental",
+        "game room",
+        "air conditioning",
+        "safe",
+        "parking"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 7,
+        "amoutOfBeds": 4
+      },
+      "checkInHour": "2pm",
+      "checkOutHour": "11am",
+      "distanceFromCityCenterInKM": 43,
+      "contactDetails": {
+        "phone": "1-789-617-3947 x807",
+        "email": "tiny_house@emotional-heartbeat.name"
+      }
+    },
+    {
+      "id": 74306,
+      "venueId": 35,
+      "location": {
+        "postalCode": "00-001",
+        "name": "warszawa"
+      },
+      "pricePerNightInEUR": 95.33,
+      "rating": 3.5,
+      "numberOfReviews": 102,
+      "capacity": 8,
+      "name": "modern retreat",
+      "albumId": 79,
+      "description": "Welcome to modern retreat, a hidden gem in warszawa that perfectly balances rustic charm with modern convenience. This property is ideal for travelers who appreciate attention to detail and authentic experiences.",
+      "features": [
+        "dishwasher",
+        "speakers",
+        "gym",
+        "printer",
+        "ski storage",
+        "terrace",
+        "workspace",
+        "fireplace",
+        "kayak rental",
+        "pet friendly",
+        "microwave",
+        "hot tub",
+        "parking"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 9,
+        "amoutOfBeds": 5
+      },
+      "checkInHour": "11am",
+      "checkOutHour": "11am",
+      "distanceFromCityCenterInKM": 6,
+      "contactDetails": {
+        "phone": "273-651-5524 x554",
+        "email": "modern_retreat@incomparable-accompanist.info"
+      }
+    },
+    {
+      "id": 35360,
+      "venueId": 36,
+      "location": {
+        "postalCode": "26-600",
+        "name": "radom"
+      },
+      "pricePerNightInEUR": 120.74,
+      "rating": 3.9,
+      "numberOfReviews": 309,
+      "capacity": 4,
+      "name": "lakeside cottage",
+      "albumId": 74,
+      "description": "Discover the magic of lakeside cottage nestled in the heart of radom. This beautifully appointed property combines comfort with authentic local character, making it perfect for those seeking a unique and memorable experience.",
+      "features": [
+        "pet friendly",
+        "balcony",
+        "pool",
+        "speakers",
+        "printer",
+        "WiFi",
+        "garden",
+        "lake and mountains nearby",
+        "washing machine",
+        "game room",
+        "safe",
+        "dishwasher",
+        "hypoallergic bedding"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 8,
+        "amoutOfBeds": 4
+      },
+      "checkInHour": "1pm",
+      "checkOutHour": "9am",
+      "distanceFromCityCenterInKM": 9,
+      "contactDetails": {
+        "phone": "439-919-0764",
+        "email": "lakeside_cottage@meager-certification.biz"
+      }
+    },
+    {
+      "id": 79472,
+      "venueId": 37,
+      "location": {
+        "postalCode": "81-001",
+        "name": "sopot"
+      },
+      "pricePerNightInEUR": 133.02,
+      "rating": 4.8,
+      "numberOfReviews": 253,
+      "capacity": 10,
+      "name": "enchanted hut",
+      "albumId": 18,
+      "description": "enchanted hut offers an unforgettable stay in the picturesque setting of sopot. This carefully curated space provides all the comforts you need while allowing you to immerse yourself in the natural beauty of the surrounding area.",
+      "features": [
+        "barbecue",
+        "microwave",
+        "workspace",
+        "safe",
+        "bike rental",
+        "hiking trails",
+        "library",
+        "kitchen facilities",
+        "sauna",
+        "lake and mountains nearby",
+        "speakers",
+        "kayak rental"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 10,
+        "amoutOfBeds": 5
+      },
+      "checkInHour": "10am",
+      "checkOutHour": "9am",
+      "distanceFromCityCenterInKM": 31,
+      "contactDetails": {
+        "phone": "330.228.1460 x63389",
+        "email": "enchanted_hut@same-lashes.org"
+      }
+    },
+    {
+      "id": 84305,
+      "venueId": 38,
+      "location": {
+        "postalCode": "09-400",
+        "name": "płock"
+      },
+      "pricePerNightInEUR": 58.26,
+      "rating": 4,
+      "numberOfReviews": 470,
+      "capacity": 8,
+      "name": "artistic studio",
+      "albumId": 48,
+      "description": "Experience tranquility at artistic studio, thoughtfully designed to provide guests with exceptional comfort in płock. The property features modern amenities while maintaining its distinctive charm and connection to the local environment.",
+      "features": [
+        "air conditioning",
+        "hypoallergic bedding",
+        "garden",
+        "gym",
+        "parking",
+        "speakers",
+        "printer",
+        "barbecue",
+        "workspace",
+        "kitchen facilities",
+        "terrace"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 9,
+        "amoutOfBeds": 5
+      },
+      "checkInHour": "12pm",
+      "checkOutHour": "10am",
+      "distanceFromCityCenterInKM": 11,
+      "contactDetails": {
+        "phone": "(364) 970-9909 x4771",
+        "email": "artistic_studio@yummy-puritan.biz"
+      }
+    },
+    {
+      "id": 41861,
+      "venueId": 39,
+      "location": {
+        "postalCode": "30-001",
+        "name": "kraków"
+      },
+      "pricePerNightInEUR": 131.13,
+      "rating": 4.7,
+      "numberOfReviews": 237,
+      "capacity": 12,
+      "name": "eco lodge",
+      "albumId": 74,
+      "description": "eco lodge is a perfect getaway located in kraków. This charming accommodation offers a peaceful retreat surrounded by natural beauty. Whether you're looking for adventure or relaxation, this venue provides the ideal base for your stay.",
+      "features": [
+        "air conditioning",
+        "balcony",
+        "TV",
+        "microwave",
+        "speakers",
+        "barbecue",
+        "pool",
+        "sauna",
+        "pet friendly",
+        "WiFi"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 14,
+        "amoutOfBeds": 7
+      },
+      "checkInHour": "2pm",
+      "checkOutHour": "12pm",
+      "distanceFromCityCenterInKM": 46,
+      "contactDetails": {
+        "phone": "(732) 700-1230 x2226",
+        "email": "eco_lodge@messy-mousse.info"
+      }
+    },
+    {
+      "id": 78215,
+      "venueId": 40,
+      "location": {
+        "postalCode": "25-001",
+        "name": "kielce"
+      },
+      "pricePerNightInEUR": 25.26,
+      "rating": 4.2,
+      "numberOfReviews": 250,
+      "capacity": 10,
+      "name": "artistic studio",
+      "albumId": 84,
+      "description": "artistic studio is a perfect getaway located in kielce. This charming accommodation offers a peaceful retreat surrounded by natural beauty. Whether you're looking for adventure or relaxation, this venue provides the ideal base for your stay.",
+      "features": [
+        "balcony",
+        "coffee machine",
+        "parking",
+        "kitchen facilities",
+        "game room",
+        "gym",
+        "air conditioning",
+        "bathroom facilities",
+        "TV",
+        "printer",
+        "workspace"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 14,
+        "amoutOfBeds": 7
+      },
+      "checkInHour": "12pm",
+      "checkOutHour": "12pm",
+      "distanceFromCityCenterInKM": 48,
+      "contactDetails": {
+        "phone": "686-290-7081",
+        "email": "artistic_studio@quarterly-oil.com"
+      }
+    },
+    {
+      "id": 90527,
+      "venueId": 41,
+      "location": {
+        "postalCode": "26-600",
+        "name": "radom"
+      },
+      "pricePerNightInEUR": 98.17,
+      "rating": 4.5,
+      "numberOfReviews": 34,
+      "capacity": 10,
+      "name": "wooden chalet",
+      "albumId": 35,
+      "description": "wooden chalet is a perfect getaway located in radom. This charming accommodation offers a peaceful retreat surrounded by natural beauty. Whether you're looking for adventure or relaxation, this venue provides the ideal base for your stay.",
+      "features": [
+        "fireplace",
+        "dishwasher",
+        "hot tub",
+        "barbecue",
+        "lake and mountains nearby",
+        "heating",
+        "pet friendly",
+        "printer"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 10,
+        "amoutOfBeds": 5
+      },
+      "checkInHour": "10am",
+      "checkOutHour": "9am",
+      "distanceFromCityCenterInKM": 27,
+      "contactDetails": {
+        "phone": "(449) 948-2035 x895",
+        "email": "wooden_chalet@aged-dish.info"
+      }
+    },
+    {
+      "id": 49283,
+      "venueId": 42,
+      "location": {
+        "postalCode": "25-001",
+        "name": "kielce"
+      },
+      "pricePerNightInEUR": 53.21,
+      "rating": 4,
+      "numberOfReviews": 473,
+      "capacity": 12,
+      "name": "artistic studio",
+      "albumId": 85,
+      "description": "Discover the magic of artistic studio nestled in the heart of kielce. This beautifully appointed property combines comfort with authentic local character, making it perfect for those seeking a unique and memorable experience.",
+      "features": [
+        "safe",
+        "hypoallergic bedding",
+        "printer",
+        "kitchen facilities",
+        "bike rental"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 13,
+        "amoutOfBeds": 7
+      },
+      "checkInHour": "12pm",
+      "checkOutHour": "11am",
+      "distanceFromCityCenterInKM": 35,
+      "contactDetails": {
+        "phone": "392-960-3376 x763",
+        "email": "artistic_studio@dead-bookcase.net"
+      }
+    },
+    {
+      "id": 72362,
+      "venueId": 43,
+      "location": {
+        "postalCode": "70-001",
+        "name": "szczecin"
+      },
+      "pricePerNightInEUR": 75.26,
+      "rating": 4.6,
+      "numberOfReviews": 277,
+      "capacity": 4,
+      "name": "modern retreat",
+      "albumId": 1,
+      "description": "Experience tranquility at modern retreat, thoughtfully designed to provide guests with exceptional comfort in szczecin. The property features modern amenities while maintaining its distinctive charm and connection to the local environment.",
+      "features": [
+        "garden",
+        "sauna",
+        "terrace",
+        "printer",
+        "TV",
+        "gym",
+        "parking",
+        "bike rental",
+        "hypoallergic bedding",
+        "workspace",
+        "pool",
+        "coffee machine",
+        "barbecue",
+        "air conditioning"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 7,
+        "amoutOfBeds": 4
+      },
+      "checkInHour": "12pm",
+      "checkOutHour": "12pm",
+      "distanceFromCityCenterInKM": 29,
+      "contactDetails": {
+        "phone": "(408) 552-0732 x595",
+        "email": "modern_retreat@impure-hepatitis.biz"
+      }
+    },
+    {
+      "id": 63191,
+      "venueId": 44,
+      "location": {
+        "postalCode": "34-500",
+        "name": "zakopane"
+      },
+      "pricePerNightInEUR": 88.06,
+      "rating": 4,
+      "numberOfReviews": 269,
+      "capacity": 3,
+      "name": "wellness center",
+      "albumId": 15,
+      "description": "wellness center offers an unforgettable stay in the picturesque setting of zakopane. This carefully curated space provides all the comforts you need while allowing you to immerse yourself in the natural beauty of the surrounding area.",
+      "features": [
+        "ski storage",
+        "bike rental",
+        "parking",
+        "balcony",
+        "workspace"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 4,
+        "amoutOfBeds": 2
+      },
+      "checkInHour": "10am",
+      "checkOutHour": "10am",
+      "distanceFromCityCenterInKM": 8,
+      "contactDetails": {
+        "phone": "(491) 606-4266",
+        "email": "wellness_center@rewarding-reservation.name"
+      }
+    },
+    {
+      "id": 54527,
+      "venueId": 45,
+      "location": {
+        "postalCode": "87-100",
+        "name": "toruń"
+      },
+      "pricePerNightInEUR": 30.47,
+      "rating": 4.7,
+      "numberOfReviews": 107,
+      "capacity": 2,
+      "name": "enchanted hut",
+      "albumId": 31,
+      "description": "enchanted hut offers an unforgettable stay in the picturesque setting of toruń. This carefully curated space provides all the comforts you need while allowing you to immerse yourself in the natural beauty of the surrounding area.",
+      "features": [
+        "microwave",
+        "heating",
+        "hot tub",
+        "printer",
+        "ski storage",
+        "garden",
+        "library",
+        "bike rental",
+        "hypoallergic bedding"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 4,
+        "amoutOfBeds": 2
+      },
+      "checkInHour": "11am",
+      "checkOutHour": "9am",
+      "distanceFromCityCenterInKM": 28,
+      "contactDetails": {
+        "phone": "(842) 423-4427 x532",
+        "email": "enchanted_hut@flickering-casement.biz"
+      }
+    },
+    {
+      "id": 86757,
+      "venueId": 46,
+      "location": {
+        "postalCode": "87-100",
+        "name": "toruń"
+      },
+      "pricePerNightInEUR": 96.26,
+      "rating": 4.2,
+      "numberOfReviews": 246,
+      "capacity": 4,
+      "name": "wooden chalet",
+      "albumId": 8,
+      "description": "Welcome to wooden chalet, a hidden gem in toruń that perfectly balances rustic charm with modern convenience. This property is ideal for travelers who appreciate attention to detail and authentic experiences.",
+      "features": [
+        "library",
+        "pool",
+        "workspace",
+        "washing machine",
+        "ski storage",
+        "hypoallergic bedding",
+        "balcony",
+        "dishwasher"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 6,
+        "amoutOfBeds": 3
+      },
+      "checkInHour": "3pm",
+      "checkOutHour": "9am",
+      "distanceFromCityCenterInKM": 44,
+      "contactDetails": {
+        "phone": "944-549-4986",
+        "email": "wooden_chalet@unlawful-teriyaki.org"
+      }
+    },
+    {
+      "id": 11983,
+      "venueId": 47,
+      "location": {
+        "postalCode": "25-001",
+        "name": "kielce"
+      },
+      "pricePerNightInEUR": 20.85,
+      "rating": 5,
+      "numberOfReviews": 408,
+      "capacity": 10,
+      "name": "wooden chalet",
+      "albumId": 82,
+      "description": "wooden chalet offers an unforgettable stay in the picturesque setting of kielce. This carefully curated space provides all the comforts you need while allowing you to immerse yourself in the natural beauty of the surrounding area.",
+      "features": [
+        "hot tub",
+        "library",
+        "microwave",
+        "kayak rental",
+        "gym",
+        "washing machine",
+        "workspace",
+        "printer",
+        "pool",
+        "sauna",
+        "TV",
+        "game room",
+        "terrace",
+        "speakers",
+        "balcony"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 12,
+        "amoutOfBeds": 6
+      },
+      "checkInHour": "2pm",
+      "checkOutHour": "12pm",
+      "distanceFromCityCenterInKM": 1,
+      "contactDetails": {
+        "phone": "(759) 275-0835 x97739",
+        "email": "wooden_chalet@beneficial-venom.biz"
+      }
+    },
+    {
+      "id": 47396,
+      "venueId": 48,
+      "location": {
+        "postalCode": "81-001",
+        "name": "sopot"
+      },
+      "pricePerNightInEUR": 20.36,
+      "rating": 3.5,
+      "numberOfReviews": 419,
+      "capacity": 12,
+      "name": "forest retreat",
+      "albumId": 97,
+      "description": "Experience tranquility at forest retreat, thoughtfully designed to provide guests with exceptional comfort in sopot. The property features modern amenities while maintaining its distinctive charm and connection to the local environment.",
+      "features": [
+        "kitchen facilities",
+        "hiking trails",
+        "hot tub",
+        "workspace",
+        "WiFi",
+        "speakers",
+        "ski storage",
+        "hypoallergic bedding",
+        "pet friendly",
+        "garden"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 12,
+        "amoutOfBeds": 6
+      },
+      "checkInHour": "3pm",
+      "checkOutHour": "12pm",
+      "distanceFromCityCenterInKM": 32,
+      "contactDetails": {
+        "phone": "(326) 271-6412 x292",
+        "email": "forest_retreat@pastel-goodwill.name"
+      }
+    },
+    {
+      "id": 30999,
+      "venueId": 49,
+      "location": {
+        "postalCode": "09-400",
+        "name": "płock"
+      },
+      "pricePerNightInEUR": 46.02,
+      "rating": 4.7,
+      "numberOfReviews": 302,
+      "capacity": 9,
+      "name": "modern retreat",
+      "albumId": 53,
+      "description": "Experience tranquility at modern retreat, thoughtfully designed to provide guests with exceptional comfort in płock. The property features modern amenities while maintaining its distinctive charm and connection to the local environment.",
+      "features": [
+        "library",
+        "pool",
+        "game room",
+        "coffee machine",
+        "workspace"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 11,
+        "amoutOfBeds": 6
+      },
+      "checkInHour": "10am",
+      "checkOutHour": "11am",
+      "distanceFromCityCenterInKM": 31,
+      "contactDetails": {
+        "phone": "(595) 869-4189 x385",
+        "email": "modern_retreat@minor-reboot.net"
+      }
+    },
+    {
+      "id": 86812,
+      "venueId": 50,
+      "location": {
+        "postalCode": "81-001",
+        "name": "sopot"
+      },
+      "pricePerNightInEUR": 28.93,
+      "rating": 4.7,
+      "numberOfReviews": 312,
+      "capacity": 9,
+      "name": "wooden chalet",
+      "albumId": 48,
+      "description": "Welcome to wooden chalet, a hidden gem in sopot that perfectly balances rustic charm with modern convenience. This property is ideal for travelers who appreciate attention to detail and authentic experiences.",
+      "features": [
+        "washing machine",
+        "speakers",
+        "garden",
+        "sauna",
+        "WiFi",
+        "lake and mountains nearby"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 9,
+        "amoutOfBeds": 5
+      },
+      "checkInHour": "3pm",
+      "checkOutHour": "12pm",
+      "distanceFromCityCenterInKM": 9,
+      "contactDetails": {
+        "phone": "220-342-4859 x38290",
+        "email": "wooden_chalet@practical-puppet.com"
+      }
+    },
+    {
+      "id": 58613,
+      "venueId": 51,
+      "location": {
+        "postalCode": "15-001",
+        "name": "białystok"
+      },
+      "pricePerNightInEUR": 137.45,
+      "rating": 4.3,
+      "numberOfReviews": 121,
+      "capacity": 9,
+      "name": "rustic barn",
+      "albumId": 50,
+      "description": "Welcome to rustic barn, a hidden gem in białystok that perfectly balances rustic charm with modern convenience. This property is ideal for travelers who appreciate attention to detail and authentic experiences.",
+      "features": [
+        "hypoallergic bedding",
+        "ski storage",
+        "speakers",
+        "lake and mountains nearby",
+        "hot tub",
+        "heating",
+        "air conditioning",
+        "gym"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 12,
+        "amoutOfBeds": 6
+      },
+      "checkInHour": "3pm",
+      "checkOutHour": "9am",
+      "distanceFromCityCenterInKM": 44,
+      "contactDetails": {
+        "phone": "567-717-6123 x353",
+        "email": "rustic_barn@trained-space.info"
+      }
+    },
+    {
+      "id": 58082,
+      "venueId": 52,
+      "location": {
+        "postalCode": "26-600",
+        "name": "radom"
+      },
+      "pricePerNightInEUR": 149.99,
+      "rating": 4.6,
+      "numberOfReviews": 462,
+      "capacity": 6,
+      "name": "mountain lodge",
+      "albumId": 81,
+      "description": "Discover the magic of mountain lodge nestled in the heart of radom. This beautifully appointed property combines comfort with authentic local character, making it perfect for those seeking a unique and memorable experience.",
+      "features": [
+        "printer",
+        "game room",
+        "sauna",
+        "garden",
+        "washing machine",
+        "air conditioning",
+        "speakers",
+        "hot tub",
+        "library"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 8,
+        "amoutOfBeds": 4
+      },
+      "checkInHour": "3pm",
+      "checkOutHour": "11am",
+      "distanceFromCityCenterInKM": 25,
+      "contactDetails": {
+        "phone": "620.531.8928 x22547",
+        "email": "mountain_lodge@courteous-peninsula.org"
+      }
+    },
+    {
+      "id": 48733,
+      "venueId": 53,
+      "location": {
+        "postalCode": "87-100",
+        "name": "toruń"
+      },
+      "pricePerNightInEUR": 137.68,
+      "rating": 4.8,
+      "numberOfReviews": 193,
+      "capacity": 9,
+      "name": "wellness center",
+      "albumId": 68,
+      "description": "Experience tranquility at wellness center, thoughtfully designed to provide guests with exceptional comfort in toruń. The property features modern amenities while maintaining its distinctive charm and connection to the local environment.",
+      "features": [
+        "bike rental",
+        "kitchen facilities",
+        "printer",
+        "terrace",
+        "TV",
+        "safe",
+        "parking",
+        "garden",
+        "pet friendly",
+        "air conditioning",
+        "speakers"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 9,
+        "amoutOfBeds": 5
+      },
+      "checkInHour": "1pm",
+      "checkOutHour": "11am",
+      "distanceFromCityCenterInKM": 6,
+      "contactDetails": {
+        "phone": "(967) 632-1225 x81313",
+        "email": "wellness_center@buttery-sprinkles.com"
+      }
+    },
+    {
+      "id": 47878,
+      "venueId": 54,
+      "location": {
+        "postalCode": "19-300",
+        "name": "ełk"
+      },
+      "pricePerNightInEUR": 59.42,
+      "rating": 4.5,
+      "numberOfReviews": 31,
+      "capacity": 12,
+      "name": "rustic barn",
+      "albumId": 12,
+      "description": "Welcome to rustic barn, a hidden gem in ełk that perfectly balances rustic charm with modern convenience. This property is ideal for travelers who appreciate attention to detail and authentic experiences.",
+      "features": [
+        "coffee machine",
+        "gym",
+        "bathroom facilities",
+        "terrace",
+        "washing machine"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 13,
+        "amoutOfBeds": 7
+      },
+      "checkInHour": "2pm",
+      "checkOutHour": "9am",
+      "distanceFromCityCenterInKM": 29,
+      "contactDetails": {
+        "phone": "583-372-2272 x9395",
+        "email": "rustic_barn@faraway-shoulder.name"
+      }
+    },
+    {
+      "id": 29867,
+      "venueId": 55,
+      "location": {
+        "postalCode": "38-700",
+        "name": "ustrzyki dolne"
+      },
+      "pricePerNightInEUR": 92.14,
+      "rating": 4,
+      "numberOfReviews": 270,
+      "capacity": 6,
+      "name": "minimalist lodge",
+      "albumId": 90,
+      "description": "minimalist lodge offers an unforgettable stay in the picturesque setting of ustrzyki dolne. This carefully curated space provides all the comforts you need while allowing you to immerse yourself in the natural beauty of the surrounding area.",
+      "features": [
+        "pet friendly",
+        "terrace",
+        "workspace",
+        "balcony",
+        "microwave",
+        "bathroom facilities",
+        "kayak rental",
+        "parking",
+        "coffee machine",
+        "library",
+        "pool",
+        "game room",
+        "washing machine"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 7,
+        "amoutOfBeds": 4
+      },
+      "checkInHour": "1pm",
+      "checkOutHour": "9am",
+      "distanceFromCityCenterInKM": 28,
+      "contactDetails": {
+        "phone": "776.964.0868 x9541",
+        "email": "minimalist_lodge@fuzzy-tinderbox.org"
+      }
+    },
+    {
+      "id": 34885,
+      "venueId": 56,
+      "location": {
+        "postalCode": "85-001",
+        "name": "bydgoszcz"
+      },
+      "pricePerNightInEUR": 27.33,
+      "rating": 4.1,
+      "numberOfReviews": 448,
+      "capacity": 6,
+      "name": "modern retreat",
+      "albumId": 68,
+      "description": "modern retreat is a perfect getaway located in bydgoszcz. This charming accommodation offers a peaceful retreat surrounded by natural beauty. Whether you're looking for adventure or relaxation, this venue provides the ideal base for your stay.",
+      "features": [
+        "fireplace",
+        "microwave",
+        "safe",
+        "game room",
+        "barbecue",
+        "kayak rental",
+        "pool",
+        "bathroom facilities",
+        "terrace",
+        "speakers",
+        "coffee machine",
+        "bike rental",
+        "garden",
+        "ski storage"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 7,
+        "amoutOfBeds": 4
+      },
+      "checkInHour": "11am",
+      "checkOutHour": "11am",
+      "distanceFromCityCenterInKM": 32,
+      "contactDetails": {
+        "phone": "(715) 480-2362 x8085",
+        "email": "modern_retreat@gaseous-unit.name"
+      }
+    },
+    {
+      "id": 98174,
+      "venueId": 57,
+      "location": {
+        "postalCode": "09-400",
+        "name": "płock"
+      },
+      "pricePerNightInEUR": 70.95,
+      "rating": 5,
+      "numberOfReviews": 224,
+      "capacity": 10,
+      "name": "tiny house",
+      "albumId": 69,
+      "description": "tiny house offers an unforgettable stay in the picturesque setting of płock. This carefully curated space provides all the comforts you need while allowing you to immerse yourself in the natural beauty of the surrounding area.",
+      "features": [
+        "speakers",
+        "pool",
+        "garden",
+        "coffee machine",
+        "air conditioning",
+        "printer",
+        "hot tub"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 12,
+        "amoutOfBeds": 6
+      },
+      "checkInHour": "11am",
+      "checkOutHour": "11am",
+      "distanceFromCityCenterInKM": 1,
+      "contactDetails": {
+        "phone": "522-550-1937 x090",
+        "email": "tiny_house@gifted-pulse.org"
+      }
+    },
+    {
+      "id": 41233,
+      "venueId": 58,
+      "location": {
+        "postalCode": "80-001",
+        "name": "gdańsk"
+      },
+      "pricePerNightInEUR": 41.18,
+      "rating": 5,
+      "numberOfReviews": 283,
+      "capacity": 11,
+      "name": "modern retreat",
+      "albumId": 44,
+      "description": "modern retreat offers an unforgettable stay in the picturesque setting of gdańsk. This carefully curated space provides all the comforts you need while allowing you to immerse yourself in the natural beauty of the surrounding area.",
+      "features": [
+        "barbecue",
+        "kitchen facilities",
+        "fireplace",
+        "workspace",
+        "coffee machine",
+        "ski storage",
+        "speakers",
+        "hot tub",
+        "garden",
+        "terrace",
+        "pet friendly",
+        "kayak rental"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 15,
+        "amoutOfBeds": 8
+      },
+      "checkInHour": "11am",
+      "checkOutHour": "12pm",
+      "distanceFromCityCenterInKM": 26,
+      "contactDetails": {
+        "phone": "946-367-7169 x8173",
+        "email": "modern_retreat@obvious-bran.net"
+      }
+    },
+    {
+      "id": 77484,
+      "venueId": 59,
+      "location": {
+        "postalCode": "40-001",
+        "name": "katowice"
+      },
+      "pricePerNightInEUR": 23.82,
+      "rating": 3.9,
+      "numberOfReviews": 405,
+      "capacity": 4,
+      "name": "minimalist lodge",
+      "albumId": 47,
+      "description": "minimalist lodge is a perfect getaway located in katowice. This charming accommodation offers a peaceful retreat surrounded by natural beauty. Whether you're looking for adventure or relaxation, this venue provides the ideal base for your stay.",
+      "features": [
+        "speakers",
+        "terrace",
+        "washing machine",
+        "dishwasher",
+        "coffee machine",
+        "balcony",
+        "printer",
+        "kayak rental"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 4,
+        "amoutOfBeds": 2
+      },
+      "checkInHour": "10am",
+      "checkOutHour": "9am",
+      "distanceFromCityCenterInKM": 5,
+      "contactDetails": {
+        "phone": "628-801-5408 x59580",
+        "email": "minimalist_lodge@short-term-drive.com"
+      }
+    },
+    {
+      "id": 25859,
+      "venueId": 60,
+      "location": {
+        "postalCode": "81-001",
+        "name": "sopot"
+      },
+      "pricePerNightInEUR": 48.19,
+      "rating": 3.9,
+      "numberOfReviews": 117,
+      "capacity": 8,
+      "name": "eco lodge",
+      "albumId": 73,
+      "description": "eco lodge is a perfect getaway located in sopot. This charming accommodation offers a peaceful retreat surrounded by natural beauty. Whether you're looking for adventure or relaxation, this venue provides the ideal base for your stay.",
+      "features": [
+        "washing machine",
+        "balcony",
+        "hiking trails",
+        "game room",
+        "workspace",
+        "WiFi",
+        "terrace",
+        "lake and mountains nearby",
+        "pool",
+        "fireplace",
+        "kitchen facilities",
+        "sauna",
+        "heating",
+        "barbecue"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 9,
+        "amoutOfBeds": 5
+      },
+      "checkInHour": "1pm",
+      "checkOutHour": "10am",
+      "distanceFromCityCenterInKM": 5,
+      "contactDetails": {
+        "phone": "875.657.0100 x22522",
+        "email": "eco_lodge@squeaky-metal.org"
+      }
+    },
+    {
+      "id": 57892,
+      "venueId": 61,
+      "location": {
+        "postalCode": "26-600",
+        "name": "radom"
+      },
+      "pricePerNightInEUR": 131.73,
+      "rating": 5,
+      "numberOfReviews": 293,
+      "capacity": 9,
+      "name": "artistic studio",
+      "albumId": 93,
+      "description": "Experience tranquility at artistic studio, thoughtfully designed to provide guests with exceptional comfort in radom. The property features modern amenities while maintaining its distinctive charm and connection to the local environment.",
+      "features": [
+        "gym",
+        "coffee machine",
+        "garden",
+        "sauna",
+        "workspace",
+        "hot tub"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 13,
+        "amoutOfBeds": 7
+      },
+      "checkInHour": "2pm",
+      "checkOutHour": "10am",
+      "distanceFromCityCenterInKM": 24,
+      "contactDetails": {
+        "phone": "1-275-426-3428 x042",
+        "email": "artistic_studio@obvious-litter.net"
+      }
+    },
+    {
+      "id": 97964,
+      "venueId": 62,
+      "location": {
+        "postalCode": "09-400",
+        "name": "płock"
+      },
+      "pricePerNightInEUR": 116.45,
+      "rating": 3.7,
+      "numberOfReviews": 254,
+      "capacity": 7,
+      "name": "forest retreat",
+      "albumId": 64,
+      "description": "forest retreat is a perfect getaway located in płock. This charming accommodation offers a peaceful retreat surrounded by natural beauty. Whether you're looking for adventure or relaxation, this venue provides the ideal base for your stay.",
+      "features": [
+        "hiking trails",
+        "hot tub",
+        "lake and mountains nearby",
+        "coffee machine",
+        "microwave",
+        "gym",
+        "library",
+        "garden",
+        "kitchen facilities"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 7,
+        "amoutOfBeds": 4
+      },
+      "checkInHour": "12pm",
+      "checkOutHour": "9am",
+      "distanceFromCityCenterInKM": 40,
+      "contactDetails": {
+        "phone": "1-927-408-5907 x2664",
+        "email": "forest_retreat@jaunty-partridge.org"
+      }
+    },
+    {
+      "id": 92814,
+      "venueId": 63,
+      "location": {
+        "postalCode": "38-700",
+        "name": "ustrzyki dolne"
+      },
+      "pricePerNightInEUR": 109.46,
+      "rating": 5,
+      "numberOfReviews": 335,
+      "capacity": 12,
+      "name": "wellness center",
+      "albumId": 89,
+      "description": "wellness center is a perfect getaway located in ustrzyki dolne. This charming accommodation offers a peaceful retreat surrounded by natural beauty. Whether you're looking for adventure or relaxation, this venue provides the ideal base for your stay.",
+      "features": [
+        "bathroom facilities",
+        "balcony",
+        "printer",
+        "coffee machine",
+        "pool",
+        "library",
+        "gym"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 13,
+        "amoutOfBeds": 7
+      },
+      "checkInHour": "10am",
+      "checkOutHour": "9am",
+      "distanceFromCityCenterInKM": 34,
+      "contactDetails": {
+        "phone": "(702) 960-0223 x36092",
+        "email": "wellness_center@altruistic-chiffonier.net"
+      }
+    },
+    {
+      "id": 84214,
+      "venueId": 64,
+      "location": {
+        "postalCode": "38-700",
+        "name": "ustrzyki dolne"
+      },
+      "pricePerNightInEUR": 45.04,
+      "rating": 3.6,
+      "numberOfReviews": 181,
+      "capacity": 3,
+      "name": "rustic barn",
+      "albumId": 37,
+      "description": "Discover the magic of rustic barn nestled in the heart of ustrzyki dolne. This beautifully appointed property combines comfort with authentic local character, making it perfect for those seeking a unique and memorable experience.",
+      "features": [
+        "TV",
+        "workspace",
+        "hypoallergic bedding",
+        "kitchen facilities",
+        "game room",
+        "printer",
+        "speakers",
+        "hiking trails",
+        "barbecue",
+        "hot tub",
+        "pool"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 4,
+        "amoutOfBeds": 2
+      },
+      "checkInHour": "12pm",
+      "checkOutHour": "12pm",
+      "distanceFromCityCenterInKM": 2,
+      "contactDetails": {
+        "phone": "500.783.9699 x106",
+        "email": "rustic_barn@urban-restaurant.org"
+      }
+    },
+    {
+      "id": 28740,
+      "venueId": 65,
+      "location": {
+        "postalCode": "35-001",
+        "name": "rzeszów"
+      },
+      "pricePerNightInEUR": 30.77,
+      "rating": 4.4,
+      "numberOfReviews": 319,
+      "capacity": 10,
+      "name": "cozy cabin",
+      "albumId": 42,
+      "description": "cozy cabin offers an unforgettable stay in the picturesque setting of rzeszów. This carefully curated space provides all the comforts you need while allowing you to immerse yourself in the natural beauty of the surrounding area.",
+      "features": [
+        "ski storage",
+        "workspace",
+        "coffee machine",
+        "TV",
+        "washing machine",
+        "air conditioning"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 11,
+        "amoutOfBeds": 6
+      },
+      "checkInHour": "11am",
+      "checkOutHour": "11am",
+      "distanceFromCityCenterInKM": 7,
+      "contactDetails": {
+        "phone": "(573) 619-1741 x237",
+        "email": "cozy_cabin@different-maestro.net"
+      }
+    },
+    {
+      "id": 62171,
+      "venueId": 66,
+      "location": {
+        "postalCode": "26-600",
+        "name": "radom"
+      },
+      "pricePerNightInEUR": 103.33,
+      "rating": 4.3,
+      "numberOfReviews": 402,
+      "capacity": 6,
+      "name": "stone cottage",
+      "albumId": 92,
+      "description": "Welcome to stone cottage, a hidden gem in radom that perfectly balances rustic charm with modern convenience. This property is ideal for travelers who appreciate attention to detail and authentic experiences.",
+      "features": [
+        "library",
+        "hot tub",
+        "balcony",
+        "game room",
+        "dishwasher"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 6,
+        "amoutOfBeds": 3
+      },
+      "checkInHour": "3pm",
+      "checkOutHour": "12pm",
+      "distanceFromCityCenterInKM": 33,
+      "contactDetails": {
+        "phone": "529.379.7607 x701",
+        "email": "stone_cottage@outstanding-roadway.net"
+      }
+    },
+    {
+      "id": 54067,
+      "venueId": 67,
+      "location": {
+        "postalCode": "00-001",
+        "name": "warszawa"
+      },
+      "pricePerNightInEUR": 100.96,
+      "rating": 4.1,
+      "numberOfReviews": 229,
+      "capacity": 8,
+      "name": "forest retreat",
+      "albumId": 74,
+      "description": "forest retreat is a perfect getaway located in warszawa. This charming accommodation offers a peaceful retreat surrounded by natural beauty. Whether you're looking for adventure or relaxation, this venue provides the ideal base for your stay.",
+      "features": [
+        "WiFi",
+        "microwave",
+        "parking",
+        "game room",
+        "ski storage",
+        "coffee machine"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 12,
+        "amoutOfBeds": 6
+      },
+      "checkInHour": "12pm",
+      "checkOutHour": "11am",
+      "distanceFromCityCenterInKM": 41,
+      "contactDetails": {
+        "phone": "1-484-690-5636 x9334",
+        "email": "forest_retreat@hollow-obligation.info"
+      }
+    },
+    {
+      "id": 34530,
+      "venueId": 68,
+      "location": {
+        "postalCode": "15-001",
+        "name": "białystok"
+      },
+      "pricePerNightInEUR": 115.55,
+      "rating": 4.7,
+      "numberOfReviews": 135,
+      "capacity": 9,
+      "name": "treehouse",
+      "albumId": 48,
+      "description": "treehouse offers an unforgettable stay in the picturesque setting of białystok. This carefully curated space provides all the comforts you need while allowing you to immerse yourself in the natural beauty of the surrounding area.",
+      "features": [
+        "printer",
+        "coffee machine",
+        "hypoallergic bedding",
+        "microwave",
+        "workspace",
+        "barbecue"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 12,
+        "amoutOfBeds": 6
+      },
+      "checkInHour": "3pm",
+      "checkOutHour": "9am",
+      "distanceFromCityCenterInKM": 14,
+      "contactDetails": {
+        "phone": "986.746.5653",
+        "email": "treehouse@striking-eyebrow.com"
+      }
+    },
+    {
+      "id": 48511,
+      "venueId": 69,
+      "location": {
+        "postalCode": "40-001",
+        "name": "katowice"
+      },
+      "pricePerNightInEUR": 146.24,
+      "rating": 4.8,
+      "numberOfReviews": 259,
+      "capacity": 12,
+      "name": "wellness center",
+      "albumId": 64,
+      "description": "Welcome to wellness center, a hidden gem in katowice that perfectly balances rustic charm with modern convenience. This property is ideal for travelers who appreciate attention to detail and authentic experiences.",
+      "features": [
+        "kitchen facilities",
+        "pool",
+        "coffee machine",
+        "washing machine",
+        "workspace",
+        "bike rental",
+        "sauna"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 14,
+        "amoutOfBeds": 7
+      },
+      "checkInHour": "2pm",
+      "checkOutHour": "12pm",
+      "distanceFromCityCenterInKM": 10,
+      "contactDetails": {
+        "phone": "1-602-946-3489 x371",
+        "email": "wellness_center@unhealthy-cross-contamination.org"
+      }
+    },
+    {
+      "id": 91832,
+      "venueId": 70,
+      "location": {
+        "postalCode": "40-001",
+        "name": "katowice"
+      },
+      "pricePerNightInEUR": 104.15,
+      "rating": 4.7,
+      "numberOfReviews": 227,
+      "capacity": 3,
+      "name": "enchanted hut",
+      "albumId": 20,
+      "description": "Experience tranquility at enchanted hut, thoughtfully designed to provide guests with exceptional comfort in katowice. The property features modern amenities while maintaining its distinctive charm and connection to the local environment.",
+      "features": [
+        "air conditioning",
+        "fireplace",
+        "library",
+        "gym",
+        "speakers",
+        "kayak rental",
+        "printer",
+        "washing machine",
+        "lake and mountains nearby",
+        "hot tub",
+        "game room",
+        "hiking trails"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 4,
+        "amoutOfBeds": 2
+      },
+      "checkInHour": "10am",
+      "checkOutHour": "10am",
+      "distanceFromCityCenterInKM": 48,
+      "contactDetails": {
+        "phone": "795-935-6301",
+        "email": "enchanted_hut@wealthy-government.name"
+      }
+    },
+    {
+      "id": 39372,
+      "venueId": 71,
+      "location": {
+        "postalCode": "19-300",
+        "name": "ełk"
+      },
+      "pricePerNightInEUR": 102.65,
+      "rating": 5,
+      "numberOfReviews": 132,
+      "capacity": 6,
+      "name": "traditional manor",
+      "albumId": 59,
+      "description": "Discover the magic of traditional manor nestled in the heart of ełk. This beautifully appointed property combines comfort with authentic local character, making it perfect for those seeking a unique and memorable experience.",
+      "features": [
+        "game room",
+        "pet friendly",
+        "printer",
+        "garden",
+        "workspace",
+        "microwave",
+        "lake and mountains nearby",
+        "washing machine",
+        "heating",
+        "safe",
+        "hypoallergic bedding",
+        "speakers",
+        "air conditioning",
+        "TV",
+        "bathroom facilities"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 8,
+        "amoutOfBeds": 4
+      },
+      "checkInHour": "3pm",
+      "checkOutHour": "9am",
+      "distanceFromCityCenterInKM": 37,
+      "contactDetails": {
+        "phone": "1-447-247-5158 x128",
+        "email": "traditional_manor@content-typewriter.com"
+      }
+    },
+    {
+      "id": 27624,
+      "venueId": 72,
+      "location": {
+        "postalCode": "34-500",
+        "name": "zakopane"
+      },
+      "pricePerNightInEUR": 43.16,
+      "rating": 4.6,
+      "numberOfReviews": 141,
+      "capacity": 11,
+      "name": "stone cottage",
+      "albumId": 91,
+      "description": "Welcome to stone cottage, a hidden gem in zakopane that perfectly balances rustic charm with modern convenience. This property is ideal for travelers who appreciate attention to detail and authentic experiences.",
+      "features": [
+        "kitchen facilities",
+        "barbecue",
+        "speakers",
+        "library",
+        "washing machine",
+        "garden",
+        "pool",
+        "gym",
+        "bathroom facilities",
+        "fireplace",
+        "game room"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 12,
+        "amoutOfBeds": 6
+      },
+      "checkInHour": "2pm",
+      "checkOutHour": "10am",
+      "distanceFromCityCenterInKM": 30,
+      "contactDetails": {
+        "phone": "1-339-960-8672 x6325",
+        "email": "stone_cottage@metallic-partridge.biz"
+      }
+    },
+    {
+      "id": 10232,
+      "venueId": 73,
+      "location": {
+        "postalCode": "40-001",
+        "name": "katowice"
+      },
+      "pricePerNightInEUR": 139.2,
+      "rating": 4.1,
+      "numberOfReviews": 405,
+      "capacity": 9,
+      "name": "rustic barn",
+      "albumId": 91,
+      "description": "rustic barn is a perfect getaway located in katowice. This charming accommodation offers a peaceful retreat surrounded by natural beauty. Whether you're looking for adventure or relaxation, this venue provides the ideal base for your stay.",
+      "features": [
+        "air conditioning",
+        "hypoallergic bedding",
+        "game room",
+        "barbecue",
+        "washing machine",
+        "hiking trails",
+        "speakers",
+        "lake and mountains nearby",
+        "kayak rental",
+        "WiFi",
+        "fireplace",
+        "workspace",
+        "printer",
+        "heating"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 13,
+        "amoutOfBeds": 7
+      },
+      "checkInHour": "10am",
+      "checkOutHour": "10am",
+      "distanceFromCityCenterInKM": 49,
+      "contactDetails": {
+        "phone": "798.503.7307 x061",
+        "email": "rustic_barn@questionable-skyscraper.info"
+      }
+    },
+    {
+      "id": 85095,
+      "venueId": 74,
+      "location": {
+        "postalCode": "15-001",
+        "name": "białystok"
+      },
+      "pricePerNightInEUR": 23.69,
+      "rating": 5,
+      "numberOfReviews": 55,
+      "capacity": 4,
+      "name": "stone cottage",
+      "albumId": 21,
+      "description": "Discover the magic of stone cottage nestled in the heart of białystok. This beautifully appointed property combines comfort with authentic local character, making it perfect for those seeking a unique and memorable experience.",
+      "features": [
+        "bike rental",
+        "TV",
+        "pool",
+        "library",
+        "balcony",
+        "gym"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 5,
+        "amoutOfBeds": 3
+      },
+      "checkInHour": "11am",
+      "checkOutHour": "11am",
+      "distanceFromCityCenterInKM": 26,
+      "contactDetails": {
+        "phone": "722.365.1053 x69158",
+        "email": "stone_cottage@exotic-reorganisation.com"
+      }
+    },
+    {
+      "id": 76421,
+      "venueId": 75,
+      "location": {
+        "postalCode": "26-600",
+        "name": "radom"
+      },
+      "pricePerNightInEUR": 29.52,
+      "rating": 5,
+      "numberOfReviews": 203,
+      "capacity": 3,
+      "name": "cozy cabin",
+      "albumId": 49,
+      "description": "Welcome to cozy cabin, a hidden gem in radom that perfectly balances rustic charm with modern convenience. This property is ideal for travelers who appreciate attention to detail and authentic experiences.",
+      "features": [
+        "safe",
+        "heating",
+        "barbecue",
+        "bike rental",
+        "bathroom facilities",
+        "workspace",
+        "game room",
+        "speakers",
+        "hot tub",
+        "printer",
+        "balcony",
+        "coffee machine",
+        "parking",
+        "ski storage"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 3,
+        "amoutOfBeds": 2
+      },
+      "checkInHour": "10am",
+      "checkOutHour": "9am",
+      "distanceFromCityCenterInKM": 29,
+      "contactDetails": {
+        "phone": "1-669-554-3488 x5313",
+        "email": "cozy_cabin@dazzling-duffel.info"
+      }
+    },
+    {
+      "id": 84938,
+      "venueId": 76,
+      "location": {
+        "postalCode": "09-400",
+        "name": "płock"
+      },
+      "pricePerNightInEUR": 128.42,
+      "rating": 4.8,
+      "numberOfReviews": 470,
+      "capacity": 7,
+      "name": "lakeside cottage",
+      "albumId": 55,
+      "description": "Experience tranquility at lakeside cottage, thoughtfully designed to provide guests with exceptional comfort in płock. The property features modern amenities while maintaining its distinctive charm and connection to the local environment.",
+      "features": [
+        "parking",
+        "kayak rental",
+        "fireplace",
+        "pet friendly",
+        "safe",
+        "bathroom facilities",
+        "air conditioning",
+        "kitchen facilities",
+        "printer"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 11,
+        "amoutOfBeds": 6
+      },
+      "checkInHour": "1pm",
+      "checkOutHour": "10am",
+      "distanceFromCityCenterInKM": 25,
+      "contactDetails": {
+        "phone": "1-504-710-3207 x025",
+        "email": "lakeside_cottage@rotating-wilderness.biz"
+      }
+    },
+    {
+      "id": 59847,
+      "venueId": 77,
+      "location": {
+        "postalCode": "26-600",
+        "name": "radom"
+      },
+      "pricePerNightInEUR": 79.45,
+      "rating": 4.7,
+      "numberOfReviews": 53,
+      "capacity": 7,
+      "name": "lakeside cottage",
+      "albumId": 56,
+      "description": "lakeside cottage offers an unforgettable stay in the picturesque setting of radom. This carefully curated space provides all the comforts you need while allowing you to immerse yourself in the natural beauty of the surrounding area.",
+      "features": [
+        "balcony",
+        "microwave",
+        "barbecue",
+        "dishwasher",
+        "hypoallergic bedding",
+        "WiFi",
+        "hiking trails",
+        "workspace"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 9,
+        "amoutOfBeds": 5
+      },
+      "checkInHour": "3pm",
+      "checkOutHour": "11am",
+      "distanceFromCityCenterInKM": 14,
+      "contactDetails": {
+        "phone": "455-475-0749 x6226",
+        "email": "lakeside_cottage@strict-fort.info"
+      }
+    },
+    {
+      "id": 94593,
+      "venueId": 78,
+      "location": {
+        "postalCode": "87-100",
+        "name": "toruń"
+      },
+      "pricePerNightInEUR": 139.25,
+      "rating": 5,
+      "numberOfReviews": 222,
+      "capacity": 11,
+      "name": "artistic studio",
+      "albumId": 34,
+      "description": "artistic studio is a perfect getaway located in toruń. This charming accommodation offers a peaceful retreat surrounded by natural beauty. Whether you're looking for adventure or relaxation, this venue provides the ideal base for your stay.",
+      "features": [
+        "lake and mountains nearby",
+        "speakers",
+        "garden",
+        "terrace",
+        "parking"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 14,
+        "amoutOfBeds": 7
+      },
+      "checkInHour": "10am",
+      "checkOutHour": "9am",
+      "distanceFromCityCenterInKM": 16,
+      "contactDetails": {
+        "phone": "424-990-1081",
+        "email": "artistic_studio@impartial-chiffonier.com"
+      }
+    },
+    {
+      "id": 69178,
+      "venueId": 79,
+      "location": {
+        "postalCode": "25-001",
+        "name": "kielce"
+      },
+      "pricePerNightInEUR": 97.07,
+      "rating": 4.1,
+      "numberOfReviews": 379,
+      "capacity": 8,
+      "name": "enchanted hut",
+      "albumId": 70,
+      "description": "enchanted hut is a perfect getaway located in kielce. This charming accommodation offers a peaceful retreat surrounded by natural beauty. Whether you're looking for adventure or relaxation, this venue provides the ideal base for your stay.",
+      "features": [
+        "air conditioning",
+        "dishwasher",
+        "kitchen facilities",
+        "workspace",
+        "heating",
+        "bike rental",
+        "hypoallergic bedding",
+        "library",
+        "barbecue",
+        "kayak rental",
+        "game room",
+        "TV",
+        "terrace"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 10,
+        "amoutOfBeds": 5
+      },
+      "checkInHour": "10am",
+      "checkOutHour": "9am",
+      "distanceFromCityCenterInKM": 33,
+      "contactDetails": {
+        "phone": "1-980-500-8276 x46333",
+        "email": "enchanted_hut@optimistic-underpants.name"
+      }
+    },
+    {
+      "id": 94047,
+      "venueId": 80,
+      "location": {
+        "postalCode": "25-001",
+        "name": "kielce"
+      },
+      "pricePerNightInEUR": 99.88,
+      "rating": 4.5,
+      "numberOfReviews": 377,
+      "capacity": 12,
+      "name": "glamping tent",
+      "albumId": 12,
+      "description": "Discover the magic of glamping tent nestled in the heart of kielce. This beautifully appointed property combines comfort with authentic local character, making it perfect for those seeking a unique and memorable experience.",
+      "features": [
+        "printer",
+        "kitchen facilities",
+        "sauna",
+        "kayak rental",
+        "heating",
+        "washing machine"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 16,
+        "amoutOfBeds": 8
+      },
+      "checkInHour": "10am",
+      "checkOutHour": "11am",
+      "distanceFromCityCenterInKM": 47,
+      "contactDetails": {
+        "phone": "884.626.2591",
+        "email": "glamping_tent@feline-thorn.biz"
+      }
+    },
+    {
+      "id": 90572,
+      "venueId": 81,
+      "location": {
+        "postalCode": "19-300",
+        "name": "ełk"
+      },
+      "pricePerNightInEUR": 27.6,
+      "rating": 4.8,
+      "numberOfReviews": 286,
+      "capacity": 5,
+      "name": "cozy cabin",
+      "albumId": 1,
+      "description": "Welcome to cozy cabin, a hidden gem in ełk that perfectly balances rustic charm with modern convenience. This property is ideal for travelers who appreciate attention to detail and authentic experiences.",
+      "features": [
+        "safe",
+        "washing machine",
+        "hypoallergic bedding",
+        "bike rental",
+        "workspace",
+        "microwave",
+        "fireplace",
+        "terrace",
+        "ski storage",
+        "parking",
+        "game room",
+        "pet friendly",
+        "WiFi",
+        "garden",
+        "kayak rental"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 8,
+        "amoutOfBeds": 4
+      },
+      "checkInHour": "2pm",
+      "checkOutHour": "9am",
+      "distanceFromCityCenterInKM": 15,
+      "contactDetails": {
+        "phone": "1-842-881-7046 x8840",
+        "email": "cozy_cabin@defenseless-lotion.info"
+      }
+    },
+    {
+      "id": 87900,
+      "venueId": 82,
+      "location": {
+        "postalCode": "90-001",
+        "name": "łódź"
+      },
+      "pricePerNightInEUR": 20.55,
+      "rating": 5,
+      "numberOfReviews": 202,
+      "capacity": 12,
+      "name": "eco lodge",
+      "albumId": 85,
+      "description": "Welcome to eco lodge, a hidden gem in łódź that perfectly balances rustic charm with modern convenience. This property is ideal for travelers who appreciate attention to detail and authentic experiences.",
+      "features": [
+        "lake and mountains nearby",
+        "barbecue",
+        "dishwasher",
+        "pool",
+        "bike rental",
+        "terrace",
+        "microwave",
+        "garden",
+        "library",
+        "pet friendly",
+        "game room"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 14,
+        "amoutOfBeds": 7
+      },
+      "checkInHour": "2pm",
+      "checkOutHour": "11am",
+      "distanceFromCityCenterInKM": 30,
+      "contactDetails": {
+        "phone": "399-636-0591",
+        "email": "eco_lodge@vivacious-heating.com"
+      }
+    },
+    {
+      "id": 53485,
+      "venueId": 83,
+      "location": {
+        "postalCode": "00-001",
+        "name": "warszawa"
+      },
+      "pricePerNightInEUR": 54.34,
+      "rating": 4.5,
+      "numberOfReviews": 168,
+      "capacity": 2,
+      "name": "minimalist lodge",
+      "albumId": 9,
+      "description": "minimalist lodge is a perfect getaway located in warszawa. This charming accommodation offers a peaceful retreat surrounded by natural beauty. Whether you're looking for adventure or relaxation, this venue provides the ideal base for your stay.",
+      "features": [
+        "terrace",
+        "ski storage",
+        "game room",
+        "sauna",
+        "fireplace",
+        "bathroom facilities",
+        "dishwasher",
+        "hot tub",
+        "washing machine",
+        "heating",
+        "workspace",
+        "speakers",
+        "pool"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 5,
+        "amoutOfBeds": 3
+      },
+      "checkInHour": "3pm",
+      "checkOutHour": "10am",
+      "distanceFromCityCenterInKM": 39,
+      "contactDetails": {
+        "phone": "615.422.4038 x35432",
+        "email": "minimalist_lodge@dull-outrun.com"
+      }
+    },
+    {
+      "id": 68043,
+      "venueId": 84,
+      "location": {
+        "postalCode": "20-001",
+        "name": "lublin"
+      },
+      "pricePerNightInEUR": 58.32,
+      "rating": 4.2,
+      "numberOfReviews": 152,
+      "capacity": 3,
+      "name": "wellness center",
+      "albumId": 99,
+      "description": "Experience tranquility at wellness center, thoughtfully designed to provide guests with exceptional comfort in lublin. The property features modern amenities while maintaining its distinctive charm and connection to the local environment.",
+      "features": [
+        "garden",
+        "parking",
+        "pet friendly",
+        "terrace",
+        "TV",
+        "barbecue",
+        "sauna",
+        "fireplace",
+        "gym",
+        "lake and mountains nearby",
+        "hiking trails"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 4,
+        "amoutOfBeds": 2
+      },
+      "checkInHour": "1pm",
+      "checkOutHour": "9am",
+      "distanceFromCityCenterInKM": 12,
+      "contactDetails": {
+        "phone": "818.745.4129 x416",
+        "email": "wellness_center@distant-straw.org"
+      }
+    },
+    {
+      "id": 41823,
+      "venueId": 85,
+      "location": {
+        "postalCode": "60-001",
+        "name": "poznań"
+      },
+      "pricePerNightInEUR": 66.89,
+      "rating": 4.4,
+      "numberOfReviews": 382,
+      "capacity": 8,
+      "name": "modern retreat",
+      "albumId": 26,
+      "description": "Welcome to modern retreat, a hidden gem in poznań that perfectly balances rustic charm with modern convenience. This property is ideal for travelers who appreciate attention to detail and authentic experiences.",
+      "features": [
+        "kayak rental",
+        "hot tub",
+        "pet friendly",
+        "gym",
+        "microwave",
+        "bathroom facilities"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 9,
+        "amoutOfBeds": 5
+      },
+      "checkInHour": "10am",
+      "checkOutHour": "10am",
+      "distanceFromCityCenterInKM": 30,
+      "contactDetails": {
+        "phone": "1-573-731-3286 x78332",
+        "email": "modern_retreat@nice-doubter.net"
+      }
+    },
+    {
+      "id": 51639,
+      "venueId": 86,
+      "location": {
+        "postalCode": "85-001",
+        "name": "bydgoszcz"
+      },
+      "pricePerNightInEUR": 35.67,
+      "rating": 4.9,
+      "numberOfReviews": 121,
+      "capacity": 4,
+      "name": "wooden chalet",
+      "albumId": 71,
+      "description": "wooden chalet is a perfect getaway located in bydgoszcz. This charming accommodation offers a peaceful retreat surrounded by natural beauty. Whether you're looking for adventure or relaxation, this venue provides the ideal base for your stay.",
+      "features": [
+        "washing machine",
+        "gym",
+        "game room",
+        "dishwasher",
+        "WiFi",
+        "microwave",
+        "bike rental",
+        "fireplace",
+        "barbecue"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 7,
+        "amoutOfBeds": 4
+      },
+      "checkInHour": "1pm",
+      "checkOutHour": "12pm",
+      "distanceFromCityCenterInKM": 3,
+      "contactDetails": {
+        "phone": "(877) 477-5538 x2446",
+        "email": "wooden_chalet@innocent-cook.info"
+      }
+    },
+    {
+      "id": 45425,
+      "venueId": 87,
+      "location": {
+        "postalCode": "38-700",
+        "name": "ustrzyki dolne"
+      },
+      "pricePerNightInEUR": 32.57,
+      "rating": 4.3,
+      "numberOfReviews": 438,
+      "capacity": 10,
+      "name": "traditional manor",
+      "albumId": 35,
+      "description": "traditional manor is a perfect getaway located in ustrzyki dolne. This charming accommodation offers a peaceful retreat surrounded by natural beauty. Whether you're looking for adventure or relaxation, this venue provides the ideal base for your stay.",
+      "features": [
+        "hot tub",
+        "microwave",
+        "WiFi",
+        "garden",
+        "lake and mountains nearby",
+        "balcony",
+        "bike rental",
+        "safe"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 12,
+        "amoutOfBeds": 6
+      },
+      "checkInHour": "11am",
+      "checkOutHour": "10am",
+      "distanceFromCityCenterInKM": 41,
+      "contactDetails": {
+        "phone": "(712) 500-1468",
+        "email": "traditional_manor@humble-popularity.biz"
+      }
+    },
+    {
+      "id": 58092,
+      "venueId": 88,
+      "location": {
+        "postalCode": "50-001",
+        "name": "wrocław"
+      },
+      "pricePerNightInEUR": 118.08,
+      "rating": 5,
+      "numberOfReviews": 373,
+      "capacity": 9,
+      "name": "traditional manor",
+      "albumId": 96,
+      "description": "Welcome to traditional manor, a hidden gem in wrocław that perfectly balances rustic charm with modern convenience. This property is ideal for travelers who appreciate attention to detail and authentic experiences.",
+      "features": [
+        "microwave",
+        "sauna",
+        "game room",
+        "bike rental",
+        "TV",
+        "air conditioning",
+        "ski storage",
+        "hot tub",
+        "printer",
+        "heating",
+        "safe",
+        "kitchen facilities",
+        "pool",
+        "lake and mountains nearby",
+        "parking"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 9,
+        "amoutOfBeds": 5
+      },
+      "checkInHour": "2pm",
+      "checkOutHour": "12pm",
+      "distanceFromCityCenterInKM": 14,
+      "contactDetails": {
+        "phone": "1-551-529-7221",
+        "email": "traditional_manor@accurate-diversity.net"
+      }
+    },
+    {
+      "id": 34043,
+      "venueId": 89,
+      "location": {
+        "postalCode": "38-700",
+        "name": "ustrzyki dolne"
+      },
+      "pricePerNightInEUR": 92.61,
+      "rating": 4.4,
+      "numberOfReviews": 338,
+      "capacity": 4,
+      "name": "forest retreat",
+      "albumId": 88,
+      "description": "Experience tranquility at forest retreat, thoughtfully designed to provide guests with exceptional comfort in ustrzyki dolne. The property features modern amenities while maintaining its distinctive charm and connection to the local environment.",
+      "features": [
+        "TV",
+        "washing machine",
+        "dishwasher",
+        "heating",
+        "hypoallergic bedding",
+        "speakers",
+        "workspace",
+        "balcony",
+        "microwave",
+        "safe",
+        "bike rental",
+        "air conditioning",
+        "gym",
+        "sauna",
+        "pool"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 8,
+        "amoutOfBeds": 4
+      },
+      "checkInHour": "3pm",
+      "checkOutHour": "10am",
+      "distanceFromCityCenterInKM": 29,
+      "contactDetails": {
+        "phone": "269-735-9371 x449",
+        "email": "forest_retreat@juicy-custody.com"
+      }
+    },
+    {
+      "id": 63008,
+      "venueId": 90,
+      "location": {
+        "postalCode": "50-001",
+        "name": "wrocław"
+      },
+      "pricePerNightInEUR": 47.22,
+      "rating": 4.9,
+      "numberOfReviews": 354,
+      "capacity": 4,
+      "name": "cozy cabin",
+      "albumId": 40,
+      "description": "Experience tranquility at cozy cabin, thoughtfully designed to provide guests with exceptional comfort in wrocław. The property features modern amenities while maintaining its distinctive charm and connection to the local environment.",
+      "features": [
+        "parking",
+        "ski storage",
+        "garden",
+        "hiking trails",
+        "microwave",
+        "TV",
+        "WiFi"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 6,
+        "amoutOfBeds": 3
+      },
+      "checkInHour": "10am",
+      "checkOutHour": "12pm",
+      "distanceFromCityCenterInKM": 4,
+      "contactDetails": {
+        "phone": "979.806.2161 x2494",
+        "email": "cozy_cabin@musty-declaration.org"
+      }
+    },
+    {
+      "id": 32133,
+      "venueId": 91,
+      "location": {
+        "postalCode": "60-001",
+        "name": "poznań"
+      },
+      "pricePerNightInEUR": 122.29,
+      "rating": 4.8,
+      "numberOfReviews": 154,
+      "capacity": 10,
+      "name": "enchanted hut",
+      "albumId": 79,
+      "description": "Experience tranquility at enchanted hut, thoughtfully designed to provide guests with exceptional comfort in poznań. The property features modern amenities while maintaining its distinctive charm and connection to the local environment.",
+      "features": [
+        "kayak rental",
+        "kitchen facilities",
+        "safe",
+        "terrace",
+        "microwave",
+        "bike rental",
+        "printer",
+        "WiFi",
+        "hot tub",
+        "balcony",
+        "heating",
+        "parking"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 12,
+        "amoutOfBeds": 6
+      },
+      "checkInHour": "10am",
+      "checkOutHour": "9am",
+      "distanceFromCityCenterInKM": 48,
+      "contactDetails": {
+        "phone": "1-717-700-9588 x485",
+        "email": "enchanted_hut@strong-popularity.biz"
+      }
+    },
+    {
+      "id": 22288,
+      "venueId": 92,
+      "location": {
+        "postalCode": "25-001",
+        "name": "kielce"
+      },
+      "pricePerNightInEUR": 117.48,
+      "rating": 4.4,
+      "numberOfReviews": 233,
+      "capacity": 3,
+      "name": "countryside villa",
+      "albumId": 83,
+      "description": "Welcome to countryside villa, a hidden gem in kielce that perfectly balances rustic charm with modern convenience. This property is ideal for travelers who appreciate attention to detail and authentic experiences.",
+      "features": [
+        "kitchen facilities",
+        "bathroom facilities",
+        "bike rental",
+        "kayak rental",
+        "washing machine",
+        "lake and mountains nearby"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 4,
+        "amoutOfBeds": 2
+      },
+      "checkInHour": "11am",
+      "checkOutHour": "12pm",
+      "distanceFromCityCenterInKM": 33,
+      "contactDetails": {
+        "phone": "(243) 915-5308",
+        "email": "countryside_villa@agitated-comparison.info"
+      }
+    },
+    {
+      "id": 95118,
+      "venueId": 93,
+      "location": {
+        "postalCode": "90-001",
+        "name": "łódź"
+      },
+      "pricePerNightInEUR": 119.52,
+      "rating": 4.4,
+      "numberOfReviews": 298,
+      "capacity": 2,
+      "name": "vintage cabin",
+      "albumId": 13,
+      "description": "Discover the magic of vintage cabin nestled in the heart of łódź. This beautifully appointed property combines comfort with authentic local character, making it perfect for those seeking a unique and memorable experience.",
+      "features": [
+        "washing machine",
+        "barbecue",
+        "hiking trails",
+        "terrace",
+        "TV",
+        "microwave"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 5,
+        "amoutOfBeds": 3
+      },
+      "checkInHour": "12pm",
+      "checkOutHour": "9am",
+      "distanceFromCityCenterInKM": 46,
+      "contactDetails": {
+        "phone": "810-288-5703 x922",
+        "email": "vintage_cabin@regular-event.name"
+      }
+    },
+    {
+      "id": 80665,
+      "venueId": 94,
+      "location": {
+        "postalCode": "80-001",
+        "name": "gdańsk"
+      },
+      "pricePerNightInEUR": 93.62,
+      "rating": 4.7,
+      "numberOfReviews": 169,
+      "capacity": 7,
+      "name": "lakeside cottage",
+      "albumId": 84,
+      "description": "Welcome to lakeside cottage, a hidden gem in gdańsk that perfectly balances rustic charm with modern convenience. This property is ideal for travelers who appreciate attention to detail and authentic experiences.",
+      "features": [
+        "ski storage",
+        "hot tub",
+        "TV",
+        "lake and mountains nearby",
+        "WiFi",
+        "library",
+        "speakers"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 8,
+        "amoutOfBeds": 4
+      },
+      "checkInHour": "1pm",
+      "checkOutHour": "12pm",
+      "distanceFromCityCenterInKM": 3,
+      "contactDetails": {
+        "phone": "1-987-303-0048",
+        "email": "lakeside_cottage@uniform-hope.net"
+      }
+    },
+    {
+      "id": 92051,
+      "venueId": 95,
+      "location": {
+        "postalCode": "87-100",
+        "name": "toruń"
+      },
+      "pricePerNightInEUR": 113.82,
+      "rating": 4.9,
+      "numberOfReviews": 281,
+      "capacity": 6,
+      "name": "tiny house",
+      "albumId": 47,
+      "description": "tiny house is a perfect getaway located in toruń. This charming accommodation offers a peaceful retreat surrounded by natural beauty. Whether you're looking for adventure or relaxation, this venue provides the ideal base for your stay.",
+      "features": [
+        "balcony",
+        "workspace",
+        "game room",
+        "speakers",
+        "terrace",
+        "bike rental",
+        "air conditioning",
+        "barbecue",
+        "coffee machine",
+        "washing machine",
+        "hypoallergic bedding",
+        "garden",
+        "safe",
+        "heating",
+        "bathroom facilities"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 8,
+        "amoutOfBeds": 4
+      },
+      "checkInHour": "12pm",
+      "checkOutHour": "9am",
+      "distanceFromCityCenterInKM": 28,
+      "contactDetails": {
+        "phone": "844-217-2522",
+        "email": "tiny_house@grave-outset.org"
+      }
+    },
+    {
+      "id": 76501,
+      "venueId": 96,
+      "location": {
+        "postalCode": "35-001",
+        "name": "rzeszów"
+      },
+      "pricePerNightInEUR": 21.41,
+      "rating": 4.4,
+      "numberOfReviews": 368,
+      "capacity": 9,
+      "name": "eco lodge",
+      "albumId": 74,
+      "description": "Welcome to eco lodge, a hidden gem in rzeszów that perfectly balances rustic charm with modern convenience. This property is ideal for travelers who appreciate attention to detail and authentic experiences.",
+      "features": [
+        "heating",
+        "kitchen facilities",
+        "hot tub",
+        "coffee machine",
+        "dishwasher",
+        "WiFi",
+        "barbecue",
+        "balcony",
+        "lake and mountains nearby",
+        "TV",
+        "gym",
+        "ski storage",
+        "kayak rental",
+        "pool",
+        "bike rental"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 12,
+        "amoutOfBeds": 6
+      },
+      "checkInHour": "1pm",
+      "checkOutHour": "10am",
+      "distanceFromCityCenterInKM": 6,
+      "contactDetails": {
+        "phone": "1-790-575-5913",
+        "email": "eco_lodge@circular-alb.info"
+      }
+    },
+    {
+      "id": 21629,
+      "venueId": 97,
+      "location": {
+        "postalCode": "00-001",
+        "name": "warszawa"
+      },
+      "pricePerNightInEUR": 74.12,
+      "rating": 4.1,
+      "numberOfReviews": 368,
+      "capacity": 10,
+      "name": "eco lodge",
+      "albumId": 56,
+      "description": "Discover the magic of eco lodge nestled in the heart of warszawa. This beautifully appointed property combines comfort with authentic local character, making it perfect for those seeking a unique and memorable experience.",
+      "features": [
+        "ski storage",
+        "game room",
+        "kayak rental",
+        "fireplace",
+        "pet friendly",
+        "TV",
+        "microwave",
+        "parking",
+        "gym"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 12,
+        "amoutOfBeds": 6
+      },
+      "checkInHour": "1pm",
+      "checkOutHour": "12pm",
+      "distanceFromCityCenterInKM": 38,
+      "contactDetails": {
+        "phone": "802-598-1113 x8053",
+        "email": "eco_lodge@animated-remark.net"
+      }
+    },
+    {
+      "id": 80546,
+      "venueId": 98,
+      "location": {
+        "postalCode": "26-600",
+        "name": "radom"
+      },
+      "pricePerNightInEUR": 62.67,
+      "rating": 5,
+      "numberOfReviews": 229,
+      "capacity": 2,
+      "name": "traditional manor",
+      "albumId": 7,
+      "description": "traditional manor is a perfect getaway located in radom. This charming accommodation offers a peaceful retreat surrounded by natural beauty. Whether you're looking for adventure or relaxation, this venue provides the ideal base for your stay.",
+      "features": [
+        "hypoallergic bedding",
+        "washing machine",
+        "pool",
+        "kayak rental",
+        "printer",
+        "lake and mountains nearby",
+        "safe"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 2,
+        "amoutOfBeds": 1
+      },
+      "checkInHour": "12pm",
+      "checkOutHour": "11am",
+      "distanceFromCityCenterInKM": 48,
+      "contactDetails": {
+        "phone": "733-344-4815 x7009",
+        "email": "traditional_manor@formal-godparent.biz"
+      }
+    },
+    {
+      "id": 52598,
+      "venueId": 99,
+      "location": {
+        "postalCode": "80-001",
+        "name": "gdańsk"
+      },
+      "pricePerNightInEUR": 143.98,
+      "rating": 3.9,
+      "numberOfReviews": 300,
+      "capacity": 9,
+      "name": "artistic studio",
+      "albumId": 7,
+      "description": "artistic studio is a perfect getaway located in gdańsk. This charming accommodation offers a peaceful retreat surrounded by natural beauty. Whether you're looking for adventure or relaxation, this venue provides the ideal base for your stay.",
+      "features": [
+        "coffee machine",
+        "pool",
+        "washing machine",
+        "bathroom facilities",
+        "sauna",
+        "fireplace",
+        "terrace",
+        "library",
+        "workspace",
+        "pet friendly",
+        "game room"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 13,
+        "amoutOfBeds": 7
+      },
+      "checkInHour": "3pm",
+      "checkOutHour": "11am",
+      "distanceFromCityCenterInKM": 41,
+      "contactDetails": {
+        "phone": "755.275.5049 x35227",
+        "email": "artistic_studio@funny-asset.com"
+      }
+    },
+    {
+      "id": 60028,
+      "venueId": 100,
+      "location": {
+        "postalCode": "81-001",
+        "name": "sopot"
+      },
+      "pricePerNightInEUR": 42.9,
+      "rating": 3.5,
+      "numberOfReviews": 379,
+      "capacity": 3,
+      "name": "wellness center",
+      "albumId": 79,
+      "description": "Welcome to wellness center, a hidden gem in sopot that perfectly balances rustic charm with modern convenience. This property is ideal for travelers who appreciate attention to detail and authentic experiences.",
+      "features": [
+        "pool",
+        "hiking trails",
+        "garden",
+        "bike rental",
+        "hot tub",
+        "gym",
+        "TV",
+        "game room",
+        "coffee machine",
+        "lake and mountains nearby",
+        "balcony",
+        "printer",
+        "ski storage",
+        "microwave",
+        "safe"
+      ],
+      "sleapingDetails": {
+        "maxCapacity": 3,
+        "amoutOfBeds": 2
+      },
+      "checkInHour": "1pm",
+      "checkOutHour": "10am",
+      "distanceFromCityCenterInKM": 40,
+      "contactDetails": {
+        "phone": "242-992-8753 x8676",
+        "email": "wellness_center@grumpy-iridescence.com"
+      }
+    }
+  ]
+}
