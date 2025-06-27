@@ -1,8 +1,14 @@
 import { Container, Box, Typography, Button } from '@mui/material';
+import { Link } from 'react-router-dom';
 
 export const NavBar = () => {
 
-  const pages = ['About us', 'Your favourites', 'Start hosting', 'Login'];
+  const pages = [
+    { name: 'About us', path: '/about-us' },
+    { name: 'Your favourites', path: '/your-favourites' },
+    { name: 'Start hosting', path: '/start-hosting' },
+    { name: 'Login', path: '/login' }
+  ];
 
   return (
       <Box sx={{ boxShadow: 2 }}>
@@ -11,8 +17,8 @@ export const NavBar = () => {
             <Typography
               variant="h6"
               noWrap
-              component="a"
-              href="#app-bar-with-responsive-menu"
+              component={Link}
+              to="/"
               sx={{
                 mr: 2,
                 display: 'flex',
@@ -28,10 +34,12 @@ export const NavBar = () => {
             <Box sx={{ display: 'flex' }}>
               {pages.map((page) => (
                 <Button
-                  key={page}
+                  key={page.name}
+                  component={Link}
+                  to={page.path}
                   sx={{ my: 2, color: '#333', display: 'block' }}
                 >
-                  {page}
+                  {page.name}
                 </Button>
               ))}
             </Box>
