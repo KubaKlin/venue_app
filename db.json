@@ -1253,13 +1253,7 @@
       "name": "traditional manor",
       "albumId": 9,
       "description": "traditional manor offers an unforgettable stay in the picturesque setting of kraków. This carefully curated space provides all the comforts you need while allowing you to immerse yourself in the natural beauty of the surrounding area.",
-      "features": [
-        "parking",
-        "hot tub",
-        "heating",
-        "gym",
-        "hiking trails"
-      ],
+      "features": ["parking", "hot tub", "heating", "gym", "hiking trails"],
       "sleapingDetails": {
         "maxCapacity": 8,
         "amoutOfBeds": 4
@@ -3681,13 +3675,7 @@
       "name": "stone cottage",
       "albumId": 92,
       "description": "Welcome to stone cottage, a hidden gem in radom that perfectly balances rustic charm with modern convenience. This property is ideal for travelers who appreciate attention to detail and authentic experiences.",
-      "features": [
-        "library",
-        "hot tub",
-        "balcony",
-        "game room",
-        "dishwasher"
-      ],
+      "features": ["library", "hot tub", "balcony", "game room", "dishwasher"],
       "sleapingDetails": {
         "maxCapacity": 6,
         "amoutOfBeds": 3
@@ -3981,14 +3969,7 @@
       "name": "stone cottage",
       "albumId": 21,
       "description": "Discover the magic of stone cottage nestled in the heart of białystok. This beautifully appointed property combines comfort with authentic local character, making it perfect for those seeking a unique and memorable experience.",
-      "features": [
-        "bike rental",
-        "TV",
-        "pool",
-        "library",
-        "balcony",
-        "gym"
-      ],
+      "features": ["bike rental", "TV", "pool", "library", "balcony", "gym"],
       "sleapingDetails": {
         "maxCapacity": 5,
         "amoutOfBeds": 3
