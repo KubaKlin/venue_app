@@ -5,6 +5,7 @@ import { YourFavourites } from './pages/YourFavourites';
 import { StartHosting } from './pages/StartHosting';
 import { Login } from './pages/Login';
 import { FilterBaner } from './components/FilterBaner/FilterBaner';
+import { VenueList } from "./pages/VenueList";
 
 export const App = () => {
   return (
@@ -12,6 +13,7 @@ export const App = () => {
       <NavBar />
       <FilterBaner />
       <Routes>
+        <Route path="/" element={<VenueList />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/your-favourites" element={<YourFavourites />} />
         <Route path="/start-hosting" element={<StartHosting />} />
