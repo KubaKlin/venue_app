@@ -1,17 +1,17 @@
 import { Routes, Route } from 'react-router-dom';
 import { NavBar } from './components/NavBar/NavBar';
-import { Home } from './components/pages/Home';
-import { AboutUs } from './components/pages/AboutUs';
-import { YourFavourites } from './components/pages/YourFavourites';
-import { StartHosting } from './components/pages/StartHosting';
-import { Login } from './components/pages/Login';
+import { AboutUs } from './pages/AboutUs';
+import { YourFavourites } from './pages/YourFavourites';
+import { StartHosting } from './pages/StartHosting';
+import { Login } from './pages/Login';
+import { FilterBaner } from './components/FilterBaner/FilterBaner';
 
 export const App = () => {
   return (
     <>
       <NavBar />
+      <FilterBaner />
       <Routes>
-        <Route path="/" element={<Home />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/your-favourites" element={<YourFavourites />} />
         <Route path="/start-hosting" element={<StartHosting />} />
