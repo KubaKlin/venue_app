@@ -59,25 +59,29 @@ export const FilterPanel = () => {
   const handlePriceChange = createPriceHandler(setPriceRange);
   const handleAmenityChange = createAmenityHandler(setAmenities);
   const handleRoomAmenityChange = createRoomAmenityHandler(setRoomAmenities);
-  const handleNeighbourhoodChange = createNeighbourhoodHandler(setNeighbourhoods);
-  const handleHandicapAccessibilityChange = createHandicapAccessibilityHandler(setHandicapAccessibility);
+  const handleNeighbourhoodChange =
+    createNeighbourhoodHandler(setNeighbourhoods);
+  const handleHandicapAccessibilityChange = createHandicapAccessibilityHandler(
+    setHandicapAccessibility,
+  );
 
   const stateMap = {
-    'amenities': amenities,
+    amenities: amenities,
     'room-amenities': roomAmenities,
-    'neighbourhoods': neighbourhoods,
+    neighbourhoods: neighbourhoods,
     'handicap-accessibility': handicapAccessibility,
   };
 
   const handlerMap = {
-    'amenities': handleAmenityChange,
+    amenities: handleAmenityChange,
     'room-amenities': handleRoomAmenityChange,
-    'neighbourhoods': handleNeighbourhoodChange,
+    neighbourhoods: handleNeighbourhoodChange,
     'handicap-accessibility': handleHandicapAccessibilityChange,
   };
 
   const getStateBySection = (sectionId) => stateMap[sectionId] || {};
-  const getHandlerBySection = (sectionId) => handlerMap[sectionId] || (() => {});
+  const getHandlerBySection = (sectionId) =>
+    handlerMap[sectionId] || (() => {});
 
   return (
     <Paper
@@ -148,9 +152,7 @@ export const FilterPanel = () => {
                 },
               }}
             >
-              <Typography>
-                {section.title}
-              </Typography>
+              <Typography>{section.title}</Typography>
             </AccordionSummary>
             <AccordionDetails sx={{ mt: 1 }}>
               {section.type === 'slider'
