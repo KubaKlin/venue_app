@@ -1,11 +1,11 @@
 export const filterSections = [
-  { 
-    id: 'price-range', 
+  {
+    id: 'price-range',
     title: 'price range',
     type: 'slider',
   },
-  { 
-    id: 'amenities', 
+  {
+    id: 'amenities',
     title: 'amenities',
     type: 'checkbox',
     options: [
@@ -16,8 +16,8 @@ export const filterSections = [
       { key: 'kitchen', label: 'Kitchen' },
     ],
   },
-  { 
-    id: 'room-amenities', 
+  {
+    id: 'room-amenities',
     title: 'room amenities',
     type: 'checkbox',
     options: [
@@ -28,8 +28,8 @@ export const filterSections = [
       { key: 'bathtub', label: 'Bathtub' },
     ],
   },
-  { 
-    id: 'neighbourhoods', 
+  {
+    id: 'neighbourhoods',
     title: 'neighbourhoods',
     type: 'checkbox',
     options: [
@@ -40,8 +40,8 @@ export const filterSections = [
       { key: 'countryside', label: 'Countryside' },
     ],
   },
-  { 
-    id: 'handicap-accessibility', 
+  {
+    id: 'handicap-accessibility',
     title: 'handicap accessibility',
     type: 'checkbox',
     options: [
@@ -51,4 +51,4 @@ export const filterSections = [
       { key: 'accessibleBathroom', label: 'Accessible Bathroom' },
     ],
   },
-]; 
+];

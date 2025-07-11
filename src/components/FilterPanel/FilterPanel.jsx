@@ -80,37 +80,22 @@ export const FilterPanel = () => {
     }));
   };
 
-  
-
-  const getStateBySection = (sectionId) => {
-    switch (sectionId) {
-      case 'amenities':
-        return amenities;
-      case 'room-amenities':
-        return roomAmenities;
-      case 'neighbourhoods':
-        return neighbourhoods;
-      case 'handicap-accessibility':
-        return handicapAccessibility;
-      default:
-        return {};
-    }
+  const stateMap = {
+    'amenities': amenities,
+    'room-amenities': roomAmenities,
+    'neighbourhoods': neighbourhoods,
+    'handicap-accessibility': handicapAccessibility,
   };
 
-  const getHandlerBySection = (sectionId) => {
-    switch (sectionId) {
-      case 'amenities':
-        return handleAmenityChange;
-      case 'room-amenities':
-        return handleRoomAmenityChange;
-      case 'neighbourhoods':
-        return handleNeighbourhoodChange;
-      case 'handicap-accessibility':
-        return handleHandicapAccessibilityChange;
-      default:
-        return () => {};
-    }
+  const handlerMap = {
+    'amenities': handleAmenityChange,
+    'room-amenities': handleRoomAmenityChange,
+    'neighbourhoods': handleNeighbourhoodChange,
+    'handicap-accessibility': handleHandicapAccessibilityChange,
   };
+
+  const getStateBySection = (sectionId) => stateMap[sectionId] || {};
+  const getHandlerBySection = (sectionId) => handlerMap[sectionId] || (() => {});
 
   return (
     <Paper
