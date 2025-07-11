@@ -1,14 +1,14 @@
 import { useState } from 'react';
-import { 
-  Container, 
-  Box, 
-  Typography, 
-  Button, 
+import {
+  Container,
+  Box,
+  Typography,
+  Button,
   IconButton,
   Menu,
   MenuItem,
   useTheme,
-  useMediaQuery
+  useMediaQuery,
 } from '@mui/material';
 import { Menu as MenuIcon } from '@mui/icons-material';
 import { Link } from 'react-router-dom';
@@ -22,7 +22,7 @@ export const NavBar = () => {
     { name: 'About us', path: '/about-us' },
     { name: 'Your favourites', path: '/your-favourites' },
     { name: 'Start hosting', path: '/start-hosting' },
-    { name: 'Login', path: '/login' }
+    { name: 'Login', path: '/login' },
   ];
 
   const handleOpenNavMenu = (event) => {
@@ -36,7 +36,13 @@ export const NavBar = () => {
   return (
     <Box sx={{ boxShadow: 2 }}>
       <Container maxWidth="lg">
-        <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+        <Box
+          sx={{
+            display: 'flex',
+            justifyContent: 'space-between',
+            alignItems: 'center',
+          }}
+        >
           <Typography
             variant="h6"
             noWrap
@@ -102,8 +108,8 @@ export const NavBar = () => {
                 }}
               >
                 {pages.map((page) => (
-                  <MenuItem 
-                    key={page.name} 
+                  <MenuItem
+                    key={page.name}
                     onClick={handleCloseNavMenu}
                     component={Link}
                     to={page.path}

@@ -1,17 +1,13 @@
 import { TextField, InputAdornment } from '@mui/material';
 
-export const FilterTextField = ({ 
-  label, 
-  startIcon, 
-  endIcon, 
-}) => {
+export const FilterTextField = ({ label, startIcon, endIcon }) => {
   const defaultSx = {
     backgroundColor: '#fff',
     borderRadius: 1,
   };
 
   const slotProps = {
-    input: {}
+    input: {},
   };
 
   if (startIcon) {
@@ -34,4 +30,4 @@ export const FilterTextField = ({
       slotProps={slotProps}
     />
   );
-}; 
+};

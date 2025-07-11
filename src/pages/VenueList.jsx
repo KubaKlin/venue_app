@@ -1,5 +1,5 @@
 import { Container, Typography, Box, Grid } from '@mui/material';
-import { FilterPanel } from "../components/FilterPanel/FilterPanel";
+import { FilterPanel } from '../components/FilterPanel/FilterPanel';
 
 export const VenueList = () => {
   return (
@@ -10,13 +10,15 @@ export const VenueList = () => {
         </Grid>
 
         <Grid item xs={12} md={9}>
-          <Box sx={{
-            p: 3,
-            backgroundColor: '#fafafa',
-            borderRadius: 2,
-            minHeight: 400
-          }}>
-            <Typography variant="h6" sx={{ mb: 2}}>
+          <Box
+            sx={{
+              p: 3,
+              backgroundColor: '#fafafa',
+              borderRadius: 2,
+              minHeight: 400,
+            }}
+          >
+            <Typography variant="h6" sx={{ mb: 2 }}>
               Venue list
             </Typography>
           </Box>
@@ -24,4 +26,4 @@ export const VenueList = () => {
       </Grid>
     </Container>
   );
-}; 
+};

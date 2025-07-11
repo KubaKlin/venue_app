@@ -5,7 +5,7 @@ import { YourFavourites } from './pages/YourFavourites';
 import { StartHosting } from './pages/StartHosting';
 import { Login } from './pages/Login';
 import { FilterBaner } from './components/FilterBaner/FilterBaner';
-import { VenueList } from "./pages/VenueList";
+import { VenueList } from './pages/VenueList';
 
 export const App = () => {
   return (

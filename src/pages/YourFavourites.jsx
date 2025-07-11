@@ -10,4 +10,4 @@ export const YourFavourites = () => {
       </Box>
     </Container>
   );
-}; 
+};
