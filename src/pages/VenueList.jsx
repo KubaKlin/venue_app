@@ -1,5 +1,6 @@
-import { Container, Typography, Box, Grid } from '@mui/material';
+import { Container, Box, Grid } from '@mui/material';
 import { FilterPanel } from '../components/FilterPanel/FilterPanel';
+import { VenueListGrid } from '../components/VenueList/VenueListGrid';
 
 export const VenueList = () => {
   return (
@@ -18,9 +19,7 @@ export const VenueList = () => {
               minHeight: 400,
             }}
           >
-            <Typography variant="h6" sx={{ mb: 2 }}>
-              Venue list
-            </Typography>
+            <VenueListGrid />
           </Box>
         </Grid>
       </Grid>
