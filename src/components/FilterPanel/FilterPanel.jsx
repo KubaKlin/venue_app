@@ -13,6 +13,13 @@ import { PriceSlider } from './PriceSlider';
 import { CheckboxGroup } from './CheckboxGroup';
 import { HandleReset } from './HandleReset';
 import { filterSections } from './filterConfig';
+import {
+  createAmenityHandler,
+  createRoomAmenityHandler,
+  createNeighbourhoodHandler,
+  createHandicapAccessibilityHandler,
+  createPriceHandler,
+} from './filterHandlers';
 
 export const FilterPanel = () => {
   const [priceRange, setPriceRange] = useState([50, 500]);
@@ -48,37 +55,12 @@ export const FilterPanel = () => {
     accessibleBathroom: false,
   });
 
-  const handlePriceChange = (event, newValue) => {
-    setPriceRange(newValue);
-  };
-
-  const handleAmenityChange = (amenity) => (event) => {
-    setAmenities((prev) => ({
-      ...prev,
-      [amenity]: event.target.checked,
-    }));
-  };
-
-  const handleRoomAmenityChange = (amenity) => (event) => {
-    setRoomAmenities((prev) => ({
-      ...prev,
-      [amenity]: event.target.checked,
-    }));
-  };
-
-  const handleNeighbourhoodChange = (neighbourhood) => (event) => {
-    setNeighbourhoods((prev) => ({
-      ...prev,
-      [neighbourhood]: event.target.checked,
-    }));
-  };
-
-  const handleHandicapAccessibilityChange = (accessibility) => (event) => {
-    setHandicapAccessibility((prev) => ({
-      ...prev,
-      [accessibility]: event.target.checked,
-    }));
-  };
+  // Create handlers using imported handler creators
+  const handlePriceChange = createPriceHandler(setPriceRange);
+  const handleAmenityChange = createAmenityHandler(setAmenities);
+  const handleRoomAmenityChange = createRoomAmenityHandler(setRoomAmenities);
+  const handleNeighbourhoodChange = createNeighbourhoodHandler(setNeighbourhoods);
+  const handleHandicapAccessibilityChange = createHandicapAccessibilityHandler(setHandicapAccessibility);
 
   const stateMap = {
     'amenities': amenities,
