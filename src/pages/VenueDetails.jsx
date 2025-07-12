@@ -21,7 +21,6 @@ export const VenueDetails = () => {
         setLoading(true);
         const response = await fetch(`http://localhost:3999/venuesDetails?venueId=${id}`);
         const data = await response.json();
-        // The endpoint returns an array, so we take the first (and should be only) result
         setVenue(data.length > 0 ? data[0] : null);
       } catch (error) {
         console.error('Error loading venue:', error);
