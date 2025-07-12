@@ -1,5 +1,6 @@
 import { Box, Card, Typography } from '@mui/material';
 import { LocationOn, People, Star } from '@mui/icons-material';
+import { Link } from "react-router-dom";
 
 export const VenueCard = ({ venue }) => (
   <Card
@@ -12,6 +13,8 @@ export const VenueCard = ({ venue }) => (
       cursor: 'pointer',
     }}
     elevation={0}
+    component={Link}
+    to={`/venue-details/${venue.id}`}
   >
     <Box
       sx={{

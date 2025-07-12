@@ -4,8 +4,8 @@ import { useState, useEffect } from 'react';
 import { VenueCard } from './VenueCard';
 import { VenueListSummary } from './VenueListSummary';
 import { VenueListPagination } from './VenueListPagination';
-import { VenuesListIsLoading } from './VenuesListIsLoading';
-import { VenueListEmpty } from './VenueListEmpty.jsx';
+import { LoadingInfo } from '../LoadingInfo/LoadingInfo';
+import { ErrorInfo } from "../ErrorInfo/ErrorInfo";
 
 const ITEMS_PER_PAGE = 12;
 
@@ -45,7 +45,7 @@ export const VenueListGrid = () => {
   const totalPages = Math.ceil(venues.length / ITEMS_PER_PAGE);
 
   if (loading) {
-    return <VenuesListIsLoading />;
+    return <LoadingInfo />;
   }
 
   return (
@@ -56,7 +56,7 @@ export const VenueListGrid = () => {
         endIndex={endIndex}
       />
 
-      {venues.length === 0 && !loading && <VenueListEmpty />}
+      {venues.length === 0 && !loading && <ErrorInfo text={'No venues found'} />}
 
       {/* Venue Grid */}
       <Grid container spacing={3} sx={{ mb: 4 }}>

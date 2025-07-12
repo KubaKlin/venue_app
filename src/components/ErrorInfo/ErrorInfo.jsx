@@ -1,6 +1,6 @@
 import { Box, Typography } from '@mui/material';
 
-export const VenueListEmpty = () => {
+export const ErrorInfo = ({ text }) => {
   return (
     <Box
       sx={{
@@ -13,7 +13,7 @@ export const VenueListEmpty = () => {
       }}
     >
       <Typography variant="h6" sx={{ color: '#7f8c8d' }}>
-        No venues found
+        {text}
       </Typography>
     </Box>
   );
