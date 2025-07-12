@@ -18,9 +18,9 @@ export const VenueListGrid = () => {
     const loadVenues = async () => {
       try {
         setLoading(true);
-        const response = await fetch('/db.json');
+        const response = await fetch('http://localhost:3999/venues');
         const data = await response.json();
-        setVenues(data.venues || []);
+        setVenues(data || []);
       } catch (error) {
         console.error('Error loading venues:', error);
         setVenues([]);
@@ -56,6 +56,8 @@ export const VenueListGrid = () => {
         endIndex={endIndex}
       />
 
+      {venues.length === 0 && !loading && <VenueListEmpty />}
+
       {/* Venue Grid */}
       <Grid container spacing={3} sx={{ mb: 4 }}>
         {currentVenues.map((venue) => (
@@ -70,8 +72,6 @@ export const VenueListGrid = () => {
         currentPage={currentPage}
         handlePageChange={handlePageChange}
       />
-
-      {venues.length === 0 && !loading && <VenueListEmpty />}
     </Box>
   );
 };
