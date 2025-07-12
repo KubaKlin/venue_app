@@ -42,7 +42,6 @@ export const VenueListGrid = () => {
         <ErrorInfo text={'No venues found'} />
       )}
 
-      {/* Venue Grid */}
       <Grid container spacing={3} sx={{ mb: 4 }}>
         {currentVenues.map((venue) => (
           <Grid key={venue.id} size={{ xs: 12, sm: 6, md: 4 }}>
