@@ -8,75 +8,72 @@ import {
   Paper,
 } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import { useState } from 'react';
+import { useForm } from 'react-hook-form';
 import { PriceSlider } from './PriceSlider';
 import { CheckboxGroup } from './CheckboxGroup';
-import { HandleReset } from './HandleReset';
 import { filterSections } from './filterConfig';
-import {
-  createAmenityHandler,
-  createRoomAmenityHandler,
-  createNeighbourhoodHandler,
-  createHandicapAccessibilityHandler,
-  createPriceHandler,
-} from './filterHandlers';
 
 export const FilterPanel = () => {
-  const [priceRange, setPriceRange] = useState([50, 500]);
-
-  const [amenities, setAmenities] = useState({
-    wifi: false,
-    parking: false,
-    pool: false,
-    gym: false,
-    kitchen: false,
+  const { watch, setValue, reset } = useForm({
+    defaultValues: {
+      priceRange: [50, 500],
+      amenities: {
+        wifi: false,
+        parking: false,
+        pool: false,
+        gym: false,
+        kitchen: false,
+      },
+      roomAmenities: {
+        airConditioning: false,
+        tv: false,
+        minibar: false,
+        balcony: false,
+        bathtub: false,
+      },
+      neighbourhoods: {
+        downtown: false,
+        suburb: false,
+        beachfront: false,
+        mountains: false,
+        countryside: false,
+      },
+      handicapAccessibility: {
+        wheelchairAccessible: false,
+        elevatorAccess: false,
+        wideDoorways: false,
+        accessibleBathroom: false,
+      },
+    },
   });
 
-  const [roomAmenities, setRoomAmenities] = useState({
-    airConditioning: false,
-    tv: false,
-    minibar: false,
-    balcony: false,
-    bathtub: false,
-  });
+  const watchedValues = watch();
 
-  const [neighbourhoods, setNeighbourhoods] = useState({
-    downtown: false,
-    suburb: false,
-    beachfront: false,
-    mountains: false,
-    countryside: false,
-  });
+  const handleReset = () => {
+    reset();
+  };
 
-  const [handicapAccessibility, setHandicapAccessibility] = useState({
-    wheelchairAccessible: false,
-    elevatorAccess: false,
-    wideDoorways: false,
-    accessibleBathroom: false,
-  });
+  const handlePriceChange = (event, newValue) => {
+    setValue('priceRange', newValue);
+  };
 
-  // Create handlers using imported handler creators
-  const handlePriceChange = createPriceHandler(setPriceRange);
-  const handleAmenityChange = createAmenityHandler(setAmenities);
-  const handleRoomAmenityChange = createRoomAmenityHandler(setRoomAmenities);
-  const handleNeighbourhoodChange =
-    createNeighbourhoodHandler(setNeighbourhoods);
-  const handleHandicapAccessibilityChange = createHandicapAccessibilityHandler(
-    setHandicapAccessibility,
-  );
+  const createCheckboxHandler = (sectionKey) => (optionKey) => () => {
+    const currentValue = watchedValues[sectionKey]?.[optionKey] || false;
+    setValue(`${sectionKey}.${optionKey}`, !currentValue);
+  };
 
   const stateMap = {
-    amenities: amenities,
-    'room-amenities': roomAmenities,
-    neighbourhoods: neighbourhoods,
-    'handicap-accessibility': handicapAccessibility,
+    amenities: watchedValues.amenities || {},
+    'room-amenities': watchedValues.roomAmenities || {},
+    neighbourhoods: watchedValues.neighbourhoods || {},
+    'handicap-accessibility': watchedValues.handicapAccessibility || {},
   };
 
   const handlerMap = {
-    amenities: handleAmenityChange,
-    'room-amenities': handleRoomAmenityChange,
-    neighbourhoods: handleNeighbourhoodChange,
-    'handicap-accessibility': handleHandicapAccessibilityChange,
+    amenities: createCheckboxHandler('amenities'),
+    'room-amenities': createCheckboxHandler('roomAmenities'),
+    neighbourhoods: createCheckboxHandler('neighbourhoods'),
+    'handicap-accessibility': createCheckboxHandler('handicapAccessibility'),
   };
 
   const getStateBySection = (sectionId) => stateMap[sectionId] || {};
@@ -113,13 +110,7 @@ export const FilterPanel = () => {
         </Typography>
         <Button
           variant="text"
-          onClick={HandleReset({
-            setPriceRange,
-            setAmenities,
-            setRoomAmenities,
-            setNeighbourhoods,
-            setHandicapAccessibility,
-          })}
+          onClick={handleReset}
           sx={{
             color: '#4caf50',
             textTransform: 'lowercase',
@@ -130,42 +121,47 @@ export const FilterPanel = () => {
         </Button>
       </Box>
 
-      <Box>
-        {filterSections.map((section) => (
-          <Accordion
-            key={section.id}
-            elevation={0}
-            sx={{
-              backgroundColor: 'transparent',
-              '&:before': {
-                display: 'none',
-              },
-            }}
-          >
-            <AccordionSummary
-              expandIcon={<ExpandMoreIcon />}
+      <form>
+        <Box>
+          {filterSections.map((section) => (
+            <Accordion
+              key={section.id}
+              elevation={0}
               sx={{
-                backgroundColor: '#f6f6f6',
-                px: 2,
-                '& .MuiAccordionSummary-expandIconWrapper.Mui-expanded': {
-                  transform: 'rotate(180deg)',
+                backgroundColor: 'transparent',
+                '&:before': {
+                  display: 'none',
                 },
               }}
             >
-              <Typography>{section.title}</Typography>
-            </AccordionSummary>
-            <AccordionDetails sx={{ mt: 1 }}>
-              {section.type === 'slider'
-                ? PriceSlider({ priceRange, handlePriceChange })
-                : CheckboxGroup({
-                    section,
-                    getStateBySection,
-                    getHandlerBySection,
-                  })}
-            </AccordionDetails>
-          </Accordion>
-        ))}
-      </Box>
+              <AccordionSummary
+                expandIcon={<ExpandMoreIcon />}
+                sx={{
+                  backgroundColor: '#f6f6f6',
+                  px: 2,
+                  '& .MuiAccordionSummary-expandIconWrapper.Mui-expanded': {
+                    transform: 'rotate(180deg)',
+                  },
+                }}
+              >
+                <Typography>{section.title}</Typography>
+              </AccordionSummary>
+              <AccordionDetails sx={{ mt: 1 }}>
+                {section.type === 'slider'
+                  ? PriceSlider({ 
+                      priceRange: watchedValues.priceRange || [50, 500], 
+                      handlePriceChange 
+                    })
+                  : CheckboxGroup({
+                      section,
+                      getStateBySection,
+                      getHandlerBySection,
+                    })}
+              </AccordionDetails>
+            </Accordion>
+          ))}
+        </Box>
+      </form>
     </Paper>
   );
 };
