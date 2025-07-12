@@ -1,6 +1,6 @@
 import { Box, Card, Typography } from '@mui/material';
 import { LocationOn, People, Star } from '@mui/icons-material';
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 export const VenueCard = ({ venue }) => (
   <Card
@@ -60,7 +60,12 @@ export const VenueCard = ({ venue }) => (
         <Box sx={{ display: 'flex', alignItems: 'center' }}>
           <LocationOn sx={{ fontSize: 16, color: 'rgba(255,255,255,0.7)' }} />
           <Typography
-            sx={{ color: 'white', textTransform: 'capitalize', fontSize: 13, marginLeft: 0.5 }}
+            sx={{
+              color: 'white',
+              textTransform: 'capitalize',
+              fontSize: 13,
+              marginLeft: 0.5,
+            }}
           >
             {venue.location.name}
           </Typography>

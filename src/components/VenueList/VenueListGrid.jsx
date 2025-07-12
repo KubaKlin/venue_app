@@ -5,7 +5,7 @@ import { VenueCard } from './VenueCard';
 import { VenueListSummary } from './VenueListSummary';
 import { VenueListPagination } from './VenueListPagination';
 import { LoadingInfo } from '../LoadingInfo/LoadingInfo';
-import { ErrorInfo } from "../ErrorInfo/ErrorInfo";
+import { ErrorInfo } from '../ErrorInfo/ErrorInfo';
 
 const ITEMS_PER_PAGE = 12;
 
@@ -56,7 +56,9 @@ export const VenueListGrid = () => {
         endIndex={endIndex}
       />
 
-      {venues.length === 0 && !loading && <ErrorInfo text={'No venues found'} />}
+      {venues.length === 0 && !loading && (
+        <ErrorInfo text={'No venues found'} />
+      )}
 
       {/* Venue Grid */}
       <Grid container spacing={3} sx={{ mb: 4 }}>
