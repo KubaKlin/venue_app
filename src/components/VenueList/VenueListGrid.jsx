@@ -1,36 +1,18 @@
 import { Box, Grid } from '@mui/material';
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { VenueCard } from './VenueCard';
 import { VenueListSummary } from './VenueListSummary';
 import { VenueListPagination } from './VenueListPagination';
 import { LoadingInfo } from '../LoadingInfo/LoadingInfo';
 import { ErrorInfo } from '../ErrorInfo/ErrorInfo';
+import { useVenuesList } from '../../hooks/useVenuesList';
 
 const ITEMS_PER_PAGE = 12;
 
 export const VenueListGrid = () => {
-  const [venues, setVenues] = useState([]);
+  const { venues, loading } = useVenuesList();
   const [currentPage, setCurrentPage] = useState(1);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    const loadVenues = async () => {
-      try {
-        setLoading(true);
-        const response = await fetch('http://localhost:3999/venues');
-        const data = await response.json();
-        setVenues(data || []);
-      } catch (error) {
-        console.error('Error loading venues:', error);
-        setVenues([]);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    loadVenues();
-  }, []);
 
   const handlePageChange = (event, value) => {
     setCurrentPage(value);

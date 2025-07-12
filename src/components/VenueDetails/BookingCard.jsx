@@ -10,14 +10,15 @@ import {
 import { DatePicker } from '@mui/x-date-pickers/DatePicker';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { differenceInDays } from 'date-fns';
+import { useExchangeRate } from '../../hooks/useExchangeRate';
 
 export const BookingCard = ({ venue }) => {
   const [startDate, setStartDate] = useState(null);
   const [endDate, setEndDate] = useState(null);
   const [isOneDayBooking, setIsOneDayBooking] = useState(false);
-  const [exchangeRate, setExchangeRate] = useState(null);
+  const { exchangeRate } = useExchangeRate();
 
   const handleStartDateChange = (newDate) => {
     setStartDate(newDate);
@@ -62,28 +63,6 @@ export const BookingCard = ({ venue }) => {
     if (!exchangeRate) return 0;
     return calculateTotalEUR() * exchangeRate;
   };
-
-  useEffect(() => {
-    const fetchExchangeRate = async () => {
-      try {
-        const response = await Promise.all([
-          fetch('https://api.exchangerate-api.com/v4/latest/EUR')
-        ]);
-        
-        const [rateData] = await Promise.all(
-          response.map(res => res.json())
-        );
-        
-        setExchangeRate(rateData.rates.PLN);
-      } catch (error) {
-        console.error('Error fetching exchange rate:', error);
-        // if api dont response use default rate
-        setExchangeRate(4.25);
-      }
-    };
-
-    fetchExchangeRate();
-  }, []);
 
   const days = calculateDays();
   const totalPLN = calculateTotalPLN();

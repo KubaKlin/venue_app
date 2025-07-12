@@ -9,44 +9,23 @@ import {
   Grid,
 } from '@mui/material';
 import { useParams } from 'react-router-dom';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { LoadingInfo } from '../components/LoadingInfo/LoadingInfo';
 import { ErrorInfo } from '../components/ErrorInfo/ErrorInfo';
 import { DescriptionTab } from '../components/VenueDetails/DescriptionTab';
 import { GalleryTab } from '../components/VenueDetails/GalleryTab';
 import { MapTab } from '../components/VenueDetails/MapTab';
 import { BookingCard } from '../components/VenueDetails/BookingCard';
+import { useVenueDetails } from '../hooks/useVenueDetails';
 
 export const VenueDetails = () => {
   const { id } = useParams();
-  const [venue, setVenue] = useState(null);
-  const [loading, setLoading] = useState(true);
+  const { venue, loading } = useVenueDetails(id);
   const [tabValue, setTabValue] = useState(0);
 
   const handleTabChange = (event, newValue) => {
     setTabValue(newValue);
   };
-
-  useEffect(() => {
-    const loadVenue = async () => {
-      try {
-        setLoading(true);
-        const response = await fetch(
-          `http://localhost:3999/venuesDetails?venueId=${id}`,
-        );
-        const data = await response.json();
-        setVenue(data.length > 0 ? data[0] : null);
-      } catch (error) {
-        console.error('Error loading venue:', error);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    if (id) {
-      loadVenue();
-    }
-  }, [id]);
 
   if (loading) {
     return <LoadingInfo />;
