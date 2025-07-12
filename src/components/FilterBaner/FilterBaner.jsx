@@ -41,33 +41,43 @@ export const FilterBaner = () => {
 
         <form onSubmit={handleSubmit(onSubmit)}>
           <Box sx={{ display: 'flex', gap: '2rem', my: 2 }}>
-            <FilterTextField 
-              label="Location" 
+            <FilterTextField
+              label="Location"
               startIcon={<SearchIcon />}
               register={register('location')}
             />
-            <FilterTextField 
-              label="Occasions" 
+            <FilterTextField
+              label="Occasions"
               startIcon={<SearchIcon />}
               register={register('occasions')}
             />
-            <FilterTextField 
-              label="Date" 
+            <FilterTextField
+              label="Date"
               startIcon={<CalendarTodayIcon />}
               register={register('date')}
               type="date"
             />
             <FilterTextField
               label="Guests"
-              startIcon={<RemoveIcon onClick={handleGuestDecrease} sx={{ cursor: 'pointer' }} />}
-              endIcon={<AddIcon onClick={handleGuestIncrease} sx={{ cursor: 'pointer' }} />}
+              startIcon={
+                <RemoveIcon
+                  onClick={handleGuestDecrease}
+                  sx={{ cursor: 'pointer' }}
+                />
+              }
+              endIcon={
+                <AddIcon
+                  onClick={handleGuestIncrease}
+                  sx={{ cursor: 'pointer' }}
+                />
+              }
               register={register('guests')}
               value={guestCount}
               type="number"
               readOnly
             />
-            <FilterTextField 
-              label="Venue type" 
+            <FilterTextField
+              label="Venue type"
               startIcon={<SearchIcon />}
               register={register('venueType')}
             />

@@ -27,4 +27,4 @@ export const useVenueDetails = (id) => {
   }, [id]);
 
   return { venue, loading };
-}; 
+};

@@ -42,14 +42,14 @@ export const BookingCard = ({ venue }) => {
   };
 
   const handleBookClick = () => {
-    console.log('Booked')
+    console.log('Booked');
   };
 
   const calculateDays = () => {
     if (!startDate || !endDate) return 0;
-    
+
     if (isOneDayBooking) return 1;
-    
+
     const days = differenceInDays(endDate, startDate);
     return days > 0 ? days : 0;
   };
@@ -68,7 +68,10 @@ export const BookingCard = ({ venue }) => {
   const totalPLN = calculateTotalPLN();
 
   return (
-    <Card elevation={0} sx={{ p: 3, borderRadius: 2, position: 'sticky', top: 0 }}>
+    <Card
+      elevation={0}
+      sx={{ p: 3, borderRadius: 2, position: 'sticky', top: 0 }}
+    >
       <Typography variant="h5" sx={{ fontWeight: 600, mb: 2 }}>
         Book this venue
       </Typography>
@@ -106,10 +109,7 @@ export const BookingCard = ({ venue }) => {
 
         <FormControlLabel
           control={
-            <Checkbox
-              checked={isOneDayBooking}
-              onChange={handleOneDayToggle}
-            />
+            <Checkbox checked={isOneDayBooking} onChange={handleOneDayToggle} />
           }
           label="just one day"
           sx={{ mb: 2 }}
@@ -125,16 +125,14 @@ export const BookingCard = ({ venue }) => {
         }}
       >
         <Box sx={{ display: 'flex', justifyContent: 'space-between', mb: 1 }}>
-          <Typography variant="body2">
-            per day
-          </Typography>
+          <Typography variant="body2">per day</Typography>
           <Typography variant="body2" sx={{ fontWeight: 500 }}>
             {`${Math.round(venue.pricePerNightInEUR * (exchangeRate || 4.25))} zł`}
           </Typography>
         </Box>
-        
+
         <Divider sx={{ my: 2 }} />
-        
+
         <Box sx={{ display: 'flex', justifyContent: 'space-between' }}>
           <Typography variant="h6" sx={{ fontWeight: 600 }}>
             total
@@ -170,4 +168,4 @@ export const BookingCard = ({ venue }) => {
       </Button>
     </Card>
   );
-}; 
+};

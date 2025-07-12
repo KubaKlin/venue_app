@@ -148,9 +148,9 @@ export const FilterPanel = () => {
               </AccordionSummary>
               <AccordionDetails sx={{ mt: 1 }}>
                 {section.type === 'slider'
-                  ? PriceSlider({ 
-                      priceRange: watchedValues.priceRange || [50, 500], 
-                      handlePriceChange 
+                  ? PriceSlider({
+                      priceRange: watchedValues.priceRange || [50, 500],
+                      handlePriceChange,
                     })
                   : CheckboxGroup({
                       section,
