@@ -18,6 +18,8 @@
     "@emotion/styled": "^11.14.1",
     "@mui/icons-material": "^7.0.2",
     "@mui/material": "^7.1.2",
+    "@mui/x-date-pickers": "^8.8.0",
+    "date-fns": "^4.1.0",
     "leaflet": "^1.9.4",
     "prettier": "^3.4.1",
     "react": "^19.0.0",

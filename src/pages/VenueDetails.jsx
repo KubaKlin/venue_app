@@ -15,6 +15,7 @@ import { ErrorInfo } from '../components/ErrorInfo/ErrorInfo';
 import { DescriptionTab } from '../components/VenueDetails/DescriptionTab';
 import { GalleryTab } from '../components/VenueDetails/GalleryTab';
 import { MapTab } from '../components/VenueDetails/MapTab';
+import { BookingCard } from '../components/VenueDetails/BookingCard';
 
 export const VenueDetails = () => {
   const { id } = useParams();
@@ -147,7 +148,9 @@ export const VenueDetails = () => {
             </Box>
           </Card>
         </Grid>
-        <Grid size={{ xs: 12, md: 4 }}></Grid>
+        <Grid size={{ xs: 12, md: 4 }}>
+          <BookingCard venue={venue} />
+        </Grid>
       </Grid>
     </Container>
   );
