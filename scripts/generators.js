@@ -65,4 +65,4 @@ export const generateVenueDetails = (venue, detailsId) => {
       email: `${venue.name.replace(/\s+/g, '_').toLowerCase()}@${faker.internet.domainName()}`,
     },
   };
-}; 
+};

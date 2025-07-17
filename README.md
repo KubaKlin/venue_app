@@ -106,4 +106,3 @@ Once the server is running, you can access:
 - **All venue details**: `GET http://localhost:3999/venuesDetails`
 - **Single venue detail**: `GET http://localhost:3999/venuesDetails/{id}`
 - **Venue details by venue ID**: `GET http://localhost:3999/venuesDetails?venueId={venueId}`
-
