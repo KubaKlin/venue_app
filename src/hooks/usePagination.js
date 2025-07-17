@@ -26,4 +26,4 @@ export const usePagination = (totalItems, itemsPerPage = 12) => {
     totalPages,
     resetPagination,
   };
-}; 
+};

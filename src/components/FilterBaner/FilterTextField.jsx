@@ -14,7 +14,6 @@ export const FilterTextField = ({
   readOnly = false,
   ...props
 }) => {
-
   const slotProps = {
     input: {},
   };
