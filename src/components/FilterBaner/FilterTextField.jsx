@@ -1,5 +1,10 @@
 import { TextField, InputAdornment } from '@mui/material';
 
+const defaultSx = {
+  backgroundColor: '#fff',
+  borderRadius: 1,
+};
+
 export const FilterTextField = ({
   label,
   startIcon,
@@ -9,10 +14,6 @@ export const FilterTextField = ({
   readOnly = false,
   ...props
 }) => {
-  const defaultSx = {
-    backgroundColor: '#fff',
-    borderRadius: 1,
-  };
 
   const slotProps = {
     input: {},

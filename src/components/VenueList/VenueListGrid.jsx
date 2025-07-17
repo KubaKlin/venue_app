@@ -1,30 +1,27 @@
 import { Box, Grid } from '@mui/material';
 
-import { useState } from 'react';
 import { VenueCard } from './VenueCard';
 import { VenueListSummary } from './VenueListSummary';
 import { VenueListPagination } from './VenueListPagination';
 import { LoadingInfo } from '../LoadingInfo/LoadingInfo';
 import { ErrorInfo } from '../ErrorInfo/ErrorInfo';
 import { useVenuesList } from '../../hooks/useVenuesList';
+import { usePagination } from '../../hooks/usePagination';
 
 const ITEMS_PER_PAGE = 12;
 
 export const VenueListGrid = () => {
   const { venues, loading } = useVenuesList();
-  const [currentPage, setCurrentPage] = useState(1);
+  const {
+    currentPage,
+    handlePageChange,
+    startIndex,
+    endIndex,
+    totalPages,
+  } = usePagination(venues.length, ITEMS_PER_PAGE);
 
-  const handlePageChange = (event, value) => {
-    setCurrentPage(value);
-    // Scroll to top of venue list when page changes
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-
-  // pagination
-  const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
-  const endIndex = startIndex + ITEMS_PER_PAGE;
+  // Get current page venues
   const currentVenues = venues.slice(startIndex, endIndex);
-  const totalPages = Math.ceil(venues.length / ITEMS_PER_PAGE);
 
   if (loading) {
     return <LoadingInfo />;
