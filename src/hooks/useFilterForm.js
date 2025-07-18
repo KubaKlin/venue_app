@@ -36,8 +36,9 @@ export const useFilterForm = () => {
   };
 
   const getStateBySection = (sectionId) => stateMap[sectionId] || {};
-  const getHandlerBySection = (sectionId) =>
-    handlerMap[sectionId] || (() => {});
+  const getHandlerBySection = (sectionId) => {
+    return handlerMap[sectionId] || (() => {});
+  }
 
   return {
     watchedValues,
