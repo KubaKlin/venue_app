@@ -13,6 +13,8 @@ export const generateVenue = (id) => {
     location: {
       postalCode: location.postalCode,
       name: location.name,
+      latitude: location.latitude,
+      longitude: location.longitude,
     },
     pricePerNightInEUR: price,
     rating,
@@ -44,7 +46,12 @@ export const generateVenueDetails = (venue, detailsId) => {
   return {
     id: detailsId,
     venueId: venue.id,
-    location: venue.location,
+    location: {
+      postalCode: venue.location.postalCode,
+      name: venue.location.name,
+      latitude: venue.location.latitude,
+      longitude: venue.location.longitude,
+    },
     pricePerNightInEUR: venue.pricePerNightInEUR,
     rating: venue.rating,
     numberOfReviews: faker.number.int({ min: 10, max: 500 }),
