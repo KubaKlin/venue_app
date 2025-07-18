@@ -17,17 +17,21 @@ export const FilterAccordion = ({
 }) => {
   const renderSectionContent = () => {
     if (section.type === 'slider') {
-      return PriceSlider({
-        priceRange: watchedValues.priceRange || [50, 500],
-        handlePriceChange,
-      });
+      return (
+        <PriceSlider
+          priceRange={watchedValues.priceRange || [50, 500]}
+          handlePriceChange={handlePriceChange}
+        />
+      );
     }
 
-    return CheckboxGroup({
-      section,
-      getStateBySection,
-      getHandlerBySection,
-    });
+    return (
+      <CheckboxGroup
+        section={section}
+        getStateBySection={getStateBySection}
+        getHandlerBySection={getHandlerBySection}
+      />
+    );
   };
 
   return (
