@@ -80,6 +80,21 @@ export const FilterPanel = () => {
   const getHandlerBySection = (sectionId) =>
     handlerMap[sectionId] || (() => {});
 
+  const renderSectionContent = (section) => {
+    if (section.type === 'slider') {
+      return PriceSlider({
+        priceRange: watchedValues.priceRange || [50, 500],
+        handlePriceChange,
+      });
+    }
+
+    return CheckboxGroup({
+      section,
+      getStateBySection,
+      getHandlerBySection,
+    });
+  };
+
   return (
     <Paper
       elevation={2}
@@ -147,16 +162,7 @@ export const FilterPanel = () => {
                 <Typography>{section.title}</Typography>
               </AccordionSummary>
               <AccordionDetails sx={{ mt: 1 }}>
-                {section.type === 'slider'
-                  ? PriceSlider({
-                      priceRange: watchedValues.priceRange || [50, 500],
-                      handlePriceChange,
-                    })
-                  : CheckboxGroup({
-                      section,
-                      getStateBySection,
-                      getHandlerBySection,
-                    })}
+                {renderSectionContent(section)}
               </AccordionDetails>
             </Accordion>
           ))}

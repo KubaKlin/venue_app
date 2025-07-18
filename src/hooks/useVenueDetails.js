@@ -12,7 +12,12 @@ export const useVenueDetails = (id) => {
           `http://localhost:3999/venuesDetails?venueId=${id}`,
         );
         const data = await response.json();
-        setVenue(data.length > 0 ? data[0] : null);
+
+        if (data.length > 0) {
+          setVenue(data[0]);
+        } else {
+          setVenue(null);
+        }
       } catch (error) {
         console.error('Error loading venue:', error);
         setVenue(null);

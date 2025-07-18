@@ -19,7 +19,12 @@ export const useBookingCalculations = ({
     }
 
     const days = differenceInDays(endDate, startDate);
-    return days > 0 ? days : 0;
+
+    if (days > 0) {
+      return days;
+    }
+
+    return 0;
   };
 
   const calculateTotalEUR = () => {
