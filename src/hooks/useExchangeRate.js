@@ -10,7 +10,9 @@ export const useExchangeRate = () => {
           fetch('https://api.exchangerate-api.com/v4/latest/EUR'),
         ]);
 
-        const [rateData] = await Promise.all(response.map((response) => response.json()));
+        const [rateData] = await Promise.all(
+          response.map((response) => response.json()),
+        );
 
         setExchangeRate(rateData.rates.PLN);
       } catch (error) {

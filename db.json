@@ -1615,13 +1615,7 @@
       "name": "forest retreat",
       "albumId": 26,
       "description": "Experience tranquility at forest retreat, thoughtfully designed to provide guests with exceptional comfort in ustrzyki dolne. The property features modern amenities while maintaining its distinctive charm and connection to the local environment.",
-      "features": [
-        "barbecue",
-        "workspace",
-        "pool",
-        "microwave",
-        "parking"
-      ],
+      "features": ["barbecue", "workspace", "pool", "microwave", "parking"],
       "sleapingDetails": {
         "maxCapacity": 11,
         "amoutOfBeds": 6
@@ -3256,14 +3250,7 @@
       "name": "wellness center",
       "albumId": 76,
       "description": "Experience tranquility at wellness center, thoughtfully designed to provide guests with exceptional comfort in łódź. The property features modern amenities while maintaining its distinctive charm and connection to the local environment.",
-      "features": [
-        "workspace",
-        "bike rental",
-        "TV",
-        "sauna",
-        "gym",
-        "terrace"
-      ],
+      "features": ["workspace", "bike rental", "TV", "sauna", "gym", "terrace"],
       "sleapingDetails": {
         "maxCapacity": 11,
         "amoutOfBeds": 6
@@ -3969,13 +3956,7 @@
       "name": "artistic studio",
       "albumId": 47,
       "description": "Experience tranquility at artistic studio, thoughtfully designed to provide guests with exceptional comfort in ełk. The property features modern amenities while maintaining its distinctive charm and connection to the local environment.",
-      "features": [
-        "terrace",
-        "kayak rental",
-        "ski storage",
-        "printer",
-        "TV"
-      ],
+      "features": ["terrace", "kayak rental", "ski storage", "printer", "TV"],
       "sleapingDetails": {
         "maxCapacity": 12,
         "amoutOfBeds": 6
@@ -4778,13 +4759,7 @@
       "name": "cozy cabin",
       "albumId": 56,
       "description": "Experience tranquility at cozy cabin, thoughtfully designed to provide guests with exceptional comfort in lublin. The property features modern amenities while maintaining its distinctive charm and connection to the local environment.",
-      "features": [
-        "safe",
-        "pool",
-        "coffee machine",
-        "gym",
-        "barbecue"
-      ],
+      "features": ["safe", "pool", "coffee machine", "gym", "barbecue"],
       "sleapingDetails": {
         "maxCapacity": 3,
         "amoutOfBeds": 2

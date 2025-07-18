@@ -5,7 +5,8 @@ import 'leaflet/dist/leaflet.css';
 export const MapTab = ({ venue }) => {
   // Check if coordinates are available in the venue data
   const { latitude, longitude } = venue.location;
-  const hasCoordinates = latitude && longitude && !isNaN(latitude) && !isNaN(longitude);
+  const hasCoordinates =
+    latitude && longitude && !isNaN(latitude) && !isNaN(longitude);
 
   if (!hasCoordinates) {
     return (
