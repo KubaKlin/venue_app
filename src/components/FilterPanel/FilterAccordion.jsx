@@ -25,11 +25,14 @@ export const FilterAccordion = ({
       );
     }
 
+    const state = getStateBySection(section.id);
+    const handler = getHandlerBySection(section.id);
+
     return (
       <CheckboxGroup
         section={section}
-        getStateBySection={getStateBySection}
-        getHandlerBySection={getHandlerBySection}
+        state={state}
+        handler={handler}
       />
     );
   };

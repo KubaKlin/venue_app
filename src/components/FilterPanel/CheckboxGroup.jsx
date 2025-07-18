@@ -2,12 +2,9 @@ import { Checkbox, FormControlLabel, FormGroup } from '@mui/material';
 
 export const CheckboxGroup = ({
   section,
-  getStateBySection,
-  getHandlerBySection,
+  state,
+  handler,
 }) => {
-  const state = getStateBySection(section.id);
-  const handler = getHandlerBySection(section.id);
-
   return (
     <FormGroup>
       {section.options.map((option) => (
