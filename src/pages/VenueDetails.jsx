@@ -12,14 +12,14 @@ import { useVenueDetails } from '../hooks/useVenueDetails';
 
 export const VenueDetails = () => {
   const { id } = useParams();
-  const { venue, loading } = useVenueDetails(id);
+  const { venue, isLoading } = useVenueDetails(id);
   const [tabValue, setTabValue] = useState(0);
 
   const handleTabChange = (event, newValue) => {
     setTabValue(newValue);
   };
 
-  if (loading) {
+  if (isLoading) {
     return <LoadingInfo />;
   }
 

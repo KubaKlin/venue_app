@@ -2,12 +2,12 @@ import { useState, useEffect } from 'react';
 
 export const useVenueDetails = (id) => {
   const [venue, setVenue] = useState(null);
-  const [loading, setLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     const loadVenue = async () => {
       try {
-        setLoading(true);
+        setIsLoading(true);
         const response = await fetch(
           `http://localhost:3999/venuesDetails?venueId=${id}`,
         );
@@ -22,7 +22,7 @@ export const useVenueDetails = (id) => {
         console.error('Error loading venue:', error);
         setVenue(null);
       } finally {
-        setLoading(false);
+        setIsLoading(false);
       }
     };
 
@@ -31,5 +31,5 @@ export const useVenueDetails = (id) => {
     }
   }, [id]);
 
-  return { venue, loading };
+  return { venue, isLoading };
 };

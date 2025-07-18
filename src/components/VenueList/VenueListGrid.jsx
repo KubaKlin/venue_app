@@ -11,14 +11,14 @@ import { VenueCard } from './VenueCard/VenueCard';
 const ITEMS_PER_PAGE = 12;
 
 export const VenueListGrid = () => {
-  const { venues, loading } = useVenuesList();
+  const { venues, isLoading } = useVenuesList();
   const { currentPage, handlePageChange, startIndex, endIndex, totalPages } =
     usePagination(venues.length, ITEMS_PER_PAGE);
 
   // Get current page venues
   const currentVenues = venues.slice(startIndex, endIndex);
 
-  if (loading) {
+  if (isLoading) {
     return <LoadingInfo />;
   }
 
@@ -30,7 +30,7 @@ export const VenueListGrid = () => {
         endIndex={endIndex}
       />
 
-      {venues.length === 0 && !loading && (
+      {venues.length === 0 && !isLoading && (
         <ErrorInfo text={'No venues found'} />
       )}
 

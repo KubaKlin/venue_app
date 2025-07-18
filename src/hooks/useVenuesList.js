@@ -2,12 +2,12 @@ import { useState, useEffect } from 'react';
 
 export const useVenuesList = () => {
   const [venues, setVenues] = useState([]);
-  const [loading, setLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     const loadVenues = async () => {
       try {
-        setLoading(true);
+        setIsLoading(true);
         const response = await fetch('http://localhost:3999/venues');
         const data = await response.json();
         setVenues(data || []);
@@ -15,12 +15,12 @@ export const useVenuesList = () => {
         console.error('Error loading venues:', error);
         setVenues([]);
       } finally {
-        setLoading(false);
+        setIsLoading(false);
       }
     };
 
     loadVenues();
   }, []);
 
-  return { venues, loading };
+  return { venues, isLoading };
 };
