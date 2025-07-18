@@ -15,7 +15,7 @@ export const useExchangeRate = () => {
         setExchangeRate(rateData.rates.PLN);
       } catch (error) {
         console.error('Error fetching exchange rate:', error);
-        // if api dont response use default rate
+        // use default rate if api dont response
         setExchangeRate(4.25);
       }
     };
