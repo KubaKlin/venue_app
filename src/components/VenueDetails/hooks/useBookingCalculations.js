@@ -1,5 +1,5 @@
 import { differenceInDays } from 'date-fns';
-import { useExchangeRate } from './useExchangeRate';
+import { useExchangeRate } from '../../../hooks/useExchangeRate';
 
 export const useBookingCalculations = ({
   startDate,

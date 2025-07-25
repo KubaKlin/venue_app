@@ -1,6 +1,6 @@
 import { Typography, Card, Divider } from '@mui/material';
-import { useBookingForm } from '../../hooks/useBookingForm';
-import { useBookingCalculations } from '../../hooks/useBookingCalculations';
+import { useBookingForm } from './hooks/useBookingForm.js';
+import { useBookingCalculations } from './hooks/useBookingCalculations';
 import { BookingDatePickers } from './BookingDatePickers';
 import { BookingPriceDisplay } from './BookingPriceDisplay';
 import { BookingSubmitButton } from './BookingSubmitButton';

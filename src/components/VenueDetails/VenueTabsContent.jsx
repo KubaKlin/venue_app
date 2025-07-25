@@ -1,7 +1,7 @@
 import { Box } from '@mui/material';
 import { DescriptionTab } from './DescriptionTab';
 import { GalleryTab } from './GalleryTab';
-import { MapTab } from './MapTab';
+import { MapTab } from '../MapTab/MapTab';
 
 export const VenueTabsContent = ({ tabValue, venue }) => {
   return (

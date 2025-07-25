@@ -26,7 +26,6 @@ export const VenueCard = ({ venue }) => (
         locationName={venue.location.name}
       />
     </VenueCardHeader>
-
     <VenueCardFooter rating={venue.rating} capacity={venue.capacity} />
   </Card>
 );
