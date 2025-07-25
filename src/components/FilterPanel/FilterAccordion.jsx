@@ -8,6 +8,28 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { PriceSlider } from './PriceSlider';
 import { CheckboxGroup } from './CheckboxGroup';
 
+const SectionContent = ({
+  section,
+  watchedValues,
+  handlePriceChange,
+  getStateBySection,
+  getHandlerBySection,
+}) => {
+  if (section.type === 'slider') {
+    return (
+      <PriceSlider
+        priceRange={watchedValues.priceRange || [50, 500]}
+        handlePriceChange={handlePriceChange}
+      />
+    );
+  }
+
+  const state = getStateBySection(section.id);
+  const onCheckboxChange = getHandlerBySection(section.id);
+
+  return <CheckboxGroup section={section} state={state} onCheckboxChange={onCheckboxChange} />;
+};
+
 export const FilterAccordion = ({
   section,
   watchedValues,
@@ -15,22 +37,6 @@ export const FilterAccordion = ({
   getStateBySection,
   getHandlerBySection,
 }) => {
-  const renderSectionContent = () => {
-    if (section.type === 'slider') {
-      return (
-        <PriceSlider
-          priceRange={watchedValues.priceRange || [50, 500]}
-          handlePriceChange={handlePriceChange}
-        />
-      );
-    }
-
-    const state = getStateBySection(section.id);
-    const handler = getHandlerBySection(section.id);
-
-    return <CheckboxGroup section={section} state={state} handler={handler} />;
-  };
-
   return (
     <Accordion
       key={section.id}
@@ -55,7 +61,13 @@ export const FilterAccordion = ({
         <Typography>{section.title}</Typography>
       </AccordionSummary>
       <AccordionDetails sx={{ mt: 1 }}>
-        {renderSectionContent()}
+        <SectionContent
+          section={section}
+          watchedValues={watchedValues}
+          handlePriceChange={handlePriceChange}
+          getStateBySection={getStateBySection}
+          getHandlerBySection={getHandlerBySection}
+        />
       </AccordionDetails>
     </Accordion>
   );

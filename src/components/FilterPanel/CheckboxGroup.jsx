@@ -1,6 +1,6 @@
 import { Checkbox, FormControlLabel, FormGroup } from '@mui/material';
 
-export const CheckboxGroup = ({ section, state, handler }) => {
+export const CheckboxGroup = ({ section, state, onCheckboxChange }) => {
   return (
     <FormGroup>
       {section.options.map((option) => (
@@ -9,7 +9,7 @@ export const CheckboxGroup = ({ section, state, handler }) => {
           control={
             <Checkbox
               checked={state[option.key] || false}
-              onChange={handler(option.key)}
+              onChange={onCheckboxChange(option.key)}
               sx={{
                 color: '#4caf50',
                 '&.Mui-checked': { color: '#4caf50' },
