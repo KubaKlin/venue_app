@@ -1,4 +1,5 @@
 import { Typography, Box, Container, Button } from '@mui/material';
+import { styled } from '@mui/material/styles';
 import SearchIcon from '@mui/icons-material/Search';
 import CalendarTodayIcon from '@mui/icons-material/CalendarToday';
 import RemoveIcon from '@mui/icons-material/Remove';
@@ -6,6 +7,62 @@ import AddIcon from '@mui/icons-material/Add';
 import banerBg from '../../assets/baner_bg.png';
 import { FilterTextField } from './FilterTextField';
 import { useForm } from 'react-hook-form';
+
+const StyledMainBox = styled(Box)(({ theme }) => ({
+  backgroundImage: `url(${banerBg})`,
+  backgroundSize: 'cover',
+  backgroundPosition: 'center',
+  backgroundRepeat: 'no-repeat',
+  paddingTop: theme.spacing(4),
+  paddingBottom: theme.spacing(4),
+}));
+
+const StyledFormBox = styled(Box)(({ theme }) => ({
+  display: 'flex',
+  gap: '32px',
+  marginTop: theme.spacing(2),
+  marginBottom: theme.spacing(2),
+  [theme.breakpoints.down('sm')]: {
+    flexDirection: 'column',
+  },
+}));
+
+const StyledRemoveIcon = styled(RemoveIcon)(() => ({
+  cursor: 'pointer',
+}));
+
+const StyledAddIcon = styled(AddIcon)(() => ({
+  cursor: 'pointer',
+}));
+
+const StyledHeader = styled(Typography)(({ theme }) => ({
+  paddingTop: theme.spacing(8),
+  paddingBottom: theme.spacing(8),
+  fontSize: '40px',
+  textAlign: 'right',
+  fontWeight: 600,
+  [theme.breakpoints.down('sm')]: {
+    fontSize: '24px',
+    paddingTop: theme.spacing(4),
+    paddingBottom: theme.spacing(4),
+  },
+}));
+
+const StyledTypography = styled(Typography)(() => ({
+  textAlign: 'center',
+  color: '#67AA92',
+  fontWeight: 600,
+}))
+
+const StyleSearchButton = styled(Button)(() => ({
+  textTransform: 'lowercase',
+  borderRadius: '20px',
+  backgroundColor: '#67AA92',
+  fontWeight: 600,
+  fontSize: '16px',
+  display: 'block',
+  margin: '36px auto 0',
+}))
 
 export const FilterBaner = () => {
   const { register, handleSubmit, watch, setValue } = useForm();
@@ -27,20 +84,12 @@ export const FilterBaner = () => {
   };
 
   return (
-    <Box
-      sx={{
-        backgroundImage: `url(${banerBg})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat',
-        py: 4,
-      }}
-    >
+    <StyledMainBox>
       <Container maxWidth="lg">
-        <Typography>Find your place and experience it together.</Typography>
+        <StyledHeader>Find your place and experience it together.</StyledHeader>
 
         <form onSubmit={handleSubmit(onSubmit)}>
-          <Box sx={{ display: 'flex', gap: '2rem', my: 2 }}>
+          <StyledFormBox>
             <FilterTextField
               label="Location"
               startIcon={<SearchIcon />}
@@ -60,16 +109,10 @@ export const FilterBaner = () => {
             <FilterTextField
               label="Guests"
               startIcon={
-                <RemoveIcon
-                  onClick={handleGuestDecrease}
-                  sx={{ cursor: 'pointer' }}
-                />
+                <StyledRemoveIcon onClick={handleGuestDecrease} />
               }
               endIcon={
-                <AddIcon
-                  onClick={handleGuestIncrease}
-                  sx={{ cursor: 'pointer' }}
-                />
+                <StyledAddIcon onClick={handleGuestIncrease} />
               }
               register={register('guests')}
               value={guestCount}
@@ -81,15 +124,15 @@ export const FilterBaner = () => {
               startIcon={<SearchIcon />}
               register={register('venueType')}
             />
-          </Box>
+          </StyledFormBox>
 
-          <Typography>I don't want to be that specific</Typography>
+          <StyledTypography>I don't want to be that specific</StyledTypography>
 
-          <Button type="submit" variant="contained" color="primary">
+          <StyleSearchButton type="submit" variant="contained" color="primary">
             Search for a venue
-          </Button>
+          </StyleSearchButton>
         </form>
       </Container>
-    </Box>
+    </StyledMainBox>
   );
 };

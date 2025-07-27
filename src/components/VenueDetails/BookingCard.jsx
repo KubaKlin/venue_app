@@ -1,9 +1,24 @@
 import { Typography, Card, Divider } from '@mui/material';
+import { styled } from '@mui/material/styles';
 import { useBookingForm } from './hooks/useBookingForm.js';
 import { useBookingCalculations } from './hooks/useBookingCalculations';
 import { BookingDatePickers } from './BookingDatePickers';
 import { BookingPriceDisplay } from './BookingPriceDisplay';
 import { BookingSubmitButton } from './BookingSubmitButton';
+
+const StyledCard = styled(Card)(({ theme }) => ({
+  padding: theme.spacing(3),
+  borderRadius: theme.spacing(2),
+}));
+
+const StyledTypography = styled(Typography)(({ theme }) => ({
+  fontWeight: 600,
+  marginBottom: theme.spacing(2),
+}));
+
+const StyledDivider = styled(Divider)(({ theme }) => ({
+  marginBottom: theme.spacing(3),
+}));
 
 export const BookingCard = ({ venue }) => {
   const {
@@ -29,14 +44,11 @@ export const BookingCard = ({ venue }) => {
   };
 
   return (
-    <Card
-      elevation={0}
-      sx={{ p: 3, borderRadius: 2, position: 'sticky', top: 0 }}
-    >
-      <Typography variant="h5" sx={{ fontWeight: 600, mb: 2 }}>
+    <StyledCard elevation={0}>
+      <StyledTypography variant="h5">
         Book this venue
-      </Typography>
-      <Divider sx={{ mb: 3 }} />
+      </StyledTypography>
+      <StyledDivider />
 
       <form onSubmit={handleSubmit(handleBookSubmit)}>
         <BookingDatePickers
@@ -56,6 +68,6 @@ export const BookingCard = ({ venue }) => {
 
         <BookingSubmitButton isFormValid={isFormValid} />
       </form>
-    </Card>
+    </StyledCard>
   );
 };

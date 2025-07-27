@@ -1,4 +1,5 @@
 import { Box, Grid } from '@mui/material';
+import { styled } from '@mui/material/styles';
 
 import { VenueListSummary } from './VenueListSummary';
 import { VenueListPagination } from './VenueListPagination';
@@ -7,6 +8,10 @@ import { ErrorInfo } from '../ErrorInfo/ErrorInfo';
 import { useVenuesList } from '../../hooks/useVenuesList';
 import { usePagination } from '../../hooks/usePagination';
 import { VenueCard } from './VenueCard/VenueCard';
+
+const StyledGrid = styled(Grid)(({ theme }) => ({
+  marginBottom: theme.spacing(4),
+}));
 
 const ITEMS_PER_PAGE = 12;
 
@@ -34,13 +39,13 @@ export const VenueListGrid = () => {
         <ErrorInfo text={'No venues found'} />
       )}
 
-      <Grid container spacing={3} sx={{ mb: 4 }}>
+      <StyledGrid container spacing={3}>
         {currentVenues.map((venue) => (
           <Grid key={venue.id} size={{ xs: 12, sm: 6, md: 4 }}>
             <VenueCard venue={venue} />
           </Grid>
         ))}
-      </Grid>
+      </StyledGrid>
 
       <VenueListPagination
         totalPages={totalPages}

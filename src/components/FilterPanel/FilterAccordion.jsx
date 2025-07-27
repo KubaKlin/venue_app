@@ -4,9 +4,30 @@ import {
   AccordionDetails,
   Typography,
 } from '@mui/material';
+import { styled } from '@mui/material/styles';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { PriceSlider } from './PriceSlider';
 import { CheckboxGroup } from './CheckboxGroup';
+
+const StyledAccordion = styled(Accordion)(() => ({
+  backgroundColor: 'transparent',
+  '&:before': {
+    display: 'none',
+  },
+}));
+
+const StyledAccordionSummary = styled(AccordionSummary)(({ theme }) => ({
+  backgroundColor: '#f6f6f6',
+  paddingLeft: theme.spacing(2),
+  paddingRight: theme.spacing(2),
+  '& .MuiAccordionSummary-expandIconWrapper.Mui-expanded': {
+    transform: 'rotate(180deg)',
+  },
+}));
+
+const StyledAccordionDetails = styled(AccordionDetails)(({ theme }) => ({
+  marginTop: theme.spacing(1),
+}));
 
 const SectionContent = ({
   section,
@@ -38,29 +59,11 @@ export const FilterAccordion = ({
   getHandlerBySection,
 }) => {
   return (
-    <Accordion
-      key={section.id}
-      elevation={0}
-      sx={{
-        backgroundColor: 'transparent',
-        '&:before': {
-          display: 'none',
-        },
-      }}
-    >
-      <AccordionSummary
-        expandIcon={<ExpandMoreIcon />}
-        sx={{
-          backgroundColor: '#f6f6f6',
-          px: 2,
-          '& .MuiAccordionSummary-expandIconWrapper.Mui-expanded': {
-            transform: 'rotate(180deg)',
-          },
-        }}
-      >
+    <StyledAccordion key={section.id} elevation={0}>
+      <StyledAccordionSummary expandIcon={<ExpandMoreIcon />}>
         <Typography>{section.title}</Typography>
-      </AccordionSummary>
-      <AccordionDetails sx={{ mt: 1 }}>
+      </StyledAccordionSummary>
+      <StyledAccordionDetails>
         <SectionContent
           section={section}
           watchedValues={watchedValues}
@@ -68,7 +71,7 @@ export const FilterAccordion = ({
           getStateBySection={getStateBySection}
           getHandlerBySection={getHandlerBySection}
         />
-      </AccordionDetails>
-    </Accordion>
+      </StyledAccordionDetails>
+    </StyledAccordion>
   );
 };

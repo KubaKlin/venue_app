@@ -1,6 +1,15 @@
 import { Box, IconButton, Menu, MenuItem, Typography } from '@mui/material';
+import { styled } from '@mui/material/styles';
 import { Menu as MenuIcon } from '@mui/icons-material';
 import { Link } from 'react-router-dom';
+
+const StyledBox = styled(Box)(() => ({
+  display: 'flex',
+}));
+
+const StyledMenu = styled(Menu)(() => ({
+  display: { xs: 'block', md: 'none' },
+}));
 
 export const MobileNavBar = ({
   pages,
@@ -9,7 +18,7 @@ export const MobileNavBar = ({
   handleCloseNavMenu,
 }) => {
   return (
-    <Box sx={{ display: 'flex' }}>
+    <StyledBox>
       <IconButton
         size="large"
         aria-label="menu"
@@ -20,7 +29,7 @@ export const MobileNavBar = ({
       >
         <MenuIcon />
       </IconButton>
-      <Menu
+      <StyledMenu
         id="menu-appbar"
         anchorEl={anchorElementNavigation}
         anchorOrigin={{
@@ -34,9 +43,6 @@ export const MobileNavBar = ({
         }}
         open={Boolean(anchorElementNavigation)}
         onClose={handleCloseNavMenu}
-        sx={{
-          display: { xs: 'block', md: 'none' },
-        }}
       >
         {pages.map((page) => (
           <MenuItem
@@ -48,7 +54,7 @@ export const MobileNavBar = ({
             <Typography textAlign="center">{page.name}</Typography>
           </MenuItem>
         ))}
-      </Menu>
-    </Box>
+      </StyledMenu>
+    </StyledBox>
   );
 };

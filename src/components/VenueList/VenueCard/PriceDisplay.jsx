@@ -1,13 +1,14 @@
 import { Typography } from '@mui/material';
+import { styled } from '@mui/material/styles';
+
+const StyledTypography = styled(Typography)(() => ({
+  fontSize: 14,
+  color: 'white',
+  fontWeight: 600,
+}));
 
 export const PriceDisplay = ({ pricePerNightInEUR }) => (
-  <Typography
-    sx={{
-      fontSize: 14,
-      color: 'white',
-      fontWeight: 600,
-    }}
-  >
+  <StyledTypography>
     {`€${pricePerNightInEUR.toFixed(0)} / night`}
-  </Typography>
+  </StyledTypography>
 );

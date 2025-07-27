@@ -1,8 +1,15 @@
 import { Box, Paper } from '@mui/material';
+import { styled } from '@mui/material/styles';
 import { useFilterForm } from '../../hooks/useFilterForm';
 import { FilterHeader } from './FilterHeader';
 import { FilterAccordion } from './FilterAccordion';
 import { filterSections } from './filterConfig';
+
+const StyledPaper = styled(Paper)(({ theme }) => ({
+  width: '100%',
+  backgroundColor: '#FDFDFD',
+  borderRadius: theme.spacing(2),
+}));
 
 export const FilterPanel = () => {
   const {
@@ -14,14 +21,7 @@ export const FilterPanel = () => {
   } = useFilterForm();
 
   return (
-    <Paper
-      elevation={2}
-      sx={{
-        width: '100%',
-        backgroundColor: '#FDFDFD',
-        borderRadius: 2,
-      }}
-    >
+    <StyledPaper elevation={2}>
       <FilterHeader onReset={handleReset} />
 
       <form>
@@ -38,6 +38,6 @@ export const FilterPanel = () => {
           ))}
         </Box>
       </form>
-    </Paper>
+    </StyledPaper>
   );
 };

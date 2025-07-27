@@ -1,8 +1,23 @@
 import { Box, Checkbox, FormControlLabel } from '@mui/material';
+import { styled } from '@mui/material/styles';
 import { DatePicker } from '@mui/x-date-pickers/DatePicker';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
 import { Controller } from 'react-hook-form';
+
+const StyledDatePickerBox = styled(Box)(({ theme }) => ({
+  display: 'flex',
+  gap: theme.spacing(2),
+  marginBottom: theme.spacing(2),
+}));
+
+const StyledDatePicker = styled(DatePicker)(() => ({
+  flex: 1,
+}));
+
+const StyledFormControlLabel = styled(FormControlLabel)(({ theme }) => ({
+  marginBottom: theme.spacing(2),
+}));
 
 export const BookingDatePickers = ({
   control,
@@ -16,13 +31,13 @@ export const BookingDatePickers = ({
 }) => {
   return (
     <LocalizationProvider dateAdapter={AdapterDateFns}>
-      <Box sx={{ display: 'flex', gap: 2, mb: 2 }}>
+      <StyledDatePickerBox>
         <Controller
           name="startDate"
           control={control}
           rules={startDateValidation}
           render={({ field: { value, onChange }, fieldState: { error } }) => (
-            <DatePicker
+            <StyledDatePicker
               label="starts at"
               value={value}
               onChange={(newDate) => {
@@ -30,7 +45,6 @@ export const BookingDatePickers = ({
                 handleStartDateChange(newDate);
               }}
               minDate={new Date()}
-              sx={{ flex: 1 }}
               slotProps={{
                 textField: {
                   size: 'small',
@@ -47,7 +61,7 @@ export const BookingDatePickers = ({
             control={control}
             rules={endDateValidation}
             render={({ field: { value, onChange }, fieldState: { error } }) => (
-              <DatePicker
+              <StyledDatePicker
                 label="ends at"
                 value={value}
                 onChange={(newDate) => {
@@ -55,7 +69,6 @@ export const BookingDatePickers = ({
                   handleEndDateChange(newDate);
                 }}
                 minDate={startDate || new Date()}
-                sx={{ flex: 1 }}
                 slotProps={{
                   textField: {
                     size: 'small',
@@ -67,13 +80,13 @@ export const BookingDatePickers = ({
             )}
           />
         )}
-      </Box>
+      </StyledDatePickerBox>
 
       <Controller
         name="isOneDayBooking"
         control={control}
         render={({ field: { value, onChange } }) => (
-          <FormControlLabel
+          <StyledFormControlLabel
             control={
               <Checkbox
                 checked={value}
@@ -84,7 +97,6 @@ export const BookingDatePickers = ({
               />
             }
             label="just one day"
-            sx={{ mb: 2 }}
           />
         )}
       />

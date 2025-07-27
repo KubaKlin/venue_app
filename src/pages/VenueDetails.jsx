@@ -1,4 +1,5 @@
 import { Container, Card, Grid } from '@mui/material';
+import { styled } from '@mui/material/styles';
 import { useParams } from 'react-router-dom';
 import { useState } from 'react';
 import { LoadingInfo } from '../components/LoadingInfo/LoadingInfo';
@@ -9,6 +10,16 @@ import { VenueHeroImage } from '../components/VenueDetails/VenueHeroImage';
 import { VenueTabsNavigation } from '../components/VenueDetails/VenueTabsNavigation';
 import { VenueTabsContent } from '../components/VenueDetails/VenueTabsContent';
 import { useVenueDetails } from '../hooks/useVenueDetails';
+import { BookingContact } from '../components/BookingContact/BookingContact';
+
+const StyledContainer = styled(Container)(({ theme }) => ({
+  paddingTop: theme.spacing(4),
+  paddingBottom: theme.spacing(4),
+}));
+
+const StyledCard = styled(Card)(({ theme }) => ({
+  borderRadius: theme.spacing(2),
+}));
 
 export const VenueDetails = () => {
   const { id } = useParams();
@@ -28,10 +39,10 @@ export const VenueDetails = () => {
   }
 
   return (
-    <Container maxWidth="lg" sx={{ py: 4 }}>
+    <StyledContainer maxWidth="lg">
       <Grid container spacing={3} pt={4}>
         <Grid size={{ xs: 12, md: 8 }}>
-          <Card elevation={0} sx={{ borderRadius: 2 }}>
+          <StyledCard elevation={0}>
             <VenueHeader venue={venue} />
             <VenueHeroImage />
             <VenueTabsNavigation
@@ -39,12 +50,13 @@ export const VenueDetails = () => {
               onTabChange={handleTabChange}
             />
             <VenueTabsContent tabValue={tabValue} venue={venue} />
-          </Card>
+          </StyledCard>
         </Grid>
         <Grid size={{ xs: 12, md: 4 }}>
           <BookingCard venue={venue} />
+          <BookingContact venue={venue} />
         </Grid>
       </Grid>
-    </Container>
+    </StyledContainer>
   );
 };

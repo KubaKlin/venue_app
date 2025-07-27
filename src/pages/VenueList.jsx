@@ -1,6 +1,14 @@
 import { Container, Box, Grid } from '@mui/material';
+import { styled } from '@mui/material/styles';
 import { FilterPanel } from '../components/FilterPanel/FilterPanel';
 import { VenueListGrid } from '../components/VenueList/VenueListGrid';
+
+const StyledBox = styled(Box)(({ theme }) => ({
+  padding: theme.spacing(3),
+  backgroundColor: '#fafafa',
+  borderRadius: theme.spacing(2),
+  minHeight: 400,
+}));
 
 export const VenueList = () => {
   return (
@@ -11,16 +19,9 @@ export const VenueList = () => {
         </Grid>
 
         <Grid size={{ xs: 12, md: 9 }}>
-          <Box
-            sx={{
-              p: 3,
-              backgroundColor: '#fafafa',
-              borderRadius: 2,
-              minHeight: 400,
-            }}
-          >
+          <StyledBox>
             <VenueListGrid />
-          </Box>
+          </StyledBox>
         </Grid>
       </Grid>
     </Container>

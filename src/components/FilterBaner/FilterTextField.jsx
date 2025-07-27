@@ -1,9 +1,10 @@
 import { TextField, InputAdornment } from '@mui/material';
+import { styled } from '@mui/material/styles';
 
-const defaultSx = {
+const StyledTextField = styled(TextField)(({ theme }) => ({
   backgroundColor: '#fff',
-  borderRadius: 1,
-};
+  borderRadius: theme.spacing(1),
+}));
 
 export const FilterTextField = ({
   label,
@@ -31,11 +32,10 @@ export const FilterTextField = ({
   }
 
   return (
-    <TextField
+    <StyledTextField
       label={label}
       type={type}
       variant="outlined"
-      sx={defaultSx}
       slotProps={slotProps}
       value={value}
       InputProps={{
