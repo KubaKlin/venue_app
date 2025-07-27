@@ -60,4 +60,4 @@ export const SocialMediaLinks = () => {
       </SocialIconButton>
     </SocialMediaContainer>
   );
-}; 
+};

@@ -32,7 +32,7 @@ const StyledLogoTypography = styled(Typography)(({ theme }) => ({
 
 const StyledDesktopBox = styled(Box)(() => ({
   display: 'flex',
-  gap: 36
+  gap: 36,
 }));
 
 const StyledButton = styled(Button)(({ theme }) => ({
@@ -41,7 +41,7 @@ const StyledButton = styled(Button)(({ theme }) => ({
   color: '#333',
   display: 'block',
   textTransform: 'lowercase',
-  fontSize: '16px'
+  fontSize: '16px',
 }));
 
 export const NavBar = () => {
@@ -68,12 +68,7 @@ export const NavBar = () => {
     <StyledMainBox>
       <Container maxWidth="lg">
         <StyledContainerBox>
-          <StyledLogoTypography
-            variant="h6"
-            noWrap
-            component={Link}
-            to="/"
-          >
+          <StyledLogoTypography variant="h6" noWrap component={Link} to="/">
             BOOKIFY
           </StyledLogoTypography>
 
@@ -81,11 +76,7 @@ export const NavBar = () => {
           {!isMobile && (
             <StyledDesktopBox>
               {pages.map((page) => (
-                <StyledButton
-                  key={page.name}
-                  component={Link}
-                  to={page.path}
-                >
+                <StyledButton key={page.name} component={Link} to={page.path}>
                   {page.name}
                 </StyledButton>
               ))}

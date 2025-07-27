@@ -45,9 +45,7 @@ export const BookingCard = ({ venue }) => {
 
   return (
     <StyledCard elevation={0}>
-      <StyledTypography variant="h5">
-        Book this venue
-      </StyledTypography>
+      <StyledTypography variant="h5">Book this venue</StyledTypography>
       <StyledDivider />
 
       <form onSubmit={handleSubmit(handleBookSubmit)}>

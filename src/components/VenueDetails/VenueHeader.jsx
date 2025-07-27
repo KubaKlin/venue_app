@@ -36,9 +36,7 @@ export const VenueHeader = ({ venue }) => {
   return (
     <StyledMainBox>
       <StyledLeftBox>
-        <StyledNameTypography variant="h4">
-          {venue.name}
-        </StyledNameTypography>
+        <StyledNameTypography variant="h4">{venue.name}</StyledNameTypography>
         <StyledLocationTypography variant="h6">
           {venue.location.postalCode}, {venue.location.name}
         </StyledLocationTypography>

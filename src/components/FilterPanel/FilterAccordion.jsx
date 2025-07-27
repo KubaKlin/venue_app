@@ -48,7 +48,13 @@ const SectionContent = ({
   const state = getStateBySection(section.id);
   const onCheckboxChange = getHandlerBySection(section.id);
 
-  return <CheckboxGroup section={section} state={state} onCheckboxChange={onCheckboxChange} />;
+  return (
+    <CheckboxGroup
+      section={section}
+      state={state}
+      onCheckboxChange={onCheckboxChange}
+    />
+  );
 };
 
 export const FilterAccordion = ({

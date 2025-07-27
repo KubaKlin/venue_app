@@ -26,9 +26,7 @@ export const VenueListSummary = ({ venues, startIndex, endIndex }) => {
         Showing {startIndex + 1}-{Math.min(endIndex, venues.length)} of{' '}
         {venues.length} venues
       </StyledTypography>
-      <StyledButton variant="text">
-        Sort
-      </StyledButton>
+      <StyledButton variant="text">Sort</StyledButton>
     </StyledBox>
   );
 };

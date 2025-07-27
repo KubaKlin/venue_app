@@ -58,9 +58,7 @@ export const ContactItems = ({ contactDetails }) => {
         }}
       >
         <ContactIcon />
-        <ContactText variant="h5">
-          {contactDetails.phone}
-        </ContactText>
+        <ContactText variant="h5">{contactDetails.phone}</ContactText>
       </ContactItem>
 
       <EmailContactItem
@@ -75,10 +73,8 @@ export const ContactItems = ({ contactDetails }) => {
         }}
       >
         <EmailIcon />
-        <ContactText variant="h5">
-          {contactDetails.email}
-        </ContactText>
+        <ContactText variant="h5">{contactDetails.email}</ContactText>
       </EmailContactItem>
     </>
   );
-}; 
+};

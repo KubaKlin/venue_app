@@ -33,7 +33,7 @@ export const BookingContact = ({ venue }) => {
       <ContactTitle variant="h4" component="h2">
         Contact this venue
       </ContactTitle>
-      
+
       <ContactSection>
         <ContactItems contactDetails={venue.contactDetails} />
       </ContactSection>

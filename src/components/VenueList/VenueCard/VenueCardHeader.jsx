@@ -8,7 +8,5 @@ const StyledBox = styled(Box)(() => ({
 }));
 
 export const VenueCardHeader = ({ children }) => (
-  <StyledBox>
-    {children}
-  </StyledBox>
+  <StyledBox>{children}</StyledBox>
 );

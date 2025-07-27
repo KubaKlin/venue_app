@@ -19,8 +19,6 @@ const StyledTypography = styled(Typography)(() => ({
 
 export const VenueNameOverlay = ({ venueName }) => (
   <StyledBox>
-    <StyledTypography>
-      {venueName}
-    </StyledTypography>
+    <StyledTypography>{venueName}</StyledTypography>
   </StyledBox>
 );

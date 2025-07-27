@@ -22,8 +22,6 @@ const StyledTypography = styled(Typography)(({ theme }) => ({
 export const LocationDisplay = ({ locationName }) => (
   <StyledBox>
     <StyledLocationOn />
-    <StyledTypography>
-      {locationName}
-    </StyledTypography>
+    <StyledTypography>{locationName}</StyledTypography>
   </StyledBox>
 );

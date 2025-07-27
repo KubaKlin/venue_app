@@ -17,9 +17,7 @@ const StyledTypography = styled(Typography)(() => ({
 export const ErrorInfo = ({ text }) => {
   return (
     <StyledBox>
-      <StyledTypography variant="h6">
-        {text}
-      </StyledTypography>
+      <StyledTypography variant="h6">{text}</StyledTypography>
     </StyledBox>
   );
 };

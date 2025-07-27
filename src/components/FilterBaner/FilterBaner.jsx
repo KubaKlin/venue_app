@@ -52,7 +52,7 @@ const StyledTypography = styled(Typography)(() => ({
   textAlign: 'center',
   color: '#67AA92',
   fontWeight: 600,
-}))
+}));
 
 const StyleSearchButton = styled(Button)(() => ({
   textTransform: 'lowercase',
@@ -62,7 +62,7 @@ const StyleSearchButton = styled(Button)(() => ({
   fontSize: '16px',
   display: 'block',
   margin: '36px auto 0',
-}))
+}));
 
 export const FilterBaner = () => {
   const { register, handleSubmit, watch, setValue } = useForm();
@@ -108,12 +108,8 @@ export const FilterBaner = () => {
             />
             <FilterTextField
               label="Guests"
-              startIcon={
-                <StyledRemoveIcon onClick={handleGuestDecrease} />
-              }
-              endIcon={
-                <StyledAddIcon onClick={handleGuestIncrease} />
-              }
+              startIcon={<StyledRemoveIcon onClick={handleGuestDecrease} />}
+              endIcon={<StyledAddIcon onClick={handleGuestIncrease} />}
               register={register('guests')}
               value={guestCount}
               type="number"

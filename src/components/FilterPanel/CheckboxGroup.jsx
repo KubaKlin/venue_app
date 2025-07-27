@@ -3,8 +3,8 @@ import { styled } from '@mui/material/styles';
 
 const StyledCheckbox = styled(Checkbox)(() => ({
   color: '#4caf50',
-  '&.Mui-checked': { 
-    color: '#4caf50' 
+  '&.Mui-checked': {
+    color: '#4caf50',
   },
 }));
 

@@ -24,9 +24,7 @@ const StyledButton = styled(Button)(() => ({
 export const FilterHeader = ({ onReset }) => {
   return (
     <StyledBox>
-      <StyledTypography variant="h6">
-        FILTERS
-      </StyledTypography>
+      <StyledTypography variant="h6">FILTERS</StyledTypography>
       <StyledButton variant="text" onClick={onReset}>
         reset
       </StyledButton>

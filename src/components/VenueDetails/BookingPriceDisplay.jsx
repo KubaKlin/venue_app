@@ -45,9 +45,7 @@ export const BookingPriceDisplay = ({ pricePerDayPLN, totalPLN }) => {
       <StyledDivider />
 
       <StyledTotalRowBox>
-        <StyledTotalTypography variant="h6">
-          total
-        </StyledTotalTypography>
+        <StyledTotalTypography variant="h6">total</StyledTotalTypography>
         <StyledTotalTypography variant="h6">
           {`${Math.round(totalPLN)} zł`}
         </StyledTotalTypography>

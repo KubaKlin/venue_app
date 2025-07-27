@@ -37,15 +37,11 @@ export const VenueCardFooter = ({ rating, capacity }) => (
   <StyledMainBox>
     <StyledFlexBox>
       <StyledStar />
-      <StyledTypography variant="body2">
-        Rating: ({rating})
-      </StyledTypography>
+      <StyledTypography variant="body2">Rating: ({rating})</StyledTypography>
     </StyledFlexBox>
     <StyledFlexBox>
       <StyledPeople />
-      <StyledTypography variant="body2">
-        capacity: {capacity}
-      </StyledTypography>
+      <StyledTypography variant="body2">capacity: {capacity}</StyledTypography>
     </StyledFlexBox>
   </StyledMainBox>
 );
