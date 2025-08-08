@@ -4,14 +4,14 @@ import SearchIcon from '@mui/icons-material/Search';
 import CalendarTodayIcon from '@mui/icons-material/CalendarToday';
 import RemoveIcon from '@mui/icons-material/Remove';
 import AddIcon from '@mui/icons-material/Add';
-import banerBg from '../../assets/baner_bg.png';
+import bannerBg from '../../assets/banner_bg.svg';
 import { FilterTextField } from './FilterTextField';
 import { useForm } from 'react-hook-form';
 
 const StyledMainBox = styled(Box)(({ theme }) => ({
-  backgroundImage: `url(${banerBg})`,
+  backgroundImage: `url(${bannerBg})`,
   backgroundSize: 'cover',
-  backgroundPosition: 'center',
+  backgroundPosition: 'bottom center',
   backgroundRepeat: 'no-repeat',
   paddingTop: theme.spacing(4),
   paddingBottom: theme.spacing(4),
@@ -41,6 +41,7 @@ const StyledHeader = styled(Typography)(({ theme }) => ({
   fontSize: '40px',
   textAlign: 'right',
   fontWeight: 600,
+  color: 'rgba(0,0,0,.75)',
   [theme.breakpoints.down('sm')]: {
     fontSize: '24px',
     paddingTop: theme.spacing(4),
@@ -62,6 +63,8 @@ const StyleSearchButton = styled(Button)(() => ({
   fontSize: '16px',
   display: 'block',
   margin: '36px auto 0',
+  paddingInline: '34px',
+  boxShadow: 'none',
 }));
 
 export const FilterBaner = () => {
@@ -125,7 +128,7 @@ export const FilterBaner = () => {
           <StyledTypography>I don't want to be that specific</StyledTypography>
 
           <StyleSearchButton type="submit" variant="contained" color="primary">
-            Search for a venue
+            Search for venue
           </StyleSearchButton>
         </form>
       </Container>
