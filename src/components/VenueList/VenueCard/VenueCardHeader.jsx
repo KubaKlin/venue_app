@@ -1,12 +1,15 @@
 import { Box } from '@mui/material';
 import { styled } from '@mui/material/styles';
 
-const StyledBox = styled(Box)(() => ({
+const StyledBox = styled(Box)(({ backgroundImage }) => ({
   height: 150,
-  background: `linear-gradient(45deg, #${Math.floor(Math.random() * 16777215).toString(16)}66, #${Math.floor(Math.random() * 16777215).toString(16)}66)`,
+  backgroundImage: `url(${backgroundImage})`,
+  backgroundSize: 'cover',
+  backgroundPosition: 'center',
+  backgroundRepeat: 'no-repeat',
   position: 'relative',
 }));
 
-export const VenueCardHeader = ({ children }) => (
-  <StyledBox>{children}</StyledBox>
+export const VenueCardHeader = ({ children, backgroundImage }) => (
+  <StyledBox backgroundImage={backgroundImage}>{children}</StyledBox>
 );

@@ -8,6 +8,9 @@ export const generateVenue = (id) => {
   const rating = faker.number.float({ min: 3.5, max: 5.0, fractionDigits: 1 });
   const capacity = faker.number.int({ min: 2, max: 12 });
 
+  const heroImageUrl = `https://picsum.photos/seed/venue-${id}/800/400`;
+  const cardImageUrl = `https://picsum.photos/seed/venue-${id}/400/250`;
+
   return {
     id,
     location: {
@@ -21,6 +24,8 @@ export const generateVenue = (id) => {
     capacity,
     name: venueType,
     albumId: faker.number.int({ min: 1, max: 100 }),
+    heroImageUrl,
+    cardImageUrl,
   };
 };
 
@@ -58,6 +63,8 @@ export const generateVenueDetails = (venue, detailsId) => {
     capacity: venue.capacity,
     name: venue.name,
     albumId: venue.albumId,
+    heroImageUrl: venue.heroImageUrl,
+    cardImageUrl: venue.cardImageUrl,
     description: faker.helpers.arrayElement(descriptions),
     features: selectedFeatures,
     sleapingDetails: {

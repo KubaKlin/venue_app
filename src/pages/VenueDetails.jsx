@@ -44,7 +44,7 @@ export const VenueDetails = () => {
         <Grid size={{ xs: 12, md: 8 }}>
           <StyledCard elevation={0}>
             <VenueHeader venue={venue} />
-            <VenueHeroImage />
+            <VenueHeroImage venue={venue} />
             <VenueTabsNavigation
               tabValue={tabValue}
               onTabChange={handleTabChange}

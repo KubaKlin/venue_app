@@ -17,7 +17,7 @@ const StyledCard = styled(Card)(() => ({
 
 export const VenueCard = ({ venue }) => (
   <StyledCard elevation={0} component={Link} to={`/venue-details/${venue.id}`}>
-    <VenueCardHeader>
+    <VenueCardHeader backgroundImage={venue.cardImageUrl}>
       <VenueNameOverlay venueName={venue.name} />
       <VenuePriceOverlay
         pricePerNightInEUR={venue.pricePerNightInEUR}
