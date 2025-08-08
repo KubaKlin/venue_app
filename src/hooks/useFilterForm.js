@@ -37,7 +37,10 @@ export const useFilterForm = () => {
 
   const getStateBySection = (sectionId) => stateMap[sectionId] || {};
   const getHandlerBySection = (sectionId) => {
-    return handlerMap[sectionId] || (() => {});
+    if (handlerMap[sectionId]) {
+      return handlerMap[sectionId];
+    }
+    return () => {}; // Return empty function if section not found
   };
 
   return {
