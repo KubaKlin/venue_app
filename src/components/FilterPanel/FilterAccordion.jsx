@@ -6,8 +6,7 @@ import {
 } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import { PriceSlider } from './PriceSlider';
-import { CheckboxGroup } from './CheckboxGroup';
+import { SectionContent } from './SectionContent';
 
 const StyledAccordion = styled(Accordion)(() => ({
   backgroundColor: 'transparent',
@@ -29,33 +28,7 @@ const StyledAccordionDetails = styled(AccordionDetails)(({ theme }) => ({
   marginTop: theme.spacing(1),
 }));
 
-const SectionContent = ({
-  section,
-  watchedValues,
-  handlePriceChange,
-  getStateBySection,
-  getHandlerBySection,
-}) => {
-  if (section.type === 'slider') {
-    return (
-      <PriceSlider
-        priceRange={watchedValues.priceRange || [50, 500]}
-        handlePriceChange={handlePriceChange}
-      />
-    );
-  }
 
-  const state = getStateBySection(section.id);
-  const onCheckboxChange = getHandlerBySection(section.id);
-
-  return (
-    <CheckboxGroup
-      section={section}
-      state={state}
-      onCheckboxChange={onCheckboxChange}
-    />
-  );
-};
 
 export const FilterAccordion = ({
   section,
