@@ -1,5 +1,6 @@
 import { Box, Pagination } from '@mui/material';
 import { styled } from '@mui/material/styles';
+import { COLORS } from '../../constants/colors';
 
 const StyledBox = styled(Box)(({ theme }) => ({
   display: 'flex',
@@ -12,7 +13,7 @@ const StyledPagination = styled(Pagination)(() => ({
     borderRadius: 20,
   },
   '& .Mui-selected': {
-    backgroundColor: '#67AA92',
+    backgroundColor: COLORS.PRIMARY,
   },
 }));
 

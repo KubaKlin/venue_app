@@ -1,5 +1,6 @@
 import { Card, Tabs, Tab } from '@mui/material';
 import { styled } from '@mui/material/styles';
+import { COLORS } from '../../constants/colors';
 
 const StyledBox = styled(Card)(() => ({
   borderBottom: 1,
@@ -16,16 +17,16 @@ const StyledTabs = styled(Tabs)(() => ({
     justifyContent: 'space-between',
   },
   '& .Mui-selected': {
-    color: '#67AA92',
-    borderColor: '#67AA92',
+    color: COLORS.PRIMARY,
+    borderColor: COLORS.PRIMARY,
   },
   '& .MuiTabs-indicator': {
-    backgroundColor: '#67AA92',
+    backgroundColor: COLORS.PRIMARY,
   },
 }));
 
 const StyledTab = styled(Tab)(() => ({
-  color: '#67AA92',
+  color: COLORS.PRIMARY,
 }));
 
 export const VenueTabsNavigation = ({ tabValue, onTabChange }) => {

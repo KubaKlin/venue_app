@@ -7,6 +7,7 @@ import AddIcon from '@mui/icons-material/Add';
 import bannerBg from '../../assets/banner_bg.svg';
 import { FilterTextField } from './FilterTextField';
 import { useForm } from 'react-hook-form';
+import { COLORS } from '../../constants/colors';
 
 const StyledMainBox = styled(Box)(({ theme }) => ({
   backgroundImage: `url(${bannerBg})`,
@@ -51,14 +52,14 @@ const StyledHeader = styled(Typography)(({ theme }) => ({
 
 const StyledTypography = styled(Typography)(() => ({
   textAlign: 'center',
-  color: '#67AA92',
+  color: COLORS.PRIMARY,
   fontWeight: 600,
 }));
 
 const StyleSearchButton = styled(Button)(() => ({
   textTransform: 'lowercase',
   borderRadius: '20px',
-  backgroundColor: '#67AA92',
+  backgroundColor: COLORS.PRIMARY,
   fontWeight: 600,
   fontSize: '16px',
   display: 'block',
