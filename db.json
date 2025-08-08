@@ -4734,13 +4734,7 @@
       "heroImageUrl": "https://picsum.photos/seed/venue-76/800/400",
       "cardImageUrl": "https://picsum.photos/seed/venue-76/400/250",
       "description": "Welcome to rustic barn, a hidden gem in ustrzyki dolne that perfectly balances rustic charm with modern convenience. This property is ideal for travelers who appreciate attention to detail and authentic experiences.",
-      "features": [
-        "TV",
-        "WiFi",
-        "terrace",
-        "garden",
-        "parking"
-      ],
+      "features": ["TV", "WiFi", "terrace", "garden", "parking"],
       "sleapingDetails": {
         "maxCapacity": 15,
         "amoutOfBeds": 8
