@@ -18,13 +18,7 @@ export const SectionContent = ({
   }
 
   const state = getStateBySection(section.id);
-  const onCheckboxChange = getHandlerBySection(section.id);
+  const onChange = getHandlerBySection(section.id);
 
-  return (
-    <CheckboxGroup
-      section={section}
-      state={state}
-      onCheckboxChange={onCheckboxChange}
-    />
-  );
+  return <CheckboxGroup section={section} state={state} onChange={onChange} />;
 };

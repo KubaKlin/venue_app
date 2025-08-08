@@ -28,8 +28,6 @@ const StyledAccordionDetails = styled(AccordionDetails)(({ theme }) => ({
   marginTop: theme.spacing(1),
 }));
 
-
-
 export const FilterAccordion = ({
   section,
   watchedValues,

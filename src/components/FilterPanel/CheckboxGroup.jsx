@@ -8,7 +8,7 @@ const StyledCheckbox = styled(Checkbox)(() => ({
   },
 }));
 
-export const CheckboxGroup = ({ section, state, onCheckboxChange }) => {
+export const CheckboxGroup = ({ section, state, onChange }) => {
   return (
     <FormGroup>
       {section.options.map((option) => (
@@ -17,7 +17,7 @@ export const CheckboxGroup = ({ section, state, onCheckboxChange }) => {
           control={
             <StyledCheckbox
               checked={state[option.key] || false}
-              onChange={onCheckboxChange(option.key)}
+              onChange={onChange(option.key)}
             />
           }
           label={option.label}
