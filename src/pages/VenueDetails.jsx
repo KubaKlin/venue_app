@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom';
 import { useState } from 'react';
 import { LoadingInfo } from '../components/LoadingInfo/LoadingInfo';
 import { ErrorInfo } from '../components/ErrorInfo/ErrorInfo';
-import { BookingCard } from '../components/VenueDetails/BookingCard';
+import { BookingCard } from '../components/BookingCard/BookingCard';
 import { VenueHeader } from '../components/VenueDetails/VenueHeader';
 import { VenueHeroImage } from '../components/VenueDetails/VenueHeroImage';
 import { VenueTabsNavigation } from '../components/VenueDetails/VenueTabsNavigation';

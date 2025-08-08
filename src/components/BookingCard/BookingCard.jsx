@@ -2,9 +2,9 @@ import { Typography, Card, Divider } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import { useBookingForm } from './hooks/useBookingForm.js';
 import { useBookingCalculations } from './hooks/useBookingCalculations';
-import { BookingDatePickers } from './BookingDatePickers';
-import { BookingPriceDisplay } from './BookingPriceDisplay';
-import { BookingSubmitButton } from './BookingSubmitButton';
+import { BookingDatePickers } from '../VenueDetails/BookingDatePickers';
+import { BookingPriceDisplay } from '../VenueDetails/BookingPriceDisplay';
+import { BookingSubmitButton } from '../VenueDetails/BookingSubmitButton';
 
 const StyledCard = styled(Card)(({ theme }) => ({
   padding: theme.spacing(3),
