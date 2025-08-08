@@ -1,11 +1,6 @@
 import { Box, Typography, Divider, Card } from '@mui/material';
 import { styled } from '@mui/material/styles';
-import {
-  CheckCircle,
-  Bed,
-  AccessTime,
-  LocationCity,
-} from '@mui/icons-material';
+import { Check, Bed, AccessTime, LocationCity } from '@mui/icons-material';
 
 const StyledCard = styled(Card)(({ theme }) => ({
   padding: theme.spacing(4),
@@ -16,6 +11,7 @@ const StyledCard = styled(Card)(({ theme }) => ({
 const StyledDescriptionTypography = styled(Typography)(({ theme }) => ({
   marginBottom: theme.spacing(3),
   lineHeight: 1.5,
+  fontSize: '20px',
 }));
 
 const StyledDivider = styled(Divider)(({ theme }) => ({
@@ -26,6 +22,7 @@ const StyledDivider = styled(Divider)(({ theme }) => ({
 const StyledFeaturesBox = styled(Box)(({ theme }) => ({
   display: 'flex',
   flexWrap: 'wrap',
+  flexDirection: 'column',
   gap: theme.spacing(2),
   marginBottom: theme.spacing(3),
 }));
@@ -36,9 +33,13 @@ const StyledFeatureBox = styled(Box)(({ theme }) => ({
   gap: theme.spacing(1),
 }));
 
-const StyledCheckCircle = styled(CheckCircle)(() => ({
+const StyledFeatureBoxTypography = styled(Typography)(() => ({
   fontSize: 20,
-  color: 'green',
+}));
+
+const StyledCheck = styled(Check)(() => ({
+  fontSize: 20,
+  color: '#333',
 }));
 
 const StyledDetailsBox = styled(Box)(({ theme }) => ({
@@ -79,8 +80,10 @@ export const DescriptionTab = ({ venue }) => (
     <StyledFeaturesBox>
       {venue.features.map((feature, index) => (
         <StyledFeatureBox key={index}>
-          <StyledCheckCircle />
-          <Typography variant="body2">{feature}</Typography>
+          <StyledCheck />
+          <StyledFeatureBoxTypography variant="body2">
+            {feature}
+          </StyledFeatureBoxTypography>
         </StyledFeatureBox>
       ))}
     </StyledFeaturesBox>
@@ -90,24 +93,24 @@ export const DescriptionTab = ({ venue }) => (
     <StyledDetailsBox>
       <StyledDetailItemBox>
         <StyledBed />
-        <Typography variant="body2">
+        <StyledFeatureBoxTypography variant="body2">
           {venue.sleapingDetails.amoutOfBeds} beds /{' '}
           {venue.sleapingDetails.maxCapacity} sleeping places
-        </Typography>
+        </StyledFeatureBoxTypography>
       </StyledDetailItemBox>
 
       <StyledDetailItemBox>
         <StyledAccessTime />
-        <Typography variant="body2">
+        <StyledFeatureBoxTypography variant="body2">
           check-in {venue.checkInHour} / check-out {venue.checkOutHour}
-        </Typography>
+        </StyledFeatureBoxTypography>
       </StyledDetailItemBox>
 
       <StyledDetailItemBox>
         <StyledLocationCity />
-        <Typography variant="body2">
+        <StyledFeatureBoxTypography variant="body2">
           {venue.distanceFromCityCenterInKM} km to the city
-        </Typography>
+        </StyledFeatureBoxTypography>
       </StyledDetailItemBox>
     </StyledDetailsBox>
   </StyledCard>
