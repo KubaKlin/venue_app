@@ -1,15 +1,5 @@
-import { Box, Typography, Slider } from '@mui/material';
-import { styled } from '@mui/material/styles';
-
-const StyledSlider = styled(Slider)(() => ({
-  color: '#4caf50',
-  '& .MuiSlider-thumb': {
-    backgroundColor: '#4caf50',
-  },
-  '& .MuiSlider-track': {
-    backgroundColor: '#4caf50',
-  },
-}));
+import { Box, Typography } from '@mui/material';
+import { StyledSlider } from './PriceSlider.styles';
 
 export const PriceSlider = ({ priceRange, handlePriceChange }) => {
   return (

@@ -1,16 +1,5 @@
-import { Card, Typography } from '@mui/material';
-import { styled } from '@mui/material/styles';
-
-const StyledCard = styled(Card)(({ theme }) => ({
-  padding: theme.spacing(2),
-  textAlign: 'center',
-  marginLeft: theme.spacing(0.5),
-  marginRight: theme.spacing(0.5),
-}));
-
-const StyledTypography = styled(Typography)(({ theme }) => ({
-  marginTop: theme.spacing(1),
-}));
+import { Typography } from '@mui/material';
+import { StyledCard, StyledTypography } from './GalleryTab.styles';
 
 export const GalleryTab = () => (
   <StyledCard elevation={3}>

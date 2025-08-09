@@ -1,11 +1,5 @@
-import { Container, Typography, Box } from '@mui/material';
-import { styled } from '@mui/material/styles';
-
-const StyledBox = styled(Box)(({ theme }) => ({
-  paddingTop: theme.spacing(4),
-  paddingBottom: theme.spacing(4),
-  textAlign: 'center',
-}));
+import { Container, Typography } from '@mui/material';
+import { StyledBox } from './shared.styles';
 
 export const YourFavourites = () => {
   return (

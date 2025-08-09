@@ -1,23 +1,8 @@
-import { Card, Box, Typography } from '@mui/material';
-import { styled } from '@mui/material/styles';
+import { Typography } from '@mui/material';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import { NoMapInfo } from './NoMapInfo';
-
-const StyledCard = styled(Card)(({ theme }) => ({
-  marginLeft: theme.spacing(0.5),
-  marginRight: theme.spacing(0.5),
-}));
-
-const StyledMapBox = styled(Box)(({ theme }) => ({
-  height: 400,
-  borderRadius: theme.spacing(1),
-  overflow: 'hidden',
-}));
-
-const StyledPopupBox = styled(Box)(() => ({
-  textAlign: 'center',
-}));
+import { StyledCard, StyledMapBox, StyledPopupBox } from './MapTab.styles';
 
 export const MapTab = ({ venue }) => {
   // Check if coordinates are available in the venue data

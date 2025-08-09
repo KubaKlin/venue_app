@@ -1,14 +1,7 @@
-import { Container, Box, Grid } from '@mui/material';
-import { styled } from '@mui/material/styles';
+import { Container, Grid } from '@mui/material';
 import { FilterPanel } from '../components/FilterPanel/FilterPanel';
 import { VenueListGrid } from '../components/VenueList/VenueListGrid';
-
-const StyledBox = styled(Box)(({ theme }) => ({
-  padding: theme.spacing(3),
-  backgroundColor: '#fafafa',
-  borderRadius: theme.spacing(2),
-  minHeight: 400,
-}));
+import { StyledBox } from './VenueList.styles';
 
 export const VenueList = () => {
   return (

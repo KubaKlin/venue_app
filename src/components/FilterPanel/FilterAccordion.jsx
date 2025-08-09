@@ -1,36 +1,11 @@
-import {
-  Accordion,
-  AccordionSummary,
-  AccordionDetails,
-  Typography,
-} from '@mui/material';
-import { styled } from '@mui/material/styles';
+import { Typography } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/PlayArrow';
 import { SectionContent } from './SectionContent';
-
-const StyledAccordion = styled(Accordion)(({ theme }) => ({
-  padding: theme.spacing(1.5),
-  backgroundColor: 'transparent',
-  '&:before': {
-    display: 'none',
-  },
-}));
-
-const StyledAccordionSummary = styled(AccordionSummary)(({ theme }) => ({
-  backgroundColor: '#FDFDFD',
-  paddingLeft: theme.spacing(2),
-  paddingRight: theme.spacing(2),
-  '& .MuiAccordionSummary-expandIconWrapper': {
-    transform: 'rotate(90deg)',
-  },
-  '& .MuiAccordionSummary-expandIconWrapper.Mui-expanded': {
-    transform: 'rotate(270deg)',
-  },
-}));
-
-const StyledAccordionDetails = styled(AccordionDetails)(({ theme }) => ({
-  marginTop: theme.spacing(1),
-}));
+import {
+  StyledAccordion,
+  StyledAccordionSummary,
+  StyledAccordionDetails,
+} from './FilterAccordion.styles';
 
 export const FilterAccordion = ({
   section,

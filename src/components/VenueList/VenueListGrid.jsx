@@ -1,6 +1,4 @@
 import { Box, Grid } from '@mui/material';
-import { styled } from '@mui/material/styles';
-
 import { VenueListSummary } from './VenueListSummary';
 import { VenueListPagination } from './VenueListPagination';
 import { LoadingInfo } from '../LoadingInfo/LoadingInfo';
@@ -8,10 +6,7 @@ import { ErrorInfo } from '../ErrorInfo/ErrorInfo';
 import { useVenuesList } from '../../hooks/useVenuesList';
 import { usePagination } from '../../hooks/usePagination';
 import { VenueCard } from './VenueCard/VenueCard';
-
-const StyledGrid = styled(Grid)(({ theme }) => ({
-  marginBottom: theme.spacing(4),
-}));
+import { StyledGrid } from './VenueListGrid.styles';
 
 const ITEMS_PER_PAGE = 12;
 

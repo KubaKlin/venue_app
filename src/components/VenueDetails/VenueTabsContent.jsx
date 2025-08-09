@@ -1,13 +1,7 @@
-import { Box } from '@mui/material';
-import { styled } from '@mui/material/styles';
 import { DescriptionTab } from './DescriptionTab';
 import { GalleryTab } from './GalleryTab';
 import { MapTab } from '../MapTab/MapTab';
-
-const StyledBox = styled(Box)(({ theme }) => ({
-  paddingTop: theme.spacing(3),
-  paddingBottom: theme.spacing(3),
-}));
+import { StyledBox } from './VenueTabsContent.styles';
 
 export const VenueTabsContent = ({ tabValue, venue }) => {
   return (

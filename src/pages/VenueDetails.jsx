@@ -1,5 +1,4 @@
-import { Container, Card, Grid } from '@mui/material';
-import { styled } from '@mui/material/styles';
+import { Grid } from '@mui/material';
 import { useParams } from 'react-router-dom';
 import { useState } from 'react';
 import { LoadingInfo } from '../components/LoadingInfo/LoadingInfo';
@@ -11,15 +10,7 @@ import { VenueTabsNavigation } from '../components/VenueDetails/VenueTabsNavigat
 import { VenueTabsContent } from '../components/VenueDetails/VenueTabsContent';
 import { useVenueDetails } from '../hooks/useVenueDetails';
 import { BookingContact } from '../components/BookingContact/BookingContact';
-
-const StyledContainer = styled(Container)(({ theme }) => ({
-  paddingTop: theme.spacing(4),
-  paddingBottom: theme.spacing(4),
-}));
-
-const StyledCard = styled(Card)(({ theme }) => ({
-  borderRadius: theme.spacing(2),
-}));
+import { StyledContainer, StyledCard } from './VenueDetails.styles';
 
 export const VenueDetails = () => {
   const { id } = useParams();
