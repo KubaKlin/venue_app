@@ -1,12 +1,5 @@
-import { Checkbox, FormControlLabel, FormGroup } from '@mui/material';
-import { styled } from '@mui/material/styles';
-
-const StyledCheckbox = styled(Checkbox)(() => ({
-  color: '#4caf50',
-  '&.Mui-checked': {
-    color: '#4caf50',
-  },
-}));
+import { FormControlLabel, FormGroup } from '@mui/material';
+import { StyledCheckbox } from './CheckboxGroup.styles';
 
 export const CheckboxGroup = ({ section, state, onChange }) => {
   return (

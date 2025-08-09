@@ -1,36 +1,11 @@
-import { Box, Typography, Rating } from '@mui/material';
-import { styled } from '@mui/material/styles';
-
-const StyledMainBox = styled(Box)(() => ({
-  display: 'flex',
-  justifyContent: 'space-between',
-  alignItems: 'flex-end',
-}));
-
-const StyledLeftBox = styled(Box)(({ theme }) => ({
-  display: 'flex',
-  flexDirection: 'column',
-  gap: theme.spacing(1),
-  marginBottom: theme.spacing(2),
-}));
-
-const StyledNameTypography = styled(Typography)(() => ({
-  fontWeight: 700,
-  textTransform: 'capitalize',
-}));
-
-const StyledLocationTypography = styled(Typography)(() => ({
-  textTransform: 'capitalize',
-  fontWeight: 500,
-}));
-
-const StyledRightBox = styled(Box)(({ theme }) => ({
-  display: 'flex',
-  flexDirection: 'column',
-  alignItems: 'flex-end',
-  gap: theme.spacing(1),
-  marginBottom: theme.spacing(2),
-}));
+import { Typography, Rating } from '@mui/material';
+import {
+  StyledMainBox,
+  StyledLeftBox,
+  StyledNameTypography,
+  StyledLocationTypography,
+  StyledRightBox,
+} from './VenueHeader.styles';
 
 export const VenueHeader = ({ venue }) => {
   return (

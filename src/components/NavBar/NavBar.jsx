@@ -1,48 +1,14 @@
 import { useState } from 'react';
-import {
-  Container,
-  Box,
-  Typography,
-  Button,
-  useTheme,
-  useMediaQuery,
-} from '@mui/material';
-import { styled } from '@mui/material/styles';
+import { Container, useTheme, useMediaQuery } from '@mui/material';
 import { Link } from 'react-router-dom';
 import { MobileNavBar } from './MobileNavBar.jsx';
-
-const StyledMainBox = styled(Box)(() => ({
-  boxShadow: 2,
-}));
-
-const StyledContainerBox = styled(Box)(() => ({
-  display: 'flex',
-  justifyContent: 'space-between',
-  alignItems: 'center',
-}));
-
-const StyledLogoTypography = styled(Typography)(({ theme }) => ({
-  marginRight: theme.spacing(2),
-  display: 'flex',
-  fontWeight: 100,
-  letterSpacing: '4px',
-  color: 'inherit',
-  textDecoration: 'none',
-}));
-
-const StyledDesktopBox = styled(Box)(() => ({
-  display: 'flex',
-  gap: 36,
-}));
-
-const StyledButton = styled(Button)(({ theme }) => ({
-  marginTop: theme.spacing(2),
-  marginBottom: theme.spacing(2),
-  color: '#333',
-  display: 'block',
-  textTransform: 'lowercase',
-  fontSize: '16px',
-}));
+import {
+  StyledMainBox,
+  StyledContainerBox,
+  StyledLogoTypography,
+  StyledDesktopBox,
+  StyledButton,
+} from './NavBar.styles';
 
 export const NavBar = () => {
   const [anchorElementNavigation, setAnchorElementNavigation] = useState(null);

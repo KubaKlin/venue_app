@@ -1,23 +1,4 @@
-import { Box, Button, Typography } from '@mui/material';
-import { styled } from '@mui/material/styles';
-
-const StyledBox = styled(Box)(({ theme }) => ({
-  display: 'flex',
-  justifyContent: 'space-between',
-  alignItems: 'center',
-  marginBottom: theme.spacing(2),
-}));
-
-const StyledTypography = styled(Typography)(() => ({
-  color: '#7f8c8d',
-}));
-
-const StyledButton = styled(Button)(() => ({
-  color: '#4caf50',
-  fontWeight: 600,
-  fontSize: '16px',
-  textTransform: 'lowercase',
-}));
+import { StyledBox, StyledTypography, StyledButton } from './VenueListSummary.styles';
 
 export const VenueListSummary = ({ venues, startIndex, endIndex }) => {
   return (

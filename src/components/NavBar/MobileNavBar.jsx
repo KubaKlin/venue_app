@@ -1,15 +1,7 @@
-import { Box, IconButton, Menu, MenuItem, Typography } from '@mui/material';
-import { styled } from '@mui/material/styles';
+import { IconButton, MenuItem, Typography } from '@mui/material';
 import { Menu as MenuIcon } from '@mui/icons-material';
 import { Link } from 'react-router-dom';
-
-const StyledBox = styled(Box)(() => ({
-  display: 'flex',
-}));
-
-const StyledMenu = styled(Menu)(() => ({
-  display: { xs: 'block', md: 'none' },
-}));
+import { StyledBox, StyledMenu } from './MobileNavBar.styles';
 
 export const MobileNavBar = ({
   pages,

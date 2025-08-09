@@ -1,10 +1,5 @@
-import { TextField, InputAdornment } from '@mui/material';
-import { styled } from '@mui/material/styles';
-
-const StyledTextField = styled(TextField)(({ theme }) => ({
-  backgroundColor: '#fff',
-  borderRadius: theme.spacing(1),
-}));
+import { InputAdornment } from '@mui/material';
+import { StyledTextField } from './FilterTextField.styles';
 
 export const FilterTextField = ({
   label,

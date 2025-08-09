@@ -1,12 +1,5 @@
-import { Box, CircularProgress } from '@mui/material';
-import { styled } from '@mui/material/styles';
-
-const StyledBox = styled(Box)(() => ({
-  display: 'flex',
-  justifyContent: 'center',
-  alignItems: 'center',
-  minHeight: 400,
-}));
+import { CircularProgress } from '@mui/material';
+import { StyledBox } from './LoadingInfo.styles';
 
 export const LoadingInfo = () => {
   return (

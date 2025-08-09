@@ -1,15 +1,9 @@
-import { Box, Paper } from '@mui/material';
-import { styled } from '@mui/material/styles';
+import { Box } from '@mui/material';
 import { useFilterForm } from '../../hooks/useFilterForm';
 import { FilterHeader } from './FilterHeader';
 import { FilterAccordion } from './FilterAccordion';
 import { filterSections } from './filterConfig';
-
-const StyledPaper = styled(Paper)(({ theme }) => ({
-  width: '100%',
-  backgroundColor: '#FDFDFD',
-  borderRadius: theme.spacing(2),
-}));
+import { StyledPaper } from './FilterPanel.styles';
 
 export const FilterPanel = () => {
   const {

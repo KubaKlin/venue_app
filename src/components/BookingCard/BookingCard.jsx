@@ -1,24 +1,9 @@
-import { Typography, Card, Divider } from '@mui/material';
-import { styled } from '@mui/material/styles';
 import { useBookingForm } from './hooks/useBookingForm.js';
 import { useBookingCalculations } from './hooks/useBookingCalculations';
 import { BookingDatePickers } from '../VenueDetails/BookingDatePickers';
 import { BookingPriceDisplay } from '../VenueDetails/BookingPriceDisplay';
 import { BookingSubmitButton } from '../VenueDetails/BookingSubmitButton';
-
-const StyledCard = styled(Card)(({ theme }) => ({
-  padding: theme.spacing(3),
-  borderRadius: theme.spacing(2),
-}));
-
-const StyledTypography = styled(Typography)(({ theme }) => ({
-  fontWeight: 600,
-  marginBottom: theme.spacing(2),
-}));
-
-const StyledDivider = styled(Divider)(({ theme }) => ({
-  marginBottom: theme.spacing(3),
-}));
+import { StyledCard, StyledTypography, StyledDivider } from './BookingCard.styles';
 
 export const BookingCard = ({ venue }) => {
   const {

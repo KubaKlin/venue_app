@@ -1,39 +1,10 @@
-import { Box, Typography } from '@mui/material';
-import { styled } from '@mui/material/styles';
-import { Phone, Email } from '@mui/icons-material';
-
-const ContactItem = styled(Box)(({ theme }) => ({
-  display: 'flex',
-  alignItems: 'center',
-  marginBottom: theme.spacing(2),
-  cursor: 'pointer',
-}));
-
-const EmailContactItem = styled(Box)(() => ({
-  display: 'flex',
-  alignItems: 'center',
-  cursor: 'pointer',
-}));
-
-const ContactIcon = styled(Phone)(({ theme }) => ({
-  fontSize: '28px',
-  marginRight: theme.spacing(2),
-  color: '#000',
-}));
-
-const EmailIcon = styled(Email)(({ theme }) => ({
-  fontSize: '28px',
-  marginRight: theme.spacing(2),
-  color: '#000',
-}));
-
-const ContactText = styled(Typography)(({ theme }) => ({
-  fontSize: '14px',
-  fontWeight: 400,
-  [theme.breakpoints.down('sm')]: {
-    fontSize: '16px',
-  },
-}));
+import {
+  ContactItem,
+  EmailContactItem,
+  ContactIcon,
+  EmailIcon,
+  ContactText,
+} from './ContactItems.styles';
 
 export const ContactItems = ({ contactDetails }) => {
   const handlePhoneClick = () => {

@@ -1,23 +1,12 @@
-import { Box, Checkbox, FormControlLabel } from '@mui/material';
-import { styled } from '@mui/material/styles';
-import { DatePicker } from '@mui/x-date-pickers/DatePicker';
+import { Checkbox } from '@mui/material';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
 import { Controller } from 'react-hook-form';
-
-const StyledDatePickerBox = styled(Box)(({ theme }) => ({
-  display: 'flex',
-  gap: theme.spacing(2),
-  marginBottom: theme.spacing(2),
-}));
-
-const StyledDatePicker = styled(DatePicker)(() => ({
-  flex: 1,
-}));
-
-const StyledFormControlLabel = styled(FormControlLabel)(({ theme }) => ({
-  marginBottom: theme.spacing(2),
-}));
+import {
+  StyledDatePickerBox,
+  StyledDatePicker,
+  StyledFormControlLabel,
+} from './BookingDatePickers.styles';
 
 export const BookingDatePickers = ({
   control,
