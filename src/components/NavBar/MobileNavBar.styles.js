@@ -8,4 +8,3 @@ export const StyledBox = styled(Box)(() => ({
 export const StyledMenu = styled(Menu)(() => ({
   display: { xs: 'block', md: 'none' },
 }));
-

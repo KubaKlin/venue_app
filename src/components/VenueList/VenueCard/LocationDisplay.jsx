@@ -1,4 +1,8 @@
-import { StyledBox, StyledLocationOn, StyledTypography } from './LocationDisplay.styles';
+import {
+  StyledBox,
+  StyledLocationOn,
+  StyledTypography,
+} from './LocationDisplay.styles';
 
 export const LocationDisplay = ({ locationName }) => (
   <StyledBox>

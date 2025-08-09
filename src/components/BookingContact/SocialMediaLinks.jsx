@@ -2,7 +2,11 @@ import facebookIcon from '../../assets/facebook_ico.svg';
 import instagramIcon from '../../assets/insta_ico.svg';
 import twitterIcon from '../../assets/twitter_ico.svg';
 import globeIcon from '../../assets/globe_ico.svg';
-import { SocialMediaContainer, SocialIconButton, SocialIcon } from './SocialMediaLinks.styles';
+import {
+  SocialMediaContainer,
+  SocialIconButton,
+  SocialIcon,
+} from './SocialMediaLinks.styles';
 
 export const SocialMediaLinks = () => {
   const handleSocialMediaClick = (url) => {

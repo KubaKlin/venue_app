@@ -19,4 +19,3 @@ export const ContactTitle = styled(Typography)(({ theme }) => ({
 export const ContactSection = styled(Box)(({ theme }) => ({
   marginBottom: theme.spacing(4),
 }));
-

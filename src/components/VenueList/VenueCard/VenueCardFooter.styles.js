@@ -32,4 +32,3 @@ export const StyledTypography = styled(Typography)(({ theme }) => ({
   color: '#7f8c8d',
   marginLeft: theme.spacing(0.5),
 }));
-

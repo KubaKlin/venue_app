@@ -14,4 +14,3 @@ export const StyledTypography = styled(Typography)(({ theme }) => ({
 export const StyledDivider = styled(Divider)(({ theme }) => ({
   marginBottom: theme.spacing(3),
 }));
-

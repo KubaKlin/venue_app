@@ -16,4 +16,3 @@ export const StyledPagination = styled(Pagination)(() => ({
     backgroundColor: COLORS.PRIMARY,
   },
 }));
-

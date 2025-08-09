@@ -20,4 +20,3 @@ export const StyledButton = styled(Button)(() => ({
   textTransform: 'lowercase',
   fontWeight: 400,
 }));
-

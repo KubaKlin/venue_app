@@ -18,4 +18,3 @@ export const StyledButton = styled(Button)(() => ({
   fontSize: '16px',
   textTransform: 'lowercase',
 }));
-

@@ -31,4 +31,3 @@ export const StyledRightBox = styled(Box)(({ theme }) => ({
   gap: theme.spacing(1),
   marginBottom: theme.spacing(2),
 }));
-

@@ -7,4 +7,3 @@ export const StyledPaper = styled(Paper)(({ theme }) => ({
   borderRadius: theme.spacing(0),
   height: '100%',
 }));
-

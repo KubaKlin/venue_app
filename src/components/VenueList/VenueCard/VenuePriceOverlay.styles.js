@@ -10,4 +10,3 @@ export const StyledBox = styled(Box)(({ theme }) => ({
   backgroundColor: COLORS.OVERLAY_BACKGROUND,
   borderTopRightRadius: 12,
 }));
-

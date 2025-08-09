@@ -68,4 +68,3 @@ export const StyledLocationCity = styled(LocationCity)(() => ({
   fontSize: 30,
   color: '#333',
 }));
-

@@ -33,4 +33,3 @@ export const StyledButton = styled(Button)(({ theme }) => ({
   textTransform: 'lowercase',
   fontSize: '16px',
 }));
-

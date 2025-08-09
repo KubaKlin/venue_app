@@ -3,7 +3,11 @@ import { useBookingCalculations } from './hooks/useBookingCalculations';
 import { BookingDatePickers } from '../VenueDetails/BookingDatePickers';
 import { BookingPriceDisplay } from '../VenueDetails/BookingPriceDisplay';
 import { BookingSubmitButton } from '../VenueDetails/BookingSubmitButton';
-import { StyledCard, StyledTypography, StyledDivider } from './BookingCard.styles';
+import {
+  StyledCard,
+  StyledTypography,
+  StyledDivider,
+} from './BookingCard.styles';
 
 export const BookingCard = ({ venue }) => {
   const {

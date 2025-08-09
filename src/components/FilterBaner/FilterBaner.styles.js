@@ -63,4 +63,3 @@ export const StyleSearchButton = styled(Button)(() => ({
   paddingInline: '34px',
   boxShadow: 'none',
 }));
-

@@ -18,4 +18,3 @@ export const StyledTypography = styled(Typography)(({ theme }) => ({
   fontSize: 13,
   marginLeft: theme.spacing(0.5),
 }));
-

@@ -34,4 +34,3 @@ export const ContactText = styled(Typography)(({ theme }) => ({
     fontSize: '16px',
   },
 }));
-

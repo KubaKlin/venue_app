@@ -13,4 +13,3 @@ export const StyledBox = styled(Box)(({ theme }) => ({
 export const StyledTypography = styled(Typography)(() => ({
   color: '#7f8c8d',
 }));
-

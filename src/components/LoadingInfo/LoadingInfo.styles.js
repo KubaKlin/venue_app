@@ -7,4 +7,3 @@ export const StyledBox = styled(Box)(() => ({
   alignItems: 'center',
   minHeight: 400,
 }));
-

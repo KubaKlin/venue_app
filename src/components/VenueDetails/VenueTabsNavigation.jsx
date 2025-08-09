@@ -1,4 +1,8 @@
-import { StyledCard, StyledTabs, StyledTab } from './VenueTabsNavigation.styles';
+import {
+  StyledCard,
+  StyledTabs,
+  StyledTab,
+} from './VenueTabsNavigation.styles';
 
 export const VenueTabsNavigation = ({ tabValue, onTabChange }) => {
   return (

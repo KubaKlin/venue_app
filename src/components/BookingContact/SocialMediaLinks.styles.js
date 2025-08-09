@@ -18,4 +18,3 @@ export const SocialIcon = styled('img')({
   width: '32px',
   height: '32px',
 });
-

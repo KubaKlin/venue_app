@@ -17,4 +17,3 @@ export const StyledTypography = styled(Typography)(() => ({
   color: 'white',
   fontSize: 14,
 }));
-

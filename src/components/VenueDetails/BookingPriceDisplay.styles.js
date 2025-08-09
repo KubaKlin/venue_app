@@ -29,4 +29,3 @@ export const StyledDivider = styled(Divider)(({ theme }) => ({
 export const StyledTotalTypography = styled(Typography)(() => ({
   fontWeight: 600,
 }));
-

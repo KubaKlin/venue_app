@@ -1,4 +1,8 @@
-import { StyledBox, StyledTypography, StyledButton } from './FilterHeader.styles';
+import {
+  StyledBox,
+  StyledTypography,
+  StyledButton,
+} from './FilterHeader.styles';
 
 export const FilterHeader = ({ onReset }) => {
   return (

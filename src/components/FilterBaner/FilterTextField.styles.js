@@ -5,4 +5,3 @@ export const StyledTextField = styled(TextField)(({ theme }) => ({
   backgroundColor: '#fff',
   borderRadius: theme.spacing(1),
 }));
-

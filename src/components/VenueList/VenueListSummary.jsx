@@ -1,4 +1,8 @@
-import { StyledBox, StyledTypography, StyledButton } from './VenueListSummary.styles';
+import {
+  StyledBox,
+  StyledTypography,
+  StyledButton,
+} from './VenueListSummary.styles';
 
 export const VenueListSummary = ({ venues, startIndex, endIndex }) => {
   return (

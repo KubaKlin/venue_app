@@ -1,6 +1,10 @@
 import { SocialMediaLinks } from './SocialMediaLinks';
 import { ContactItems } from './ContactItems';
-import { ContactContainer, ContactTitle, ContactSection } from './BookingContact.styles';
+import {
+  ContactContainer,
+  ContactTitle,
+  ContactSection,
+} from './BookingContact.styles';
 
 export const BookingContact = ({ venue }) => {
   if (!venue?.contactDetails) {

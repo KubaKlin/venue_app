@@ -29,4 +29,3 @@ export const StyledTabs = styled(Tabs)(() => ({
 export const StyledTab = styled(Tab)(() => ({
   color: COLORS.PRIMARY,
 }));
-

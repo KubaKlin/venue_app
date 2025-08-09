@@ -7,4 +7,3 @@ export const StyledCheckbox = styled(Checkbox)(() => ({
     color: '#4caf50',
   },
 }));
-

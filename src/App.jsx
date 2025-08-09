@@ -22,7 +22,7 @@ export const App = () => {
         <Route path="/start-hosting" element={<StartHosting />} />
         <Route path="/login" element={<Login />} />
       </Routes>
-      <Footer/>
+      <Footer />
     </>
   );
 };

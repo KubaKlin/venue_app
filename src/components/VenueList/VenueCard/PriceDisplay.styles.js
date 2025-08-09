@@ -6,4 +6,3 @@ export const StyledTypography = styled(Typography)(() => ({
   color: 'white',
   fontWeight: 600,
 }));
-

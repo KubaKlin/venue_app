@@ -9,4 +9,3 @@ export const StyledBox = styled(Box)(({ backgroundImage }) => ({
   backgroundRepeat: 'no-repeat',
   position: 'relative',
 }));
-
