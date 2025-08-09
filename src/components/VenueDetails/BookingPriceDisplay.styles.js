@@ -2,10 +2,8 @@ import { Box, Typography, Divider } from '@mui/material';
 import { styled } from '@mui/material/styles';
 
 export const StyledMainBox = styled(Box)(({ theme }) => ({
-  padding: theme.spacing(2),
-  backgroundColor: '#f6f6f6',
-  borderRadius: theme.spacing(2),
-  marginBottom: theme.spacing(2),
+  marginBottom: theme.spacing(3),
+  marginTop: theme.spacing(1),
 }));
 
 export const StyledRowBox = styled(Box)(({ theme }) => ({

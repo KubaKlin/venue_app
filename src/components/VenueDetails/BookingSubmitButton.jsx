@@ -5,7 +5,6 @@ export const BookingSubmitButton = ({ isFormValid, isDisabled = false }) => {
     <StyledButton
       type="submit"
       variant="contained"
-      fullWidth
       disabled={!isFormValid || isDisabled}
     >
       Book
