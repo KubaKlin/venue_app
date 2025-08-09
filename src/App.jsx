@@ -7,6 +7,7 @@ import { Login } from './pages/Login';
 import { FilterBaner } from './components/FilterBaner/FilterBaner';
 import { VenueList } from './pages/VenueList';
 import { VenueDetails } from './pages/VenueDetails';
+import { Footer } from './components/Footer/Footer';
 
 export const App = () => {
   return (
@@ -21,6 +22,7 @@ export const App = () => {
         <Route path="/start-hosting" element={<StartHosting />} />
         <Route path="/login" element={<Login />} />
       </Routes>
+      <Footer/>
     </>
   );
 };
