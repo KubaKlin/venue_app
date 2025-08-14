@@ -9,6 +9,7 @@ import {
   StyledDesktopBox,
   StyledButton,
 } from './NavBar.styles';
+import logoPic from '../../assets/bookify.svg';
 
 export const NavBar = () => {
   const [anchorElementNavigation, setAnchorElementNavigation] = useState(null);
@@ -35,7 +36,7 @@ export const NavBar = () => {
       <Container maxWidth="lg">
         <StyledContainerBox>
           <StyledLogoTypography variant="h6" noWrap component={Link} to="/">
-            BOOKIFY
+            <img src={logoPic} alt="bookify logo" />
           </StyledLogoTypography>
 
           {/* Desktop Menu */}

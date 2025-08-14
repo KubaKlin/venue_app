@@ -1,8 +1,9 @@
+import { useState } from 'react';
+import { FilterTextField } from './FilterTextField';
+import { useForm } from 'react-hook-form';
 import { Container } from '@mui/material';
 import SearchIcon from '@mui/icons-material/Search';
 import CalendarTodayIcon from '@mui/icons-material/CalendarToday';
-import { FilterTextField } from './FilterTextField';
-import { useForm } from 'react-hook-form';
 import {
   StyledMainBox,
   StyledFormBox,
@@ -16,11 +17,24 @@ import {
 export const FilterBaner = () => {
   const { register, handleSubmit, watch, setValue } = useForm();
 
+  const [isFieldVisible, setIsFieldVisible] = useState(false);
+
   const onSubmit = (data) => {
     console.log('Search data:', data);
   };
 
   const guestCount = watch('guests', 1);
+
+  const handleFieldVisibility = () => {
+    setIsFieldVisible(!isFieldVisible);
+  };
+
+  const getButtonText = () => {
+    if (isFieldVisible) {
+      return "I don't want to be that specific";
+    }
+    return 'I want to be more specific';
+  };
 
   const handleGuestDecrease = () => {
     const currentValue = Math.max(1, guestCount - 1);
@@ -48,12 +62,14 @@ export const FilterBaner = () => {
               label="Occasions"
               startIcon={<SearchIcon />}
               register={register('occasions')}
+              isVisible={isFieldVisible}
             />
             <FilterTextField
               label="Date"
               startIcon={<CalendarTodayIcon />}
               register={register('date')}
               type="date"
+              isVisible={isFieldVisible}
             />
             <FilterTextField
               label="Guests"
@@ -63,15 +79,19 @@ export const FilterBaner = () => {
               value={guestCount}
               type="number"
               readOnly
+              isVisible={isFieldVisible}
             />
             <FilterTextField
               label="Venue type"
               startIcon={<SearchIcon />}
               register={register('venueType')}
+              isVisible={isFieldVisible}
             />
           </StyledFormBox>
 
-          <StyledTypography>I don't want to be that specific</StyledTypography>
+          <StyledTypography onClick={handleFieldVisibility}>
+            {getButtonText()}
+          </StyledTypography>
 
           <StyleSearchButton type="submit" variant="contained" color="primary">
             Search for venue

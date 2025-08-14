@@ -17,6 +17,7 @@ export const StyledMainBox = styled(Box)(({ theme }) => ({
 export const StyledFormBox = styled(Box)(({ theme }) => ({
   display: 'flex',
   gap: '32px',
+  justifyContent: 'center',
   marginTop: theme.spacing(2),
   marginBottom: theme.spacing(2),
   [theme.breakpoints.down('sm')]: {
@@ -50,6 +51,7 @@ export const StyledTypography = styled(Typography)(() => ({
   textAlign: 'center',
   color: COLORS.PRIMARY,
   fontWeight: 600,
+  cursor: 'pointer',
 }));
 
 export const StyleSearchButton = styled(Button)(() => ({

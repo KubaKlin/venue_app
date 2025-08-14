@@ -2,6 +2,7 @@ import { InputAdornment } from '@mui/material';
 import { StyledTextField } from './FilterTextField.styles';
 
 export const FilterTextField = ({
+  isVisible,
   label,
   startIcon,
   endIcon,
@@ -13,6 +14,10 @@ export const FilterTextField = ({
   const slotProps = {
     input: {},
   };
+
+  if (isVisible) {
+    return null;
+  }
 
   if (startIcon) {
     slotProps.input.startAdornment = (
