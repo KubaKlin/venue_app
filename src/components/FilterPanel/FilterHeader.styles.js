@@ -10,13 +10,13 @@ export const StyledBox = styled(Box)(({ theme }) => ({
 }));
 
 export const StyledTypography = styled(Typography)(() => ({
-  fontWeight: 600,
-  letterSpacing: 2,
+  fontWeight: 400,
   color: '#333',
 }));
 
 export const StyledButton = styled(Button)(() => ({
   color: '#4caf50',
   textTransform: 'lowercase',
-  fontWeight: 400,
+  fontWeight: 600,
+  fontSize: 16
 }));

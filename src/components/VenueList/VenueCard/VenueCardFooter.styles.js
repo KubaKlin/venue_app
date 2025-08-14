@@ -9,8 +9,6 @@ export const StyledMainBox = styled(Box)(({ theme }) => ({
   justifyContent: 'space-between',
   alignItems: 'center',
   border: '1px solid #ccc',
-  borderBottomRightRadius: 4,
-  borderBottomLeftRadius: 4,
 }));
 
 export const StyledFlexBox = styled(Box)(() => ({
