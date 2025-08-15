@@ -10,7 +10,7 @@ export const StyledBox = styled(Box)(({ theme }) => ({
 }));
 
 export const StyledButton = styled(Button)(() => ({
-  color: COLORS.DARK_PRIMARY,
+  color: COLORS.PRIMARY,
   fontWeight: 600,
   fontSize: '16px',
   textTransform: 'lowercase',

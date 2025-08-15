@@ -16,7 +16,7 @@ export const StyledMainBox = styled(Box)(({ theme }) => ({
 
 export const StyledFormBox = styled(Box)(({ theme }) => ({
   display: 'flex',
-  gap: '32px',
+  gap: '25px',
   justifyContent: 'center',
   marginTop: theme.spacing(2),
   marginBottom: theme.spacing(2),

@@ -11,7 +11,7 @@ export const StyledBox = styled(Box)(({ theme }) => ({
 export const StyledTextField = styled(TextField)(() => ({
   width: '50px',
   '& .MuiInputBase-root': {
-    fontSize: '14px',
+    fontSize: '16px',
     height: '36px',
     color: COLORS.DARK_PRIMARY,
     fontWeight: 600,
@@ -32,7 +32,7 @@ export const StyledTextField = styled(TextField)(() => ({
 }));
 
 export const StyledTypography = styled(Typography)(() => ({
-  color: '#7f8c8d',
-  fontSize: '14px',
+  color: '#000',
+  fontSize: '16px',
   whiteSpace: 'nowrap',
 }));
