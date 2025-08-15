@@ -1,5 +1,6 @@
-import { Box, Button, Typography } from '@mui/material';
+import { Box, Button } from '@mui/material';
 import { styled } from '@mui/material/styles';
+import { COLORS } from '../../constants/colors.js';
 
 export const StyledBox = styled(Box)(({ theme }) => ({
   display: 'flex',
@@ -8,12 +9,8 @@ export const StyledBox = styled(Box)(({ theme }) => ({
   marginBottom: theme.spacing(2),
 }));
 
-export const StyledTypography = styled(Typography)(() => ({
-  color: '#7f8c8d',
-}));
-
 export const StyledButton = styled(Button)(() => ({
-  color: '#4caf50',
+  color: COLORS.DARK_PRIMARY,
   fontWeight: 600,
   fontSize: '16px',
   textTransform: 'lowercase',

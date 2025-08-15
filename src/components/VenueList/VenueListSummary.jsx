@@ -1,16 +1,13 @@
-import {
-  StyledBox,
-  StyledTypography,
-  StyledButton,
-} from './VenueListSummary.styles';
+import { StyledBox, StyledButton } from './VenueListSummary.styles';
+import { VenuePerPageSelector } from './VenuePerPageSelector';
 
-export const VenueListSummary = ({ venues, startIndex, endIndex }) => {
+export const VenueListSummary = ({ itemsPerPage, onItemsPerPageChange }) => {
   return (
     <StyledBox>
-      <StyledTypography variant="body1">
-        Showing {startIndex + 1}-{Math.min(endIndex, venues.length)} of{' '}
-        {venues.length} venues
-      </StyledTypography>
+      <VenuePerPageSelector
+        itemsPerPage={itemsPerPage}
+        onItemsPerPageChange={onItemsPerPageChange}
+      />
       <StyledButton variant="text">Sort</StyledButton>
     </StyledBox>
   );

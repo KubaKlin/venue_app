@@ -1,12 +1,13 @@
 import { Slider } from '@mui/material';
 import { styled } from '@mui/material/styles';
+import { COLORS } from '../../constants/colors.js';
 
 export const StyledSlider = styled(Slider)(() => ({
-  color: '#4caf50',
+  color: COLORS.DARK_PRIMARY,
   '& .MuiSlider-thumb': {
-    backgroundColor: '#4caf50',
+    backgroundColor: COLORS.DARK_PRIMARY,
   },
   '& .MuiSlider-track': {
-    backgroundColor: '#4caf50',
+    backgroundColor: COLORS.DARK_PRIMARY,
   },
 }));

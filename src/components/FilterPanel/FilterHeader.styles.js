@@ -1,5 +1,6 @@
 import { Box, Typography, Button } from '@mui/material';
 import { styled } from '@mui/material/styles';
+import { COLORS } from '../../constants/colors.js';
 
 export const StyledBox = styled(Box)(({ theme }) => ({
   display: 'flex',
@@ -15,8 +16,8 @@ export const StyledTypography = styled(Typography)(() => ({
 }));
 
 export const StyledButton = styled(Button)(() => ({
-  color: '#4caf50',
+  color: COLORS.DARK_PRIMARY,
   textTransform: 'lowercase',
   fontWeight: 600,
-  fontSize: 16
+  fontSize: 16,
 }));

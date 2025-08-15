@@ -8,12 +8,17 @@ import { usePagination } from '../../hooks/usePagination';
 import { VenueCard } from './VenueCard/VenueCard';
 import { StyledGrid } from './VenueListGrid.styles';
 
-const ITEMS_PER_PAGE = 12;
-
 export const VenueListGrid = () => {
   const { venues, isLoading } = useVenuesList();
-  const { currentPage, handlePageChange, startIndex, endIndex, totalPages } =
-    usePagination(venues.length, ITEMS_PER_PAGE);
+  const {
+    currentPage,
+    itemsPerPage,
+    handlePageChange,
+    handleItemsPerPageChange,
+    startIndex,
+    endIndex,
+    totalPages,
+  } = usePagination(venues.length);
 
   // Get current page venues
   const currentVenues = venues.slice(startIndex, endIndex);
@@ -25,9 +30,8 @@ export const VenueListGrid = () => {
   return (
     <Box>
       <VenueListSummary
-        venues={venues}
-        startIndex={startIndex}
-        endIndex={endIndex}
+        itemsPerPage={itemsPerPage}
+        onItemsPerPageChange={handleItemsPerPageChange}
       />
 
       {venues.length === 0 && !isLoading && (

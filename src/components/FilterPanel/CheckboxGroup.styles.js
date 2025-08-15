@@ -1,9 +1,10 @@
 import { Checkbox } from '@mui/material';
 import { styled } from '@mui/material/styles';
+import { COLORS } from '../../constants/colors.js';
 
 export const StyledCheckbox = styled(Checkbox)(() => ({
-  color: '#4caf50',
+  color: COLORS.DARK_PRIMARY,
   '&.Mui-checked': {
-    color: '#4caf50',
+    color: COLORS.DARK_PRIMARY,
   },
 }));
