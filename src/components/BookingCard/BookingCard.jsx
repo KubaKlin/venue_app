@@ -1,4 +1,4 @@
-import { useBookingForm } from './hooks/useBookingForm.js';
+import { useBookingForm } from './hooks/useBookingForm';
 import { useBookingCalculations } from './hooks/useBookingCalculations';
 import { BookingDatePickers } from '../VenueDetails/BookingDatePickers';
 import { BookingPriceDisplay } from '../VenueDetails/BookingPriceDisplay';
