@@ -6,7 +6,7 @@ import { StyledBox } from './VenueList.styles';
 export const VenueList = () => {
   return (
     <Container maxWidth="lg">
-      <Grid container spacing={3} pt={4}>
+      <Grid container spacing={3} mt={4}>
         <Grid size={{ xs: 12, md: 3 }}>
           <FilterPanel />
         </Grid>

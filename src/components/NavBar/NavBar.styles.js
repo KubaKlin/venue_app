@@ -2,7 +2,9 @@ import { Box, Typography, Button } from '@mui/material';
 import { styled } from '@mui/material/styles';
 
 export const StyledMainBox = styled(Box)(() => ({
-  boxShadow: 2,
+  position: 'relative',
+  zIndex: '1',
+  boxShadow: '0 3px 5px rgba(0,0,0,0.3)',
 }));
 
 export const StyledContainerBox = styled(Box)(() => ({

@@ -34,8 +34,8 @@ export const StyledAddIcon = styled(AddIcon)(() => ({
 }));
 
 export const StyledHeader = styled(Typography)(({ theme }) => ({
-  paddingTop: theme.spacing(8),
-  paddingBottom: theme.spacing(8),
+  paddingTop: '150px',
+  paddingBottom: '70px',
   fontSize: '40px',
   textAlign: 'right',
   fontWeight: 600,
