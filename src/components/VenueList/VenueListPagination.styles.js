@@ -12,7 +12,7 @@ export const StyledPagination = styled(Pagination)(() => ({
   '& .MuiPaginationItem-root': {
     borderRadius: 20,
   },
-  '& .Mui-selected': {
+  '& .Mui-selected.Mui-selected': {
     backgroundColor: COLORS.PRIMARY,
   },
 }));
