@@ -9,10 +9,16 @@ export const generateVenue = (id) => {
   const capacity = faker.number.int({ min: 2, max: 12 });
 
   // Generate 3 additional gallery images
+  const cardImages = [
+    `https://picsum.photos/seed/venue-${id}-gallery-1/300/230`,
+    `https://picsum.photos/seed/venue-${id}-gallery-2/300/230`,
+    `https://picsum.photos/seed/venue-${id}-gallery-3/300/230`,
+  ];
+
   const galleryImages = [
-    `https://picsum.photos/seed/venue-${id}-gallery-1/800/600`,
-    `https://picsum.photos/seed/venue-${id}-gallery-2/800/600`,
-    `https://picsum.photos/seed/venue-${id}-gallery-3/800/600`,
+    `https://picsum.photos/seed/venue-${id}-gallery-1/700/350`,
+    `https://picsum.photos/seed/venue-${id}-gallery-2/700/350`,
+    `https://picsum.photos/seed/venue-${id}-gallery-3/700/350`,
   ];
 
   return {
@@ -28,6 +34,7 @@ export const generateVenue = (id) => {
     capacity,
     name: venueType,
     albumId: faker.number.int({ min: 1, max: 100 }),
+    cardImages,
     galleryImages,
   };
 };
@@ -66,6 +73,7 @@ export const generateVenueDetails = (venue, detailsId) => {
     capacity: venue.capacity,
     name: venue.name,
     albumId: venue.albumId,
+    cardImages: venue.cardImages,
     galleryImages: venue.galleryImages,
     description: faker.helpers.arrayElement(descriptions),
     features: selectedFeatures,
