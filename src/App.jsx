@@ -1,4 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
+import { ThemeProvider } from '@mui/material/styles';
+import { CssBaseline } from '@mui/material';
+import { theme } from './theme/theme';
 import { NavBar } from './components/NavBar/NavBar';
 import { AboutUs } from './pages/AboutUs';
 import { YourFavourites } from './pages/YourFavourites';
@@ -11,7 +14,8 @@ import { Footer } from './components/Footer/Footer';
 
 export const App = () => {
   return (
-    <>
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
       <NavBar />
       <FilterBaner />
       <Routes>
@@ -23,6 +27,6 @@ export const App = () => {
         <Route path="/login" element={<Login />} />
       </Routes>
       <Footer />
-    </>
+    </ThemeProvider>
   );
 };
