@@ -12,7 +12,7 @@ export const GalleryTab = ({ venue }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  if (venue.galleryImages.length === 3) {
+  if (venue.galleryImages.length === 0) {
     return (
       <StyledCard elevation={3}>
         <Typography variant="h6">No images available</Typography>
