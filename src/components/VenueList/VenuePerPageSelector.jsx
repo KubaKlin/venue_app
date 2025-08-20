@@ -29,7 +29,7 @@ export const VenuePerPageSelector = ({
 
   return (
     <StyledBox>
-      <StyledTypography variant="body2">Show</StyledTypography>
+      <StyledTypography variant="body2">show</StyledTypography>
       <StyledTextField
         size="small"
         value={inputValue}

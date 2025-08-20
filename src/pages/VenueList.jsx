@@ -1,12 +1,12 @@
-import { Container, Grid } from '@mui/material';
+import { Grid } from '@mui/material';
 import { FilterPanel } from '../components/FilterPanel/FilterPanel';
 import { VenueListGrid } from '../components/VenueList/VenueListGrid';
-import { StyledBox } from './VenueList.styles';
+import { StyledBox, StyledContainer } from './VenueList.styles';
 
 export const VenueList = () => {
   return (
-    <Container maxWidth="lg">
-      <Grid container spacing={3} mt={4}>
+    <StyledContainer>
+      <Grid container spacing={{ lg:9, md: 3 }} mt={16}>
         <Grid size={{ xs: 12, md: 3 }}>
           <FilterPanel />
         </Grid>
@@ -17,6 +17,6 @@ export const VenueList = () => {
           </StyledBox>
         </Grid>
       </Grid>
-    </Container>
+    </StyledContainer>
   );
 };

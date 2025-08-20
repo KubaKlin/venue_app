@@ -4,20 +4,22 @@ import { COLORS } from '../../constants/colors';
 
 export const StyledBox = styled(Box)(({ theme }) => ({
   display: 'flex',
-  alignItems: 'center',
+  alignItems: 'flex-end',
   gap: theme.spacing(1),
 }));
 
 export const StyledTextField = styled(TextField)(() => ({
-  width: '50px',
+  width: '40px',
   '& .MuiInputBase-root': {
     fontSize: '16px',
-    height: '36px',
+    height: '40px',
     color: COLORS.DARK_PRIMARY,
     fontWeight: 600,
+    borderRadius: 0,
   },
   '& .MuiInputBase-input': {
     textAlign: 'center',
+    padding: 0,
   },
   '&:hover .MuiOutlinedInput-notchedOutline': {
     borderColor: COLORS.PRIMARY,
