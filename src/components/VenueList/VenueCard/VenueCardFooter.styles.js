@@ -1,6 +1,6 @@
 import { Box, Typography } from '@mui/material';
 import { styled } from '@mui/material/styles';
-import { People, Star } from '@mui/icons-material';
+import { Star } from '@mui/icons-material';
 
 export const StyledMainBox = styled(Box)(({ theme }) => ({
   flexGrow: 1,
@@ -17,16 +17,26 @@ export const StyledFlexBox = styled(Box)(() => ({
 }));
 
 export const StyledStar = styled(Star)(() => ({
-  fontSize: 16,
-  color: '#7f8c8d',
+  fontSize: 22,
+  color: 'rgba(0,0,0,0.65)',
 }));
 
-export const StyledPeople = styled(People)(() => ({
-  fontSize: 16,
-  color: '#7f8c8d',
+export const StyledPeople = styled('img')(() => ({
+  color: 'rgba(0,0,0,0.65)',
 }));
 
-export const StyledTypography = styled(Typography)(({ theme }) => ({
-  color: '#7f8c8d',
-  marginLeft: theme.spacing(0.5),
+export const StyledTypography = styled(Typography)(() => ({
+  display: 'flex',
+  alignItems: 'flex-end',
+  color: 'rgba(0,0,0,0.65)',
+  marginLeft: 8,
+  fontSize: 14,
 }));
+
+export const StyledNumber = styled(Typography)(() => ({
+  color: 'rgba(0,0,0,0.65)',
+  marginLeft: 8,
+  fontSize: 16
+}));
+
+

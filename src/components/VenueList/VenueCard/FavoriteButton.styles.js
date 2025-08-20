@@ -14,6 +14,8 @@ export const StyledFavoriteButton = styled(IconButton)(({ isFavorite }) => ({
   backgroundColor: COLORS.OVERLAY_BACKGROUND,
   borderRadius: 0,
   borderBottomRightRadius: 10,
+  width: 32,
+  height: 32,
   '&:hover': {
     backgroundColor: 'rgba(0, 0, 0, 0.8)',
   },

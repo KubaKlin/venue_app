@@ -15,6 +15,6 @@ export const StyledLocationOn = styled(LocationOn)(() => ({
 export const StyledTypography = styled(Typography)(({ theme }) => ({
   color: 'white',
   textTransform: 'capitalize',
-  fontSize: 13,
+  fontSize: 12,
   marginLeft: theme.spacing(0.5),
 }));

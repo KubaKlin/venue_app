@@ -17,4 +17,9 @@ export const SliderImage = styled('img')({
 
 export const SliderControlButton = styled(IconButton)({
   color: 'white',
+  padding: 0,
+  'svg': {
+    fontSize: 40,
+    opacity: 0.8,
+  }
 });
