@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { LoadingInfo } from '../components/LoadingInfo/LoadingInfo';
 import { ErrorInfo } from '../components/ErrorInfo/ErrorInfo';
 import { BookingCard } from '../components/BookingCard/BookingCard';
+import { BackButton } from '../components/VenueDetails/BackButton';
 import { VenueHeader } from '../components/VenueDetails/VenueHeader';
 import { VenueHeroImage } from '../components/VenueDetails/VenueHeroImage';
 import { VenueTabsNavigation } from '../components/VenueDetails/VenueTabsNavigation';
@@ -31,7 +32,8 @@ export const VenueDetails = () => {
 
   return (
     <StyledContainer maxWidth="lg">
-      <Grid container spacing={3} pt={4}>
+      <BackButton />
+      <Grid container spacing={3} pt={2}>
         <Grid size={{ xs: 12, md: 8 }}>
           <StyledCard elevation={0}>
             <VenueHeader venue={venue} />
