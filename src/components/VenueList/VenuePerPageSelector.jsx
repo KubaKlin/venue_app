@@ -1,31 +1,19 @@
-import React, { useState } from 'react';
+import React from 'react';
 import {
   StyledBox,
   StyledTextField,
   StyledTypography,
 } from './VenuePerPageSelector.styles';
+import { usePerPageSelector } from './hooks/usePerPageSelector';
 
 export const VenuePerPageSelector = ({
   itemsPerPage,
   onItemsPerPageChange,
 }) => {
-  const [inputValue, setInputValue] = useState(itemsPerPage);
-
-  const handleChange = (event) => {
-    const value = event.target.value;
-    setInputValue(value);
-  };
-
-  const handleBlur = () => {
-    const numValue = parseInt(inputValue, 10);
-    onItemsPerPageChange(numValue);
-  };
-
-  const handleKeyDown = (event) => {
-    if (event.key === 'Enter') {
-      event.target.blur(); // Trigger blur to apply
-    }
-  };
+  const { inputValue, handleChange, handleBlur, handleKeyDown } = usePerPageSelector(
+    itemsPerPage,
+    onItemsPerPageChange
+  );
 
   return (
     <StyledBox>
