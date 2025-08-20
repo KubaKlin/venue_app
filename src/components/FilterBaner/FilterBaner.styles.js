@@ -54,6 +54,13 @@ export const StyledTypography = styled(Typography)(() => ({
   cursor: 'pointer',
 }));
 
+export const StyledCloudImage = styled('img')({
+  position: 'absolute',
+  top: '56px',
+  left: 0,
+  width: '100%',
+});
+
 export const StyleSearchButton = styled(Button)(() => ({
   textTransform: 'lowercase',
   borderRadius: '20px',

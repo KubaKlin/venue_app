@@ -4,6 +4,7 @@ import { useForm } from 'react-hook-form';
 import { Container } from '@mui/material';
 import SearchIcon from '@mui/icons-material/Search';
 import CalendarTodayIcon from '@mui/icons-material/CalendarToday';
+import cloudsImage from '../../assets/clouds.svg';
 import {
   StyledMainBox,
   StyledFormBox,
@@ -12,6 +13,7 @@ import {
   StyledHeader,
   StyledTypography,
   StyleSearchButton,
+  StyledCloudImage,
 } from './FilterBaner.styles';
 
 export const FilterBaner = () => {
@@ -48,6 +50,7 @@ export const FilterBaner = () => {
 
   return (
     <StyledMainBox>
+      <StyledCloudImage src={cloudsImage} alt='baner cloud image' />
       <Container maxWidth="lg">
         <StyledHeader>Find your place and experience it together.</StyledHeader>
 
