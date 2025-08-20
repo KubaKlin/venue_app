@@ -2,10 +2,14 @@ import { Card, Tabs, Tab } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import { COLORS } from '../../constants/colors';
 
-export const StyledCard = styled(Card)(() => ({
+export const StyledCard = styled(Card)(({ theme }) => ({
   borderBottom: 1,
   borderColor: 'divider',
   padding: '14px',
+  marginLeft: theme.spacing(0.5),
+  marginRight: theme.spacing(0.5),
+  boxShadow: '0 2px 4px rgba(0,0,0,0.25)',
+  borderRadius: 0
 }));
 
 export const StyledTabs = styled(Tabs)(() => ({

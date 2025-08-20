@@ -12,6 +12,10 @@ import {
   StyledAccessTime,
   StyledLocationCity,
 } from './DescriptionTab.styles';
+import checkIcon from '../../assets/check_ico.svg';
+import bedIcon from '../../assets/bed_ico.svg';
+import townIcon from '../../assets/town_ico.svg';
+import clockIcon from '../../assets/clock_ico.svg';
 
 export const DescriptionTab = ({ venue }) => (
   <StyledCard elevation={3}>
@@ -24,7 +28,7 @@ export const DescriptionTab = ({ venue }) => (
     <StyledFeaturesBox>
       {venue.features.map((feature, index) => (
         <StyledFeatureBox key={index}>
-          <StyledCheck />
+          <StyledCheck src={checkIcon} />
           <StyledFeatureBoxTypography variant="body2">
             {feature}
           </StyledFeatureBoxTypography>
@@ -36,7 +40,7 @@ export const DescriptionTab = ({ venue }) => (
 
     <StyledDetailsBox>
       <StyledDetailItemBox>
-        <StyledBed />
+        <StyledBed src={bedIcon} />
         <StyledFeatureBoxTypography variant="body2">
           {venue.sleapingDetails.amoutOfBeds} beds /{' '}
           {venue.sleapingDetails.maxCapacity} sleeping places
@@ -44,14 +48,14 @@ export const DescriptionTab = ({ venue }) => (
       </StyledDetailItemBox>
 
       <StyledDetailItemBox>
-        <StyledAccessTime />
+        <StyledAccessTime src={clockIcon} />
         <StyledFeatureBoxTypography variant="body2">
           check-in {venue.checkInHour} / check-out {venue.checkOutHour}
         </StyledFeatureBoxTypography>
       </StyledDetailItemBox>
 
       <StyledDetailItemBox>
-        <StyledLocationCity />
+        <StyledLocationCity src={townIcon} />
         <StyledFeatureBoxTypography variant="body2">
           {venue.distanceFromCityCenterInKM} km to the city
         </StyledFeatureBoxTypography>

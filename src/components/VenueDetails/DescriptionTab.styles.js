@@ -1,11 +1,12 @@
 import { Box, Typography, Divider, Card } from '@mui/material';
 import { styled } from '@mui/material/styles';
-import { Check, Bed, AccessTime, LocationCity } from '@mui/icons-material';
 
 export const StyledCard = styled(Card)(({ theme }) => ({
-  padding: theme.spacing(4),
+  padding: '56px 72px',
   marginLeft: theme.spacing(0.5),
   marginRight: theme.spacing(0.5),
+  boxShadow: '0 2px 4px rgba(0,0,0,0.25)',
+  borderRadius: 0
 }));
 
 export const StyledDescriptionTypography = styled(Typography)(({ theme }) => ({
@@ -35,9 +36,10 @@ export const StyledFeatureBox = styled(Box)(({ theme }) => ({
 
 export const StyledFeatureBoxTypography = styled(Typography)(() => ({
   fontSize: 20,
+  marginLeft: 16
 }));
 
-export const StyledCheck = styled(Check)(() => ({
+export const StyledCheck = styled('img')(() => ({
   fontSize: 20,
   color: '#333',
 }));
@@ -54,17 +56,17 @@ export const StyledDetailItemBox = styled(Box)(({ theme }) => ({
   gap: theme.spacing(1),
 }));
 
-export const StyledBed = styled(Bed)(() => ({
+export const StyledBed = styled('img')(() => ({
   fontSize: 30,
   color: '#333',
 }));
 
-export const StyledAccessTime = styled(AccessTime)(() => ({
+export const StyledAccessTime = styled('img')(() => ({
   fontSize: 30,
   color: '#333',
 }));
 
-export const StyledLocationCity = styled(LocationCity)(() => ({
+export const StyledLocationCity = styled('img')(() => ({
   fontSize: 30,
   color: '#333',
 }));

@@ -65,7 +65,6 @@ export const StyledCloudImage = styled('img')({
 });
 
 export const StyleSearchButton = styled(Button)(() => ({
-  textTransform: 'lowercase',
   borderRadius: '20px',
   backgroundColor: COLORS.PRIMARY,
   fontWeight: 600,
