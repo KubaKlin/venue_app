@@ -1,12 +1,15 @@
 import { Box, Typography } from '@mui/material';
 import { styled } from '@mui/material/styles';
 
-export const ContactContainer = styled(Box)(() => ({
-  marginTop: 140
+export const ContactContainer = styled(Box)(({ theme }) => ({
+  marginTop: 140,
+  [theme.breakpoints.down('sm')]: {
+    marginTop: 50,
+  },
 }));
 
 export const ContactTitle = styled(Typography)(({ theme }) => ({
-  fontWeight: '400',
+  fontWeight: 600,
   marginBottom: 16,
   marginTop: 120,
   fontSize: '25px',
@@ -14,6 +17,7 @@ export const ContactTitle = styled(Typography)(({ theme }) => ({
   paddingBottom: theme.spacing(2),
   [theme.breakpoints.down('sm')]: {
     fontSize: '16px',
+    marginTop: 40,
   },
 }));
 

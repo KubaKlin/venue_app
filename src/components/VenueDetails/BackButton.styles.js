@@ -1,7 +1,7 @@
 import { Button } from '@mui/material';
 import { styled } from '@mui/material/styles';
 
-export const StyledBackButton = styled(Button)(() => ({
+export const StyledBackButton = styled(Button)(({theme}) => ({
   fontSize: 16,
   fontWeight: 400,
   textTransform: 'none',
@@ -16,5 +16,8 @@ export const StyledBackButton = styled(Button)(() => ({
   },
   '& .MuiSvgIcon-root': {
     fontSize: 34,
+  },
+  [theme.breakpoints.down('sm')]: {
+    margin: '10px 0',
   },
 }));

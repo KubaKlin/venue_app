@@ -9,13 +9,13 @@ export const FavoriteButtonContainer = styled(Box)({
   zIndex: 1,
 });
 
-export const StyledFavoriteButton = styled(IconButton)(({ isFavorite }) => ({
+export const StyledFavoriteButton = styled(IconButton)(({ isFavorite, isBigger }) => ({
   color: isFavorite ? COLORS.PRIMARY : 'white',
   backgroundColor: COLORS.OVERLAY_BACKGROUND,
   borderRadius: 0,
   borderBottomRightRadius: 10,
-  width: 32,
-  height: 32,
+  width: isBigger ? 40 : 32,
+  height: isBigger ? 40 : 32,
   '&:hover': {
     backgroundColor: 'rgba(0, 0, 0, 0.8)',
   },

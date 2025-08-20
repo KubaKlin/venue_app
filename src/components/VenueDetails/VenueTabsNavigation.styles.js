@@ -22,12 +22,12 @@ export const StyledTabs = styled(Tabs)(() => ({
     justifyContent: 'space-between',
     width: '33%',
   },
-  '& .Mui-selected': {
+  '& .Mui-selected.Mui-selected': {
     color: COLORS.PRIMARY,
-    borderColor: COLORS.PRIMARY,
+    textDecoration: 'underline'
   },
   '& .MuiTabs-indicator': {
-    backgroundColor: COLORS.PRIMARY,
+    backgroundColor: 'transparent',
   },
 }));
 

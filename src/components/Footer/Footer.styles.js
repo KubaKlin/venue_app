@@ -1,12 +1,16 @@
 import { styled } from '@mui/material/styles';
 import { Box, Typography } from '@mui/material';
 
-export const StyledFooter = styled(Box)(() => ({
+export const StyledFooter = styled(Box)(({ theme }) => ({
   display: 'flex',
   flexDirection: 'column',
   marginTop: '80px',
   paddingBottom: '56px',
   backgroundColor: '#FDFDFD',
+  [theme.breakpoints.down('sm')]: {
+    paddingInline: 20,
+    marginTop: 30
+  },
 }));
 
 export const StyledFooterCopy = styled(Typography)(() => ({

@@ -6,6 +6,9 @@ export const StyledCard = styled(Card)(({ theme }) => ({
   textAlign: 'center',
   marginLeft: theme.spacing(0.5),
   marginRight: theme.spacing(0.5),
+  boxShadow: '0 2px 4px rgba(0,0,0,0.25)',
+  border: '1px inset rgba(0,0,0,0.20)',
+  borderRadius: 0
 }));
 
 export const GalleryContainer = styled(Box)(({ theme }) => ({
@@ -13,7 +16,7 @@ export const GalleryContainer = styled(Box)(({ theme }) => ({
 }));
 
 export const GalleryImage = styled(CardMedia)(() => ({
-  height: 165,
+  height: 145,
   width: '100%',
   objectFit: 'cover',
   cursor: 'pointer',

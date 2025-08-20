@@ -5,7 +5,7 @@ import {
   StyledFavoriteButton,
 } from './FavoriteButton.styles';
 
-export const FavoriteButton = ({ venueId }) => {
+export const FavoriteButton = ({ venueId, isBigger }) => {
   const { toggleFavorite, isFavorite } = useFavorites();
   const isVenueFavorite = isFavorite(venueId);
 
@@ -20,6 +20,7 @@ export const FavoriteButton = ({ venueId }) => {
         onClick={handleToggleFavorite}
         size="small"
         isFavorite={isVenueFavorite}
+        isBigger={isBigger}
         aria-label={
           isVenueFavorite ? 'Remove from favorites' : 'Add to favorites'
         }

@@ -11,7 +11,7 @@ export const VenueCard = ({ venue }) => (
   <StyledCard elevation={0} component={Link} to={`/venue-details/${venue.id}`}>
     <VenueCardHeader>
       <ImageSlider images={venue.cardImages} venueName={venue.name} />
-      <FavoriteButton venueId={venue.id} />
+      <FavoriteButton isBigger={false} venueId={venue.id} />
       <VenueNameOverlay venueName={venue.name} />
       <VenuePriceOverlay
         pricePerNightInEUR={venue.pricePerNightInEUR}
