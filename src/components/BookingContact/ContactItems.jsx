@@ -1,9 +1,9 @@
+import phoneIcon from '../../assets/phone_ico.svg';
+import mailIcon from '../../assets/mail_ico.svg';
 import {
   ContactItem,
-  EmailContactItem,
-  ContactIcon,
-  EmailIcon,
   ContactText,
+  ContactIcon,
 } from './ContactItems.styles';
 
 export const ContactItems = ({ contactDetails }) => {
@@ -28,11 +28,11 @@ export const ContactItems = ({ contactDetails }) => {
           }
         }}
       >
-        <ContactIcon />
+        <ContactIcon src={phoneIcon} />
         <ContactText variant="h5">{contactDetails.phone}</ContactText>
       </ContactItem>
 
-      <EmailContactItem
+      <ContactItem
         onClick={handleEmailClick}
         tabIndex={0}
         role="button"
@@ -43,9 +43,9 @@ export const ContactItems = ({ contactDetails }) => {
           }
         }}
       >
-        <EmailIcon />
+        <ContactIcon src={mailIcon} />
         <ContactText variant="h5">{contactDetails.email}</ContactText>
-      </EmailContactItem>
+      </ContactItem>
     </>
   );
 };

@@ -6,7 +6,7 @@ import {
 
 export const VenueTabsNavigation = ({ tabValue, onTabChange }) => {
   return (
-    <StyledCard elevation={3}>
+    <StyledCard>
       <StyledTabs
         value={tabValue}
         onChange={onTabChange}

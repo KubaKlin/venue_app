@@ -33,8 +33,8 @@ export const VenueDetails = () => {
   return (
     <StyledContainer maxWidth="lg">
       <BackButton />
-      <Grid container spacing={3} pt={2}>
-        <Grid size={{ xs: 12, md: 8 }}>
+      <Grid container spacing={14} pt={2}>
+        <Grid size={{ xs: 12, md: 7.5 }}>
           <StyledCard elevation={0}>
             <VenueHeader venue={venue} />
             <VenueHeroImage venue={venue} />
@@ -45,7 +45,7 @@ export const VenueDetails = () => {
             <VenueTabsContent tabValue={tabValue} venue={venue} />
           </StyledCard>
         </Grid>
-        <Grid size={{ xs: 12, md: 4 }}>
+        <Grid size={{ xs: 12, md: 4.5 }}>
           <BookingCard venue={venue} />
           <BookingContact venue={venue} />
         </Grid>

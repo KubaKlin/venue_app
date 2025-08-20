@@ -1,13 +1,12 @@
 import { Box } from '@mui/material';
 import { styled } from '@mui/material/styles';
 
-export const StyledBox = styled(Box)(({ theme, backgroundImage }) => ({
-  height: 300,
+export const StyledBox = styled(Box)(({  backgroundImage }) => ({
+  height: 350,
   backgroundImage: `url(${backgroundImage})`,
   backgroundSize: 'cover',
   backgroundPosition: 'center',
   backgroundRepeat: 'no-repeat',
   position: 'relative',
-  borderRadius: theme.spacing(2),
-  marginBottom: theme.spacing(3),
+  marginBottom: 52,
 }));

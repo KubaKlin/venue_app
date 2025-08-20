@@ -1,16 +1,18 @@
 import { Typography, Card, Divider } from '@mui/material';
 import { styled } from '@mui/material/styles';
 
-export const StyledCard = styled(Card)(({ theme }) => ({
-  padding: theme.spacing(3),
-  borderRadius: theme.spacing(2),
+export const StyledCard = styled(Card)(() => ({
+  marginTop: 76
 }));
 
-export const StyledTypography = styled(Typography)(({ theme }) => ({
+export const StyledTypography = styled(Typography)(() => ({
   fontWeight: 600,
-  marginBottom: theme.spacing(2),
+  fontSize: 25,
+  marginBottom: 16
 }));
 
-export const StyledDivider = styled(Divider)(({ theme }) => ({
-  marginBottom: theme.spacing(3),
+export const StyledDivider = styled(Divider)(() => ({
+  marginBottom: 40,
+  backgroundColor: 'rgba(0,0,0,0.65)',
+  height: 2
 }));

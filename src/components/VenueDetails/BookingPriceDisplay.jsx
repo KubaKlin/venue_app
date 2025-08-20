@@ -1,4 +1,3 @@
-import { Typography } from '@mui/material';
 import {
   StyledMainBox,
   StyledRowBox,
@@ -12,8 +11,8 @@ export const BookingPriceDisplay = ({ pricePerDayPLN, totalPLN }) => {
   return (
     <StyledMainBox>
       <StyledRowBox>
-        <Typography variant="body2">per day</Typography>
-        <StyledPriceTypography variant="body2">
+        <StyledPriceTypography>per day</StyledPriceTypography>
+        <StyledPriceTypography>
           {`${pricePerDayPLN} zł`}
         </StyledPriceTypography>
       </StyledRowBox>

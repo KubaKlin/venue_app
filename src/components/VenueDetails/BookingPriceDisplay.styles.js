@@ -18,14 +18,16 @@ export const StyledTotalRowBox = styled(Box)(() => ({
 }));
 
 export const StyledPriceTypography = styled(Typography)(() => ({
-  fontWeight: 500,
+  fontWeight: 400,
+  fontSize: 20
 }));
 
-export const StyledDivider = styled(Divider)(({ theme }) => ({
-  marginTop: theme.spacing(2),
-  marginBottom: theme.spacing(2),
+export const StyledDivider = styled(Divider)(() => ({
+  marginTop: 32,
+  marginBottom: 32,
 }));
 
 export const StyledTotalTypography = styled(Typography)(() => ({
-  fontWeight: 600,
+  fontWeight: 400,
+  fontSize: 25
 }));

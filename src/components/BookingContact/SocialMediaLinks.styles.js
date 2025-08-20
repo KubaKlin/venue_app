@@ -1,20 +1,21 @@
 import { Box, IconButton } from '@mui/material';
 import { styled } from '@mui/material/styles';
 
-export const SocialMediaContainer = styled(Box)(({ theme }) => ({
+export const SocialMediaContainer = styled(Box)(() => ({
   display: 'flex',
-  gap: theme.spacing(2),
+  gap: 55,
   flexWrap: 'wrap',
+  marginTop: 40
 }));
 
-export const SocialIconButton = styled(IconButton)(({ theme }) => ({
-  padding: theme.spacing(1),
+export const SocialIconButton = styled(IconButton)(() => ({
+  padding: 0,
   '&:hover': {
     backgroundColor: 'rgba(0, 0, 0, 0.04)',
   },
 }));
 
 export const SocialIcon = styled('img')({
-  width: '32px',
-  height: '32px',
+  width: 40,
+  height: 40,
 });

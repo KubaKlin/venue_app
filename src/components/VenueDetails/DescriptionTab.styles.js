@@ -6,13 +6,15 @@ export const StyledCard = styled(Card)(({ theme }) => ({
   marginLeft: theme.spacing(0.5),
   marginRight: theme.spacing(0.5),
   boxShadow: '0 2px 4px rgba(0,0,0,0.25)',
+  border: '1px inset rgba(0,0,0,0.20)',
   borderRadius: 0
 }));
 
 export const StyledDescriptionTypography = styled(Typography)(({ theme }) => ({
   marginBottom: theme.spacing(3),
-  lineHeight: 1.5,
+  lineHeight: 2.2,
   fontSize: '20px',
+  fontWeight: 300
 }));
 
 export const StyledDivider = styled(Divider)(({ theme }) => ({
