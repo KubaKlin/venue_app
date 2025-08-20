@@ -33,9 +33,9 @@ export const FilterBaner = () => {
 
   const getButtonText = () => {
     if (isFieldVisible) {
-      return "I don't want to be that specific";
+      return 'I want to be more specific';
     }
-    return 'I want to be more specific';
+    return "I don't want to be that specific";
   };
 
   const handleGuestDecrease = () => {

@@ -4,6 +4,7 @@ import RemoveIcon from '@mui/icons-material/Remove';
 import AddIcon from '@mui/icons-material/Add';
 import bannerBg from '../../assets/banner_bg.svg';
 import { COLORS } from '../../constants/colors';
+import { FONT_STYLES } from '../../constants/fonts';
 
 export const StyledMainBox = styled(Box)(({ theme }) => ({
   backgroundImage: `url(${bannerBg})`,
@@ -11,15 +12,14 @@ export const StyledMainBox = styled(Box)(({ theme }) => ({
   backgroundPosition: 'bottom center',
   backgroundRepeat: 'no-repeat',
   paddingTop: theme.spacing(4),
-  paddingBottom: theme.spacing(4),
+  paddingBottom: '41px',
 }));
 
 export const StyledFormBox = styled(Box)(({ theme }) => ({
   display: 'flex',
   gap: '25px',
   justifyContent: 'center',
-  marginTop: theme.spacing(2),
-  marginBottom: theme.spacing(2),
+  marginBottom: '11px',
   [theme.breakpoints.down('sm')]: {
     flexDirection: 'column',
   },
@@ -34,12 +34,14 @@ export const StyledAddIcon = styled(AddIcon)(() => ({
 }));
 
 export const StyledHeader = styled(Typography)(({ theme }) => ({
-  paddingTop: '150px',
-  paddingBottom: '70px',
+  ...FONT_STYLES.PROMPT_MEDIUM,
+  paddingTop: '172px',
+  paddingBottom: '84px',
   fontSize: '40px',
   textAlign: 'right',
-  fontWeight: 600,
+  fontWeight: 500,
   color: 'rgba(0,0,0,.75)',
+
   [theme.breakpoints.down('sm')]: {
     fontSize: '24px',
     paddingTop: theme.spacing(4),
@@ -52,6 +54,7 @@ export const StyledTypography = styled(Typography)(() => ({
   color: COLORS.PRIMARY,
   fontWeight: 600,
   cursor: 'pointer',
+  fontSize: '16px',
 }));
 
 export const StyledCloudImage = styled('img')({
@@ -68,7 +71,7 @@ export const StyleSearchButton = styled(Button)(() => ({
   fontWeight: 600,
   fontSize: '16px',
   display: 'block',
-  margin: '36px auto 0',
-  paddingInline: '34px',
+  margin: '44px auto 0',
+  paddingInline: '42px',
   boxShadow: 'none',
 }));
