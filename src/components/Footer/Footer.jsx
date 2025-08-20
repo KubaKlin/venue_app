@@ -5,7 +5,7 @@ import {
   StyledFooterWrapper,
 } from './Footer.styles';
 import { Typography } from '@mui/material';
-import { SocialMediaLinks } from '../BookingContact/SocialMediaLinks';
+import { SocialMediaLinks } from './SocialMediaLinks';
 
 export const Footer = () => {
   return (
@@ -18,8 +18,10 @@ export const Footer = () => {
         </StyledFooterWrapper>
       </StyledFooterNav>
       <StyledFooterCopy>
-        Feel free to contact us in case of any problems and doubts. We are there
-        for you.
+        Feel free to contact us in case of any problems and doubts.
+      </StyledFooterCopy>
+      <StyledFooterCopy>
+        We are there for you.
       </StyledFooterCopy>
       <StyledFooterWrapper>
         <SocialMediaLinks />

@@ -13,8 +13,6 @@ export const VenueListPagination = ({
         onChange={handlePageChange}
         color="primary"
         size="large"
-        showFirstButton
-        showLastButton
       />
     </StyledBox>
   );
