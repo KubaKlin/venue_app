@@ -1,6 +1,6 @@
 import { StyledBox } from './VenueHeroImage.styles';
 import { FavoriteButton } from '../VenueList/VenueCard/FavoriteButton';
-import {ImageSlider} from "../VenueList/VenueCard/ImageSlider/ImageSlider.jsx";
+import { ImageSlider } from '../VenueList/VenueCard/ImageSlider/ImageSlider';
 
 export const VenueHeroImage = ({ venue }) => {
   return (
@@ -8,5 +8,5 @@ export const VenueHeroImage = ({ venue }) => {
       <ImageSlider images={venue.galleryImages} venueName={venue.name} />
       <FavoriteButton venueId={venue.venueId || venue.id} />
     </StyledBox>
-  )
+  );
 };

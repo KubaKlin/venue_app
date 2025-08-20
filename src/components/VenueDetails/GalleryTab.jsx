@@ -2,7 +2,11 @@ import { useState } from 'react';
 import { Typography, Grid } from '@mui/material';
 import Lightbox from 'yet-another-react-lightbox';
 import 'yet-another-react-lightbox/styles.css';
-import { StyledCard, GalleryContainer, GalleryImage } from './GalleryTab.styles';
+import {
+  StyledCard,
+  GalleryContainer,
+  GalleryImage,
+} from './GalleryTab.styles';
 
 export const GalleryTab = ({ venue }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,9 +15,7 @@ export const GalleryTab = ({ venue }) => {
   if (venue.galleryImages.length === 3) {
     return (
       <StyledCard elevation={3}>
-        <Typography variant="h6">
-          No images available
-        </Typography>
+        <Typography variant="h6">No images available</Typography>
       </StyledCard>
     );
   }
