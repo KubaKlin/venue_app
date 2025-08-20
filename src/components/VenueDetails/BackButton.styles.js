@@ -14,7 +14,7 @@ export const StyledBackButton = styled(Button)(() => ({
   '& .MuiButton-startIcon': {
     marginRight: 20,
   },
-  '.MuiSvgIcon-root': {
-    fontSize: 34
-  }
+  '& .MuiSvgIcon-root': {
+    fontSize: 34,
+  },
 }));

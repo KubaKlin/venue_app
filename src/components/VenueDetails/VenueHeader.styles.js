@@ -1,4 +1,4 @@
-import { Box, Typography } from '@mui/material';
+import { Box, Typography, Rating } from '@mui/material';
 import { styled } from '@mui/material/styles';
 
 export const StyledMainBox = styled(Box)(() => ({
@@ -15,13 +15,15 @@ export const StyledLeftBox = styled(Box)(({ theme }) => ({
 }));
 
 export const StyledNameTypography = styled(Typography)(() => ({
-  fontWeight: 700,
+  fontWeight: 600,
   textTransform: 'capitalize',
+  fontSize: 40
 }));
 
 export const StyledLocationTypography = styled(Typography)(() => ({
   textTransform: 'capitalize',
-  fontWeight: 500,
+  fontWeight: 400,
+  fontSize: 25
 }));
 
 export const StyledRightBox = styled(Box)(({ theme }) => ({
@@ -30,4 +32,13 @@ export const StyledRightBox = styled(Box)(({ theme }) => ({
   alignItems: 'flex-end',
   gap: theme.spacing(1),
   marginBottom: theme.spacing(2),
+}));
+
+export const StyledRating = styled(Rating)(() => ({
+  '& .MuiRating-iconFilled': {
+    color: '#C7981E', // Gold color for filled stars
+  },
+  '& .MuiRating-iconHover': {
+    color: '#FFC107', // Slightly different gold for hover (though it's readOnly)
+  },
 }));
