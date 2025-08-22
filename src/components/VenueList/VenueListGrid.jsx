@@ -38,7 +38,7 @@ export const VenueListGrid = () => {
         <ErrorInfo text={'No venues found'} />
       )}
 
-      <StyledGrid container spacing={3}>
+      <StyledGrid container spacing={{ xs: 4, md: 3 }}>
         {currentVenues.map((venue) => (
           <Grid key={venue.id} size={{ xs: 12, sm: 6, md: 4 }}>
             <VenueCard venue={venue} />
