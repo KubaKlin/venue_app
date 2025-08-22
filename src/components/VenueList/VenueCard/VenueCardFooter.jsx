@@ -14,18 +14,14 @@ export const VenueCardFooter = ({ rating, capacity }) => (
       <StyledStar />
       <StyledTypography variant="body2">
         rating
-        <StyledNumber>
-          {rating}
-        </StyledNumber>
+        <StyledNumber>{rating}</StyledNumber>
       </StyledTypography>
     </StyledFlexBox>
     <StyledFlexBox>
       <StyledPeople src={peopleIco} />
       <StyledTypography variant="body2">
         capacity
-        <StyledNumber>
-          {capacity}
-        </StyledNumber>
+        <StyledNumber>{capacity}</StyledNumber>
       </StyledTypography>
     </StyledFlexBox>
   </StyledMainBox>

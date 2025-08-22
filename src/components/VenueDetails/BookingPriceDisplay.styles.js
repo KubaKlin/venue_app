@@ -19,7 +19,7 @@ export const StyledTotalRowBox = styled(Box)(() => ({
 
 export const StyledPriceTypography = styled(Typography)(() => ({
   fontWeight: 400,
-  fontSize: 20
+  fontSize: 20,
 }));
 
 export const StyledDivider = styled(Divider)(() => ({
@@ -29,5 +29,5 @@ export const StyledDivider = styled(Divider)(() => ({
 
 export const StyledTotalTypography = styled(Typography)(() => ({
   fontWeight: 400,
-  fontSize: 25
+  fontSize: 25,
 }));

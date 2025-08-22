@@ -9,5 +9,5 @@ export const StyledBox = styled(Box)(({ theme }) => ({
 
 export const StyledContainer = styled(Box)(() => ({
   maxWidth: '1240px',
-  margin: '0 auto'
+  margin: '0 auto',
 }));

@@ -17,7 +17,7 @@ export const StyledDescriptionTypography = styled(Typography)(({ theme }) => ({
   marginBottom: theme.spacing(3),
   lineHeight: 2.2,
   fontSize: '20px',
-  fontWeight: 300
+  fontWeight: 300,
 }));
 
 export const StyledDivider = styled(Divider)(({ theme }) => ({
@@ -41,7 +41,7 @@ export const StyledFeatureBox = styled(Box)(({ theme }) => ({
 
 export const StyledFeatureBoxTypography = styled(Typography)(() => ({
   fontSize: 20,
-  marginLeft: 16
+  marginLeft: 16,
 }));
 
 export const StyledCheck = styled('img')(() => ({

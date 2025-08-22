@@ -11,11 +11,11 @@ export const StyledCard = styled(Card)(({ theme }) => ({
 export const StyledTypography = styled(Typography)(() => ({
   fontWeight: 600,
   fontSize: 25,
-  marginBottom: 16
+  marginBottom: 16,
 }));
 
 export const StyledDivider = styled(Divider)(() => ({
   marginBottom: 40,
   backgroundColor: 'rgba(0,0,0,0.65)',
-  height: 2
+  height: 2,
 }));

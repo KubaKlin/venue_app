@@ -12,9 +12,7 @@ export const BookingPriceDisplay = ({ pricePerDayPLN, totalPLN }) => {
     <StyledMainBox>
       <StyledRowBox>
         <StyledPriceTypography>per day</StyledPriceTypography>
-        <StyledPriceTypography>
-          {`${pricePerDayPLN} zł`}
-        </StyledPriceTypography>
+        <StyledPriceTypography>{`${pricePerDayPLN} zł`}</StyledPriceTypography>
       </StyledRowBox>
 
       <StyledDivider />

@@ -5,7 +5,7 @@ export const SocialMediaContainer = styled(Box)(() => ({
   display: 'flex',
   gap: 55,
   flexWrap: 'wrap',
-  marginTop: 40
+  marginTop: 40,
 }));
 
 export const SocialIconButton = styled(IconButton)(() => ({

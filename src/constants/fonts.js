@@ -4,7 +4,7 @@ export const FONTS = {
   PROMPT: {
     MEDIUM: '"Prompt", sans-serif',
   },
-  
+
   // Poppins font (Light - 300, Regular - 400, Semibold - 600)
   POPPINS: {
     LIGHT: '"Poppins", sans-serif',

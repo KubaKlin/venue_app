@@ -50,7 +50,7 @@ export const FilterBaner = () => {
 
   return (
     <StyledMainBox>
-      <StyledCloudImage src={cloudsImage} alt='baner cloud image' />
+      <StyledCloudImage src={cloudsImage} alt="baner cloud image" />
       <Container maxWidth="lg">
         <StyledHeader>Find your place and experience it together.</StyledHeader>
 

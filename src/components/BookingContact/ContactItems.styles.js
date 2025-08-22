@@ -9,7 +9,7 @@ export const ContactItem = styled(Box)(() => ({
 }));
 
 export const ContactIcon = styled('img')(() => ({
-  marginRight: 40
+  marginRight: 40,
 }));
 
 export const ContactText = styled(Typography)(({ theme }) => ({

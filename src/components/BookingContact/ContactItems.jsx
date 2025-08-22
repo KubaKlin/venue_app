@@ -1,10 +1,6 @@
 import phoneIcon from '../../assets/phone_ico.svg';
 import mailIcon from '../../assets/mail_ico.svg';
-import {
-  ContactItem,
-  ContactText,
-  ContactIcon,
-} from './ContactItems.styles';
+import { ContactItem, ContactText, ContactIcon } from './ContactItems.styles';
 
 export const ContactItems = ({ contactDetails }) => {
   const handlePhoneClick = () => {

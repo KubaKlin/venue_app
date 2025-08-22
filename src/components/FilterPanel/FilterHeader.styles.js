@@ -10,7 +10,8 @@ export const StyledBox = styled(Box)(({ theme }) => ({
   padding: theme.spacing(1),
   marginBottom: '42px',
   boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
-  background: 'linear-gradient(141deg,rgba(241, 242, 248, 1) 0%, rgba(243, 241, 248, 1) 38%, rgba(248, 245, 241, 1) 100%)',
+  background:
+    'linear-gradient(141deg,rgba(241, 242, 248, 1) 0%, rgba(243, 241, 248, 1) 38%, rgba(248, 245, 241, 1) 100%)',
 }));
 
 export const StyledTypography = styled(Typography)(() => ({
@@ -19,7 +20,7 @@ export const StyledTypography = styled(Typography)(() => ({
   letterSpacing: '1px',
   fontSize: '20px',
   width: '100%',
-  textAlign: 'center'
+  textAlign: 'center',
 }));
 
 export const StyledButton = styled(Button)(() => ({

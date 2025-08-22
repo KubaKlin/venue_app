@@ -14,5 +14,5 @@ export const StyledDatePicker = styled(DatePicker)(() => ({
 
 export const StyledFormControlLabel = styled(FormControlLabel)(({ theme }) => ({
   marginBottom: theme.spacing(2),
-  color: '#747474'
+  color: '#747474',
 }));

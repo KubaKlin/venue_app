@@ -8,7 +8,7 @@ export const StyledCard = styled(Card)(({ theme }) => ({
   marginRight: theme.spacing(0.5),
   boxShadow: '0 2px 4px rgba(0,0,0,0.25)',
   border: '1px inset rgba(0,0,0,0.20)',
-  borderRadius: 0
+  borderRadius: 0,
 }));
 
 export const GalleryContainer = styled(Box)(({ theme }) => ({

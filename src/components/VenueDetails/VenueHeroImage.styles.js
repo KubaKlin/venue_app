@@ -1,7 +1,7 @@
 import { Box } from '@mui/material';
 import { styled } from '@mui/material/styles';
 
-export const StyledBox = styled(Box)(({  backgroundImage, theme }) => ({
+export const StyledBox = styled(Box)(({ backgroundImage, theme }) => ({
   height: 350,
   backgroundImage: `url(${backgroundImage})`,
   backgroundSize: 'cover',

@@ -5,7 +5,7 @@ export const theme = createTheme({
   typography: {
     // Override the default fontFamily
     fontFamily: FONTS.POPPINS.REGULAR,
-    
+
     // Define custom typography variants
     h1: {
       fontFamily: FONTS.PROMPT.MEDIUM,
@@ -61,7 +61,7 @@ export const theme = createTheme({
       fontWeight: FONT_WEIGHTS.POPPINS.LIGHT,
     },
   },
-  
+
   // Override component defaults to ensure Poppins is used
   components: {
     MuiCssBaseline: {

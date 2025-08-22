@@ -10,10 +10,8 @@ export const VenuePerPageSelector = ({
   itemsPerPage,
   onItemsPerPageChange,
 }) => {
-  const { inputValue, handleChange, handleBlur, handleKeyDown } = usePerPageSelector(
-    itemsPerPage,
-    onItemsPerPageChange
-  );
+  const { inputValue, handleChange, handleBlur, handleKeyDown } =
+    usePerPageSelector(itemsPerPage, onItemsPerPageChange);
 
   return (
     <StyledBox>

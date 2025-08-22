@@ -9,7 +9,7 @@ export const StyledFooter = styled(Box)(({ theme }) => ({
   backgroundColor: '#FDFDFD',
   [theme.breakpoints.down('sm')]: {
     paddingInline: 20,
-    marginTop: 30
+    marginTop: 30,
   },
 }));
 

@@ -17,13 +17,13 @@ export const StyledLeftBox = styled(Box)(({ theme }) => ({
 export const StyledNameTypography = styled(Typography)(() => ({
   fontWeight: 600,
   textTransform: 'capitalize',
-  fontSize: 40
+  fontSize: 40,
 }));
 
 export const StyledLocationTypography = styled(Typography)(() => ({
   textTransform: 'capitalize',
   fontWeight: 400,
-  fontSize: 25
+  fontSize: 25,
 }));
 
 export const StyledRightBox = styled(Box)(({ theme }) => ({

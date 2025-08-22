@@ -19,7 +19,12 @@ export const VenueHeader = ({ venue }) => {
       </StyledLeftBox>
       <StyledRightBox>
         <Typography variant="body2">{venue.numberOfReviews} reviews</Typography>
-        <StyledRating value={venue.rating} precision={0.1} readOnly size="large" />
+        <StyledRating
+          value={venue.rating}
+          precision={0.1}
+          readOnly
+          size="large"
+        />
       </StyledRightBox>
     </StyledMainBox>
   );

@@ -1,7 +1,7 @@
 import { Button } from '@mui/material';
 import { styled } from '@mui/material/styles';
 
-export const StyledBackButton = styled(Button)(({theme}) => ({
+export const StyledBackButton = styled(Button)(({ theme }) => ({
   fontSize: 16,
   fontWeight: 400,
   textTransform: 'none',

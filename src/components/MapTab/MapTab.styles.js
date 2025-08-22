@@ -4,7 +4,7 @@ import { styled } from '@mui/material/styles';
 export const StyledCard = styled(Card)(({ theme }) => ({
   marginLeft: theme.spacing(0.5),
   marginRight: theme.spacing(0.5),
-  borderRadius: 0
+  borderRadius: 0,
 }));
 
 export const StyledMapBox = styled(Box)(() => ({

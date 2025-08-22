@@ -5,5 +5,5 @@ export const StyledTypography = styled(Typography)(() => ({
   fontSize: 16,
   color: 'white',
   fontWeight: 600,
-  marginBottom: 8
+  marginBottom: 8,
 }));

@@ -28,7 +28,7 @@ export const StyledTextField = styled(TextField)(() => ({
     borderColor: COLORS.PRIMARY,
   },
   '& input[type=number]::-webkit-inner-spin-button': {
-    '-webkit-appearance': 'none',
+    WebkitAppearance: 'none',
     margin: 0,
   },
 }));

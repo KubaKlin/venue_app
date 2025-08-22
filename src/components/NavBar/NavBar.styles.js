@@ -39,5 +39,5 @@ export const StyledButton = styled(Button)(({ theme }) => ({
   '&:last-of-type': {
     color: COLORS.PRIMARY,
     fontWeight: 600,
-  }
+  },
 }));

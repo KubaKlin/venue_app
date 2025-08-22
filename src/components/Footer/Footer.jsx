@@ -20,9 +20,7 @@ export const Footer = () => {
       <StyledFooterCopy>
         Feel free to contact us in case of any problems and doubts.
       </StyledFooterCopy>
-      <StyledFooterCopy>
-        We are there for you.
-      </StyledFooterCopy>
+      <StyledFooterCopy>We are there for you.</StyledFooterCopy>
       <StyledFooterWrapper>
         <SocialMediaLinks />
       </StyledFooterWrapper>
