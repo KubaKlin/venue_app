@@ -19,5 +19,6 @@ export const StyledPagination = styled(Pagination)(() => ({
   '.MuiPaginationItem-text': {
     color: '#000',
     fontSize: '16px',
+    fontWeight: 400,
   },
 }));

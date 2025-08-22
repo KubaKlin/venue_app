@@ -1,11 +1,10 @@
 import { useState } from 'react';
-import { Container, useTheme, useMediaQuery } from '@mui/material';
+import { Container, useTheme, useMediaQuery, Box } from '@mui/material';
 import { Link } from 'react-router-dom';
 import { MobileNavBar } from './MobileNavBar.jsx';
 import {
   StyledMainBox,
   StyledContainerBox,
-  StyledLogoTypography,
   StyledDesktopBox,
   StyledButton,
 } from './NavBar.styles';
@@ -35,9 +34,9 @@ export const NavBar = () => {
     <StyledMainBox>
       <Container maxWidth="lg">
         <StyledContainerBox>
-          <StyledLogoTypography variant="h6" noWrap component={Link} to="/">
+          <Box component={Link} to="/">
             <img src={logoPic} alt="bookify logo" />
-          </StyledLogoTypography>
+          </Box>
 
           {/* Desktop Menu */}
           {!isMobile && (

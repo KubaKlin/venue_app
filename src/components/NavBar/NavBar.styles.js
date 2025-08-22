@@ -1,4 +1,4 @@
-import { Box, Typography, Button } from '@mui/material';
+import { Box, Button } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import { COLORS } from '../../constants/colors.js';
 
@@ -12,15 +12,6 @@ export const StyledContainerBox = styled(Box)(() => ({
   display: 'flex',
   justifyContent: 'space-between',
   alignItems: 'center',
-}));
-
-export const StyledLogoTypography = styled(Typography)(({ theme }) => ({
-  marginRight: theme.spacing(2),
-  display: 'flex',
-  fontWeight: 100,
-  letterSpacing: '4px',
-  color: 'inherit',
-  textDecoration: 'none',
 }));
 
 export const StyledDesktopBox = styled(Box)(() => ({
