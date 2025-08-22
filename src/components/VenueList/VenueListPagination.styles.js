@@ -24,5 +24,4 @@ export const StyledPagination = styled(Pagination)(() => ({
     fontSize: '16px',
     fontWeight: 400,
   },
-
 }));

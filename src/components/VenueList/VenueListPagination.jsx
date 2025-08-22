@@ -1,7 +1,6 @@
 import { StyledBox, StyledPagination } from './VenueListPagination.styles';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
-import PaginationItem from "@mui/material/PaginationItem";
-
+import PaginationItem from '@mui/material/PaginationItem';
 
 export const VenueListPagination = ({
   totalPages,
