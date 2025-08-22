@@ -46,6 +46,7 @@ export const StyledHeader = styled(Typography)(({ theme }) => ({
     fontSize: '24px',
     paddingTop: theme.spacing(4),
     paddingBottom: theme.spacing(4),
+    textAlign: 'left',
   },
 }));
 

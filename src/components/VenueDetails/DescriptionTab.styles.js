@@ -9,7 +9,9 @@ export const StyledCard = styled(Card)(({ theme }) => ({
   border: '1px inset rgba(0,0,0,0.20)',
   borderRadius: 0,
   [theme.breakpoints.down('sm')]: {
-    padding: 20,
+    padding: 0,
+    border: 'none',
+    boxShadow: 'none',
   },
 }));
 
@@ -18,6 +20,9 @@ export const StyledDescriptionTypography = styled(Typography)(({ theme }) => ({
   lineHeight: 2.2,
   fontSize: '20px',
   fontWeight: 300,
+  [theme.breakpoints.down('sm')]: {
+    fontSize: '14px',
+  },
 }));
 
 export const StyledDivider = styled(Divider)(({ theme }) => ({
@@ -39,14 +44,20 @@ export const StyledFeatureBox = styled(Box)(({ theme }) => ({
   gap: theme.spacing(1),
 }));
 
-export const StyledFeatureBoxTypography = styled(Typography)(() => ({
+export const StyledFeatureBoxTypography = styled(Typography)(({ theme }) => ({
   fontSize: 20,
   marginLeft: 16,
+  [theme.breakpoints.down('sm')]: {
+    fontSize: 14,
+  },
 }));
 
-export const StyledCheck = styled('img')(() => ({
+export const StyledCheck = styled('img')(({ theme }) => ({
   fontSize: 20,
   color: '#333',
+  [theme.breakpoints.down('sm')]: {
+    width: 20,
+  },
 }));
 
 export const StyledDetailsBox = styled(Box)(({ theme }) => ({
@@ -61,17 +72,26 @@ export const StyledDetailItemBox = styled(Box)(({ theme }) => ({
   gap: theme.spacing(1),
 }));
 
-export const StyledBed = styled('img')(() => ({
+export const StyledBed = styled('img')(({ theme }) => ({
   fontSize: 30,
   color: '#333',
+  [theme.breakpoints.down('sm')]: {
+    width: 30,
+  },
 }));
 
-export const StyledAccessTime = styled('img')(() => ({
+export const StyledAccessTime = styled('img')(({ theme }) => ({
   fontSize: 30,
   color: '#333',
+  [theme.breakpoints.down('sm')]: {
+    width: 30,
+  },
 }));
 
-export const StyledLocationCity = styled('img')(() => ({
+export const StyledLocationCity = styled('img')(({ theme }) => ({
   fontSize: 30,
   color: '#333',
+  [theme.breakpoints.down('sm')]: {
+    width: 30,
+  },
 }));

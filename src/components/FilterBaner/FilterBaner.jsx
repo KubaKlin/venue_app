@@ -1,6 +1,4 @@
-import { useState } from 'react';
 import { FilterTextField } from './FilterTextField';
-import { useForm } from 'react-hook-form';
 import { Container } from '@mui/material';
 import SearchIcon from '@mui/icons-material/Search';
 import CalendarTodayIcon from '@mui/icons-material/CalendarToday';
@@ -15,38 +13,20 @@ import {
   StyleSearchButton,
   StyledCloudImage,
 } from './FilterBaner.styles';
+import { useFilterBanner } from './hooks/useFilterBanner';
 
 export const FilterBaner = () => {
-  const { register, handleSubmit, watch, setValue } = useForm();
-
-  const [isFieldVisible, setIsFieldVisible] = useState(false);
-
-  const onSubmit = (data) => {
-    console.log('Search data:', data);
-  };
-
-  const guestCount = watch('guests', 1);
-
-  const handleFieldVisibility = () => {
-    setIsFieldVisible(!isFieldVisible);
-  };
-
-  const getButtonText = () => {
-    if (isFieldVisible) {
-      return 'I want to be more specific';
-    }
-    return "I don't want to be that specific";
-  };
-
-  const handleGuestDecrease = () => {
-    const currentValue = Math.max(1, guestCount - 1);
-    setValue('guests', currentValue);
-  };
-
-  const handleGuestIncrease = () => {
-    const currentValue = guestCount + 1;
-    setValue('guests', currentValue);
-  };
+  const {
+    register,
+    handleSubmit,
+    isFieldVisible,
+    guestCount,
+    onSubmit,
+    handleFieldVisibility,
+    handleGuestDecrease,
+    handleGuestIncrease,
+    getButtonText,
+  } = useFilterBanner();
 
   return (
     <StyledMainBox>

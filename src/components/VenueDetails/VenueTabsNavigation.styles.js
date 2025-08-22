@@ -11,9 +11,13 @@ export const StyledCard = styled(Card)(({ theme }) => ({
   boxShadow: '0 2px 4px rgba(0,0,0,0.25)',
   border: '1px inset rgba(0,0,0,0.20)',
   borderRadius: 0,
+  [theme.breakpoints.down('sm')]: {
+    border: 'none',
+    boxShadow: 'none',
+  },
 }));
 
-export const StyledTabs = styled(Tabs)(() => ({
+export const StyledTabs = styled(Tabs)(({ theme }) => ({
   '& .MuiTab-root': {
     display: 'flex',
     textTransform: 'none',
@@ -21,6 +25,9 @@ export const StyledTabs = styled(Tabs)(() => ({
     fontWeight: 600,
     justifyContent: 'space-between',
     width: '33%',
+    [theme.breakpoints.down('sm')]: {
+      fontSize: '14px',
+    },
   },
   '& .Mui-selected.Mui-selected': {
     color: COLORS.PRIMARY,

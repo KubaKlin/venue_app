@@ -1,4 +1,4 @@
-import { Typography } from '@mui/material';
+import { Typography, useMediaQuery, useTheme } from '@mui/material';
 import {
   StyledMainBox,
   StyledLeftBox,
@@ -9,6 +9,9 @@ import {
 } from './VenueHeader.styles';
 
 export const VenueHeader = ({ venue }) => {
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down('md'));
+
   return (
     <StyledMainBox>
       <StyledLeftBox>
@@ -23,7 +26,7 @@ export const VenueHeader = ({ venue }) => {
           value={venue.rating}
           precision={0.1}
           readOnly
-          size="large"
+          size={isMobile ? 'small' : 'large'}
         />
       </StyledRightBox>
     </StyledMainBox>

@@ -9,6 +9,11 @@ export const StyledCard = styled(Card)(({ theme }) => ({
   boxShadow: '0 2px 4px rgba(0,0,0,0.25)',
   border: '1px inset rgba(0,0,0,0.20)',
   borderRadius: 0,
+  [theme.breakpoints.down('sm')]: {
+    padding: 0,
+    border: 'none',
+    boxShadow: 'none',
+  },
 }));
 
 export const GalleryContainer = styled(Box)(({ theme }) => ({

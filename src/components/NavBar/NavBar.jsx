@@ -34,9 +34,27 @@ export const NavBar = () => {
     <StyledMainBox>
       <Container maxWidth="lg">
         <StyledContainerBox>
+          {/* Mobile Menu */}
+          {isMobile && (
+            <MobileNavBar
+              pages={pages}
+              anchorElementNavigation={anchorElementNavigation}
+              handleCloseNavMenu={handleCloseNavMenu}
+              handleOpenNavMenu={handleOpenNavMenu}
+            />
+          )}
           <Box component={Link} to="/">
             <img src={logoPic} alt="bookify logo" />
           </Box>
+          {isMobile && (
+            <StyledButton
+              key={pages[3].name}
+              component={Link}
+              to={pages[3].path}
+            >
+              {pages[3].name}
+            </StyledButton>
+          )}
 
           {/* Desktop Menu */}
           {!isMobile && (
@@ -47,16 +65,6 @@ export const NavBar = () => {
                 </StyledButton>
               ))}
             </StyledDesktopBox>
-          )}
-
-          {/* Mobile Menu */}
-          {isMobile && (
-            <MobileNavBar
-              pages={pages}
-              anchorElementNavigation={anchorElementNavigation}
-              handleCloseNavMenu={handleCloseNavMenu}
-              handleOpenNavMenu={handleOpenNavMenu}
-            />
           )}
         </StyledContainerBox>
       </Container>

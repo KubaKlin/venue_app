@@ -11,5 +11,6 @@ export const StyledBox = styled(Box)(({ backgroundImage, theme }) => ({
   marginBottom: 52,
   [theme.breakpoints.down('sm')]: {
     height: 200,
+    marginBottom: 0,
   },
 }));

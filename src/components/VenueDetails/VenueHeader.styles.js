@@ -12,18 +12,27 @@ export const StyledLeftBox = styled(Box)(({ theme }) => ({
   flexDirection: 'column',
   gap: theme.spacing(1),
   marginBottom: theme.spacing(2),
+  [theme.breakpoints.down('sm')]: {
+    marginBottom: theme.spacing(1),
+  },
 }));
 
-export const StyledNameTypography = styled(Typography)(() => ({
+export const StyledNameTypography = styled(Typography)(({ theme }) => ({
   fontWeight: 600,
   textTransform: 'capitalize',
   fontSize: 40,
+  [theme.breakpoints.down('sm')]: {
+    fontSize: 20,
+  },
 }));
 
-export const StyledLocationTypography = styled(Typography)(() => ({
+export const StyledLocationTypography = styled(Typography)(({ theme }) => ({
   textTransform: 'capitalize',
   fontWeight: 400,
   fontSize: 25,
+  [theme.breakpoints.down('sm')]: {
+    fontSize: 14,
+  },
 }));
 
 export const StyledRightBox = styled(Box)(({ theme }) => ({
