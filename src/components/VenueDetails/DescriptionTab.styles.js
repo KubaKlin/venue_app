@@ -21,8 +21,8 @@ export const StyledDescriptionTypography = styled(Typography)(({ theme }) => ({
 }));
 
 export const StyledDivider = styled(Divider)(({ theme }) => ({
-  marginTop: theme.spacing(3),
-  marginBottom: theme.spacing(3),
+  marginTop: theme.spacing(4),
+  marginBottom: theme.spacing(4),
 }));
 
 export const StyledFeaturesBox = styled(Box)(({ theme }) => ({

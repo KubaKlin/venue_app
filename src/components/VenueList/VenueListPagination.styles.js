@@ -12,6 +12,9 @@ export const StyledPagination = styled(Pagination)(() => ({
   '& .MuiPaginationItem-root': {
     borderRadius: 20,
   },
+  '& .MuiPagination-ul li:first-of-type .MuiPaginationItem-root': {
+    transform: 'rotate(180deg)',
+  },
   '& .Mui-selected.Mui-selected': {
     backgroundColor: COLORS.PRIMARY,
     color: '#fff',
@@ -21,4 +24,5 @@ export const StyledPagination = styled(Pagination)(() => ({
     fontSize: '16px',
     fontWeight: 400,
   },
+
 }));
