@@ -2,9 +2,9 @@ import { Box, Typography } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import { Star } from '@mui/icons-material';
 
-export const StyledMainBox = styled(Box)(({ theme }) => ({
+export const StyledMainBox = styled(Box)(() => ({
   flexGrow: 1,
-  padding: theme.spacing(1),
+  padding: '5px 10px',
   display: 'flex',
   justifyContent: 'space-between',
   alignItems: 'center',
@@ -33,10 +33,9 @@ export const StyledTypography = styled(Typography)(() => ({
   fontSize: 14,
 }));
 
-export const StyledNumber = styled(Typography)(() => ({
+export const StyledNumber = styled('span')(() => ({
   color: 'rgba(0,0,0,0.65)',
   marginLeft: 8,
-  fontSize: 16
+  fontSize: 16,
+  fontWeight: 500,
 }));
-
-

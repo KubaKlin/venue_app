@@ -9,7 +9,9 @@ export const FavoriteButtonContainer = styled(Box)({
   zIndex: 1,
 });
 
-export const StyledFavoriteButton = styled(IconButton)(({ isFavorite, isBigger }) => ({
+export const StyledFavoriteButton = styled(IconButton, {
+  shouldForwardProp: (prop) => prop !== 'isFavorite' && prop !== 'isBigger',
+})(({ isFavorite, isBigger }) => ({
   color: isFavorite ? COLORS.PRIMARY : 'white',
   backgroundColor: COLORS.OVERLAY_BACKGROUND,
   borderRadius: 0,
