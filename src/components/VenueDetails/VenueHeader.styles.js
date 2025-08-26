@@ -43,11 +43,20 @@ export const StyledRightBox = styled(Box)(({ theme }) => ({
   marginBottom: theme.spacing(2),
 }));
 
-export const StyledRating = styled(Rating)(() => ({
+export const StyledRating = styled(Rating)(({ theme }) => ({
+  width: 'fit-content',
+  minWidth: '120px',
   '& .MuiRating-iconFilled': {
     color: '#C7981E', // Gold color for filled stars
   },
-  '& .MuiRating-iconHover': {
-    color: '#FFC107', // Slightly different gold for hover (though it's readOnly)
+  '& .MuiRating-root': {
+    display: 'flex',
+    alignItems: 'center',
+  },
+  '& .MuiRating-icon': {
+    fontSize: 'inherit',
+  },
+  [theme.breakpoints.down('md')]: {
+    minWidth: '90px',
   },
 }));
