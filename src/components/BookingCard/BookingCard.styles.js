@@ -3,6 +3,7 @@ import { styled } from '@mui/material/styles';
 
 export const StyledCard = styled(Card)(({ theme }) => ({
   marginTop: 76,
+  overflow: 'visible',
   [theme.breakpoints.down('sm')]: {
     marginTop: 0,
   },

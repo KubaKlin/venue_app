@@ -1,8 +1,8 @@
 import { Accordion, AccordionSummary, AccordionDetails } from '@mui/material';
 import { styled } from '@mui/material/styles';
 
-export const StyledAccordion = styled(Accordion)(({ theme }) => ({
-  padding: theme.spacing(1.5),
+export const StyledAccordion = styled(Accordion)(() => ({
+  padding: '8px 12px',
   backgroundColor: 'transparent',
   '&:before': {
     display: 'none',

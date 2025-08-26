@@ -31,6 +31,8 @@ export const StyledTypography = styled(Typography)(() => ({
   color: 'rgba(0,0,0,0.65)',
   marginLeft: 8,
   fontSize: 14,
+  fontWeight: 400,
+  lineHeight: '24px',
 }));
 
 export const StyledNumber = styled('span')(() => ({
@@ -38,4 +40,5 @@ export const StyledNumber = styled('span')(() => ({
   marginLeft: 8,
   fontSize: 16,
   fontWeight: 500,
+  lineHeight: '24px',
 }));

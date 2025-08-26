@@ -10,6 +10,11 @@ export const StyledDatePickerBox = styled(Box)(({ theme }) => ({
 
 export const StyledDatePicker = styled(DatePicker)(() => ({
   flex: 1,
+  minHeight: '80px',
+  lineHeight: '80px',
+  '& .MuiPickersInputBase-root': {
+    minHeight: '44px',
+  }
 }));
 
 export const StyledFormControlLabel = styled(FormControlLabel)(({ theme }) => ({

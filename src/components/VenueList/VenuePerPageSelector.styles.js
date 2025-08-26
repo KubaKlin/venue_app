@@ -31,6 +31,13 @@ export const StyledTextField = styled(TextField)(() => ({
     WebkitAppearance: 'none',
     margin: 0,
   },
+  '& input[type=number]::-webkit-outer-spin-button': {
+    WebkitAppearance: 'none',
+    margin: 0,
+  },
+  '& input[type=number]': {
+    MozAppearance: 'textfield',
+  },
 }));
 
 export const StyledTypography = styled(Typography)(() => ({
