@@ -1,7 +1,7 @@
 import { StyledTypography } from './PriceDisplay.styles';
 
-export const PriceDisplay = ({ pricePerNightInEUR }) => (
+export const PriceDisplay = ({ totalPLN }) => (
   <StyledTypography>
-    {`€${pricePerNightInEUR.toFixed(0)} / night`}
+    {`${totalPLN.toFixed(0)}zł / night`}
   </StyledTypography>
 );

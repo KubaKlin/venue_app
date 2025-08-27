@@ -10,10 +10,6 @@ export const useBookingCalculations = ({
   const { exchangeRate } = useExchangeRate();
 
   const calculateDays = () => {
-    if (!startDate || !endDate) {
-      return 0;
-    }
-
     if (isOneDayBooking) {
       return 1;
     }
@@ -24,7 +20,7 @@ export const useBookingCalculations = ({
       return days;
     }
 
-    return 0;
+    return 1;
   };
 
   const calculateTotalEUR = () => {
