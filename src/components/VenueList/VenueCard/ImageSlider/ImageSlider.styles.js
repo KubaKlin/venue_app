@@ -1,4 +1,4 @@
-import { Box, IconButton } from '@mui/material';
+import { Box, IconButton, CircularProgress } from '@mui/material';
 import { styled } from '@mui/material/styles';
 
 export const SliderContainer = styled(Box)({
@@ -22,4 +22,21 @@ export const SliderControlButton = styled(IconButton)({
     fontSize: 40,
     opacity: 0.8,
   },
+});
+
+export const LoadingOverlay = styled(Box)({
+  position: 'absolute',
+  top: 0,
+  left: 0,
+  right: 0,
+  bottom: 0,
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  backgroundColor: 'rgba(0, 0, 0, 0.3)',
+  zIndex: 1,
+});
+
+export const LoadingSpinner = styled(CircularProgress)({
+  color: 'white',
 });
