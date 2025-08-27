@@ -1,19 +1,19 @@
 import { SliderControls } from './SliderControls';
-import { 
-  SliderContainer, 
-  SliderImage, 
-  LoadingOverlay, 
-  LoadingSpinner 
+import {
+  SliderContainer,
+  SliderImage,
+  LoadingOverlay,
+  LoadingSpinner,
 } from './ImageSlider.styles';
 import { useSliderControls } from './hooks/useSliderControls';
 
 export const ImageSlider = ({ images, venueName }) => {
-  const { 
-    handlePrevious, 
-    handleNext, 
-    currentIndex, 
-    isLoading, 
-    handleImageLoad, 
+  const {
+    handlePrevious,
+    handleNext,
+    currentIndex,
+    isLoading,
+    handleImageLoad,
   } = useSliderControls(images);
 
   return (

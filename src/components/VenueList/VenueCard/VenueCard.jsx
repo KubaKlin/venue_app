@@ -6,13 +6,17 @@ import { VenueCardFooter } from './VenueCardFooter';
 import { ImageSlider } from './ImageSlider/ImageSlider';
 import { FavoriteButton } from './FavoriteButton';
 import { StyledCard } from './VenueCard.styles';
-import {useBookingCalculations} from "../../BookingCard/hooks/useBookingCalculations.js";
+import { useBookingCalculations } from '../../BookingCard/hooks/useBookingCalculations.js';
 
 export const VenueCard = ({ venue }) => {
-  const { totalPLN } = useBookingCalculations({venue});
+  const { totalPLN } = useBookingCalculations({ venue });
 
-  return(
-    <StyledCard elevation={0} component={Link} to={`/venue-details/${venue.id}`}>
+  return (
+    <StyledCard
+      elevation={0}
+      component={Link}
+      to={`/venue-details/${venue.id}`}
+    >
       <VenueCardHeader>
         <ImageSlider images={venue.cardImages} venueName={venue.name} />
         <FavoriteButton isBigger={false} venueId={venue.id} />
@@ -25,4 +29,4 @@ export const VenueCard = ({ venue }) => {
       <VenueCardFooter rating={venue.rating} capacity={venue.capacity} />
     </StyledCard>
   );
-}
+};
