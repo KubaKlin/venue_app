@@ -15,6 +15,10 @@ export const StyledDatePicker = styled(DatePicker)(() => ({
   '& .MuiPickersInputBase-root': {
     minHeight: '44px',
   },
+
+  '& .MuiInputAdornment-root': {
+    minWidth: '30px',
+  }
 }));
 
 export const StyledFormControlLabel = styled(FormControlLabel)(({ theme }) => ({

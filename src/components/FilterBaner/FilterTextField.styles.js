@@ -6,4 +6,7 @@ export const StyledTextField = styled(TextField)(({ theme }) => ({
   borderRadius: theme.spacing(1),
   width: '100%',
   maxWidth: '220px',
+  '& input[type=number]': {
+    MozAppearance: 'textfield',
+  },
 }));
