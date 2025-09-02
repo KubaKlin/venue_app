@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 export const useSliderControls = (images) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -25,10 +25,6 @@ export const useSliderControls = (images) => {
   const handleImageLoad = () => {
     setIsLoading(false);
   };
-
-  useEffect(() => {
-    setIsLoading(true);
-  }, [images]);
 
   return {
     handlePrevious,
