@@ -1,5 +1,5 @@
 {
-  "name": "venueApp",
+  "name": "venueapp",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,27 +8,39 @@
     "build": "vite build",
     "lint": "eslint",
     "preview": "vite preview",
-    "prettier": "prettier --write ."
+    "prettier": "prettier --write .",
+    "generate-data": "node scripts/generateData.js",
+    "server": "json-server --watch db.json --port 3999",
+    "dev": "concurrently \"npm run server\" \"npm run start\""
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
-    "@emotion/styled": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
     "@mui/icons-material": "^7.0.2",
-    "@mui/material": "^7.0.2",
+    "@mui/material": "^7.1.2",
+    "@mui/x-date-pickers": "^8.8.0",
+    "date-fns": "^4.1.0",
+    "leaflet": "^1.9.4",
     "prettier": "^3.4.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-router-dom": "^7.5.2"
+    "react-hook-form": "^7.60.0",
+    "react-leaflet": "^5.0.0",
+    "react-router-dom": "^7.5.2",
+    "yet-another-react-lightbox": "^3.25.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
+    "@faker-js/faker": "^9.8.0",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
     "@vitejs/plugin-react": "^4.3.4",
+    "concurrently": "^9.2.0",
     "eslint": "^9.21.0",
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^15.15.0",
+    "json-server": "^1.0.0-beta.3",
     "vite": "^6.2.0"
   }
 }
